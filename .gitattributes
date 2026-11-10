@@ -7,3 +7,7 @@
 *.jpg binary
 *.jpeg binary
 *.zip binary
+
+# Preserva byte a byte os experimentos historicos, inclusive CSV em CRLF.
+# Impede que Git normalize os arquivos e invalide o manifesto SHA-256.
+experiments/** -text
