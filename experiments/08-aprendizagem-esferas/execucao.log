@@ -1,0 +1,67 @@
+pares                    atomica      seed= 2 BA=0.500 F1=0.000 nodes=5 pruned=79
+pares                    composta     seed= 2 BA=0.971 F1=0.967 nodes=116 pruned=753
+pares                    sem_poda     seed= 2 BA=0.971 F1=0.967 nodes=288 pruned=0
+pares                    atomica      seed= 3 BA=0.500 F1=0.000 nodes=8 pruned=75
+pares                    composta     seed= 3 BA=0.947 F1=0.935 nodes=145 pruned=714
+pares                    sem_poda     seed= 3 BA=0.947 F1=0.935 nodes=288 pruned=0
+pares                    atomica      seed= 5 BA=0.500 F1=0.000 nodes=4 pruned=80
+pares                    composta     seed= 5 BA=0.946 F1=0.932 nodes=140 pruned=729
+pares                    sem_poda     seed= 5 BA=0.946 F1=0.932 nodes=288 pruned=0
+pares                    atomica      seed= 7 BA=0.500 F1=0.000 nodes=6 pruned=78
+pares                    composta     seed= 7 BA=0.937 F1=0.931 nodes=159 pruned=701
+pares                    sem_poda     seed= 7 BA=0.937 F1=0.931 nodes=288 pruned=0
+pares                    atomica      seed=11 BA=0.500 F1=0.000 nodes=5 pruned=79
+pares                    composta     seed=11 BA=0.956 F1=0.948 nodes=145 pruned=737
+pares                    sem_poda     seed=11 BA=0.956 F1=0.948 nodes=288 pruned=0
+trincas_e_ausencia       atomica      seed= 2 BA=0.500 F1=0.000 nodes=6 pruned=105
+trincas_e_ausencia       pares        seed= 2 BA=0.500 F1=0.000 nodes=137 pruned=947
+trincas_e_ausencia       composta     seed= 2 BA=0.965 F1=0.957 nodes=613 pruned=2190
+trincas_e_ausencia       sem_poda     seed= 2 BA=0.965 F1=0.957 nodes=971 pruned=0
+trincas_e_ausencia       atomica      seed= 3 BA=0.500 F1=0.000 nodes=11 pruned=98
+trincas_e_ausencia       pares        seed= 3 BA=0.500 F1=0.000 nodes=139 pruned=915
+trincas_e_ausencia       composta     seed= 3 BA=0.955 F1=0.949 nodes=608 pruned=2115
+trincas_e_ausencia       sem_poda     seed= 3 BA=0.955 F1=0.949 nodes=1020 pruned=0
+trincas_e_ausencia       atomica      seed= 5 BA=0.500 F1=0.000 nodes=14 pruned=95
+trincas_e_ausencia       pares        seed= 5 BA=0.500 F1=0.000 nodes=164 pruned=851
+trincas_e_ausencia       composta     seed= 5 BA=0.926 F1=0.911 nodes=757 pruned=2077
+trincas_e_ausencia       sem_poda     seed= 5 BA=0.926 F1=0.911 nodes=1045 pruned=0
+trincas_e_ausencia       atomica      seed= 7 BA=0.500 F1=0.000 nodes=8 pruned=104
+trincas_e_ausencia       pares        seed= 7 BA=0.500 F1=0.000 nodes=138 pruned=926
+trincas_e_ausencia       composta     seed= 7 BA=0.953 F1=0.936 nodes=647 pruned=2288
+trincas_e_ausencia       sem_poda     seed= 7 BA=0.953 F1=0.936 nodes=1022 pruned=0
+trincas_e_ausencia       atomica      seed=11 BA=0.500 F1=0.000 nodes=6 pruned=106
+trincas_e_ausencia       pares        seed=11 BA=0.500 F1=0.000 nodes=132 pruned=914
+trincas_e_ausencia       composta     seed=11 BA=0.965 F1=0.956 nodes=622 pruned=2266
+trincas_e_ausencia       sem_poda     seed=11 BA=0.965 F1=0.956 nodes=1005 pruned=0
+coocorrencia_enganosa    atomica      seed= 2 BA=0.500 F1=0.000 nodes=8 pruned=76
+coocorrencia_enganosa    composta     seed= 2 BA=0.972 F1=0.965 nodes=157 pruned=702
+coocorrencia_enganosa    sem_poda     seed= 2 BA=0.972 F1=0.965 nodes=288 pruned=0
+coocorrencia_enganosa    atomica      seed= 3 BA=0.500 F1=0.000 nodes=12 pruned=72
+coocorrencia_enganosa    composta     seed= 3 BA=0.930 F1=0.921 nodes=186 pruned=657
+coocorrencia_enganosa    sem_poda     seed= 3 BA=0.930 F1=0.921 nodes=287 pruned=0
+coocorrencia_enganosa    atomica      seed= 5 BA=0.500 F1=0.000 nodes=5 pruned=76
+coocorrencia_enganosa    composta     seed= 5 BA=0.936 F1=0.921 nodes=136 pruned=664
+coocorrencia_enganosa    sem_poda     seed= 5 BA=0.936 F1=0.921 nodes=288 pruned=0
+coocorrencia_enganosa    atomica      seed= 7 BA=0.500 F1=0.000 nodes=5 pruned=76
+coocorrencia_enganosa    composta     seed= 7 BA=0.928 F1=0.919 nodes=130 pruned=685
+coocorrencia_enganosa    sem_poda     seed= 7 BA=0.928 F1=0.919 nodes=288 pruned=0
+coocorrencia_enganosa    atomica      seed=11 BA=0.500 F1=0.000 nodes=7 pruned=76
+coocorrencia_enganosa    composta     seed=11 BA=0.943 F1=0.935 nodes=152 pruned=703
+coocorrencia_enganosa    sem_poda     seed=11 BA=0.943 F1=0.935 nodes=288 pruned=0
+sem_relacao              atomica      seed= 2 BA=0.500 F1=0.000 nodes=0 pruned=95
+sem_relacao              composta     seed= 2 BA=0.500 F1=0.000 nodes=83 pruned=1025
+sem_relacao              sem_poda     seed= 2 BA=0.500 F1=0.000 nodes=288 pruned=0
+sem_relacao              atomica      seed= 3 BA=0.500 F1=0.000 nodes=1 pruned=94
+sem_relacao              composta     seed= 3 BA=0.500 F1=0.000 nodes=78 pruned=1014
+sem_relacao              sem_poda     seed= 3 BA=0.500 F1=0.000 nodes=288 pruned=0
+sem_relacao              atomica      seed= 5 BA=0.500 F1=0.000 nodes=2 pruned=94
+sem_relacao              composta     seed= 5 BA=0.500 F1=0.000 nodes=96 pruned=1019
+sem_relacao              sem_poda     seed= 5 BA=0.500 F1=0.000 nodes=288 pruned=0
+sem_relacao              atomica      seed= 7 BA=0.500 F1=0.000 nodes=1 pruned=95
+sem_relacao              composta     seed= 7 BA=0.500 F1=0.000 nodes=81 pruned=1044
+sem_relacao              sem_poda     seed= 7 BA=0.500 F1=0.000 nodes=288 pruned=0
+sem_relacao              atomica      seed=11 BA=0.500 F1=0.000 nodes=3 pruned=93
+sem_relacao              composta     seed=11 BA=0.500 F1=0.000 nodes=124 pruned=980
+sem_relacao              sem_poda     seed=11 BA=0.500 F1=0.000 nodes=288 pruned=0
+
+Saved /mnt/data/nexo_aprendizado_esferas/resultados.json

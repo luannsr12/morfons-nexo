@@ -1,0 +1,920 @@
+{
+  "summary": {
+    "False": {
+      "episodes": 1600,
+      "correct": 2897,
+      "answered": 2897,
+      "total": 3200,
+      "instances": 50
+    },
+    "True": {
+      "episodes": 1600,
+      "correct": 3200,
+      "answered": 3200,
+      "total": 3200,
+      "instances": 50
+    }
+  },
+  "cases": [
+    {
+      "world": "toggle_cond",
+      "seed": 0,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 0,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 1,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 1,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 2,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 2,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 3,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 3,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 4,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 4,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 5,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 5,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 6,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 6,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 7,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 7,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 8,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 8,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 9,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 9,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 0,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 0,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 1,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 1,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 2,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 2,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 3,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 3,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 4,
+      "active": false,
+      "episodes": 32,
+      "correct": 48,
+      "answered": 48,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 4,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 5,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 5,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 6,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 6,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 7,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 7,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 8,
+      "active": false,
+      "episodes": 32,
+      "correct": 50,
+      "answered": 50,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 8,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 9,
+      "active": false,
+      "episodes": 32,
+      "correct": 48,
+      "answered": 48,
+      "total": 64
+    },
+    {
+      "world": "context",
+      "seed": 9,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 0,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 0,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 1,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 1,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 2,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 2,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 3,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 3,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 4,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 4,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 5,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 5,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 6,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 6,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 7,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 7,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 8,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 8,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 9,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "parity",
+      "seed": 9,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 0,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 0,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 1,
+      "active": false,
+      "episodes": 32,
+      "correct": 50,
+      "answered": 50,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 1,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 2,
+      "active": false,
+      "episodes": 32,
+      "correct": 50,
+      "answered": 50,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 2,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 3,
+      "active": false,
+      "episodes": 32,
+      "correct": 47,
+      "answered": 47,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 3,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 4,
+      "active": false,
+      "episodes": 32,
+      "correct": 46,
+      "answered": 46,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 4,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 5,
+      "active": false,
+      "episodes": 32,
+      "correct": 45,
+      "answered": 45,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 5,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 6,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 6,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 7,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 7,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 8,
+      "active": false,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 8,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 9,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "asym",
+      "seed": 9,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 0,
+      "active": false,
+      "episodes": 32,
+      "correct": 52,
+      "answered": 52,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 0,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 1,
+      "active": false,
+      "episodes": 32,
+      "correct": 48,
+      "answered": 48,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 1,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 2,
+      "active": false,
+      "episodes": 32,
+      "correct": 50,
+      "answered": 50,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 2,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 3,
+      "active": false,
+      "episodes": 32,
+      "correct": 48,
+      "answered": 48,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 3,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 4,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 4,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 5,
+      "active": false,
+      "episodes": 32,
+      "correct": 52,
+      "answered": 52,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 5,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 6,
+      "active": false,
+      "episodes": 32,
+      "correct": 48,
+      "answered": 48,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 6,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 7,
+      "active": false,
+      "episodes": 32,
+      "correct": 43,
+      "answered": 43,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 7,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 8,
+      "active": false,
+      "episodes": 32,
+      "correct": 52,
+      "answered": 52,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 8,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 9,
+      "active": false,
+      "episodes": 32,
+      "correct": 56,
+      "answered": 56,
+      "total": 64
+    },
+    {
+      "world": "history",
+      "seed": 9,
+      "active": true,
+      "episodes": 32,
+      "correct": 64,
+      "answered": 64,
+      "total": 64
+    }
+  ]
+}

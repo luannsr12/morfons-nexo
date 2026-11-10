@@ -1,0 +1,65 @@
+{
+  "correct": 2000,
+  "total": 2000,
+  "by_type": {
+    "agora": {
+      "correct": 160,
+      "total": 160
+    },
+    "antes": {
+      "correct": 160,
+      "total": 160
+    },
+    "composicao_nunca_treinada": {
+      "correct": 160,
+      "total": 160
+    },
+    "contexto_sem_nome_agora": {
+      "correct": 160,
+      "total": 160
+    },
+    "contexto_sem_nome_antes": {
+      "correct": 160,
+      "total": 160
+    },
+    "dois_saltos": {
+      "correct": 160,
+      "total": 160
+    },
+    "inverso_dois_saltos": {
+      "correct": 160,
+      "total": 160
+    },
+    "objeto": {
+      "correct": 160,
+      "total": 160
+    },
+    "objeto_lugar": {
+      "correct": 160,
+      "total": 160
+    },
+    "regiao": {
+      "correct": 400,
+      "total": 400
+    },
+    "tres_saltos_nunca_treinada": {
+      "correct": 160,
+      "total": 160
+    }
+  },
+  "seconds": 0.654,
+  "arithmetic": {
+    "correct": 1000,
+    "total": 1000,
+    "abstained": 0,
+    "maximum_steps": 22
+  },
+  "training": {
+    "sensors": 8160,
+    "questions": 10080,
+    "references": 1920,
+    "unmatched": 0
+  },
+  "model_morphons": 62,
+  "memory_bytes": 28349
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "user": "Minha hipótese é que a revisão de uma hipótese requer novas evidências.",
+    "nexo": "Registrei essa informação.",
+    "reason": "observed_relational_fact",
+    "trace": null
+  },
+  {
+    "user": "Qual é minha hipótese?",
+    "nexo": "que a revisão de uma hipótese requer novas evidências",
+    "reason": "recalled_from_live_memory",
+    "trace": null
+  },
+  {
+    "user": "Se meu nome é Rubia, então a pessoa se identifica como Rubia.",
+    "nexo": "Registrei essa premissa.",
+    "reason": "stored_implication",
+    "trace": null
+  },
+  {
+    "user": "Meu nome é Rubia.",
+    "nexo": "Registrei essa informação.",
+    "reason": "observed_relational_fact",
+    "trace": null
+  },
+  {
+    "user": "O que se conclui?",
+    "nexo": "Uma consequência dessas premissas é que a pessoa se identifica como Rubia.",
+    "reason": "learned_inference",
+    "trace": {
+      "rule_morphon": 7673,
+      "parent_morphons": [
+        15050,
+        15056
+      ],
+      "conclusion": "a pessoa se identifica como Rubia",
+      "premise": "se meu nome é Rubia então a pessoa se identifica como Rubia; meu nome é Rubia",
+      "hypothesis": false,
+      "proof_sources": [
+        "se meu nome é Rubia então a pessoa se identifica como Rubia",
+        "meu nome é Rubia"
+      ],
+      "ray_support": 3
+    }
+  },
+  {
+    "user": "Por quê?",
+    "nexo": "A conclusão a pessoa se identifica como Rubia depende da relação que parte de se meu nome é Rubia então a pessoa se identifica como Rubia; meu nome é Rubia.",
+    "reason": "learned_proof_trace",
+    "trace": {
+      "rule_morphon": 7673,
+      "parent_morphons": [
+        15050,
+        15056
+      ],
+      "conclusion": "a pessoa se identifica como Rubia",
+      "premise": "se meu nome é Rubia então a pessoa se identifica como Rubia; meu nome é Rubia",
+      "hypothesis": false,
+      "proof_sources": [
+        "se meu nome é Rubia então a pessoa se identifica como Rubia",
+        "meu nome é Rubia"
+      ],
+      "ray_support": 3
+    }
+  },
+  {
+    "user": "Meu nome é Valeria.",
+    "nexo": "Registrei essa informação.",
+    "reason": "observed_relational_fact",
+    "trace": null
+  },
+  {
+    "user": "Isso permite concluir que meu nome é Rubia?",
+    "nexo": "Ainda não disponho de uma relação que permita concluir meu nome é Rubia.",
+    "reason": "unknown",
+    "trace": null
+  },
+  {
+    "user": "Qual é meu nome?",
+    "nexo": "Valeria",
+    "reason": "recalled_from_live_memory",
+    "trace": null
+  },
+  {
+    "user": "Isso permite concluir que meu nome é Valeria?",
+    "nexo": "Sim. As relações disponíveis sustentam que meu nome é Valeria.",
+    "reason": "yes",
+    "trace": null
+  }
+]

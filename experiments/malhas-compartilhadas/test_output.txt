@@ -1,0 +1,16 @@
+test_conservative_generalization (test_experiment.MeshMathematicalTests.test_conservative_generalization) ... ok
+test_cost_accounting (test_experiment.MeshMathematicalTests.test_cost_accounting) ... ok
+test_cross_mesh_motif_generalization (test_experiment.MeshMathematicalTests.test_cross_mesh_motif_generalization) ... ok
+test_genesis_transient_persistent (test_experiment.MeshMathematicalTests.test_genesis_transient_persistent) ... ok
+test_immutable_nucleus_mutable_faces (test_experiment.MeshMathematicalTests.test_immutable_nucleus_mutable_faces) ... ok
+test_independent_join_oracle (test_experiment.MeshMathematicalTests.test_independent_join_oracle) ... ok
+test_intersection_of_contexts (test_experiment.MeshMathematicalTests.test_intersection_of_contexts) ... ok
+test_join_requires_same_identity (test_experiment.MeshMathematicalTests.test_join_requires_same_identity) ... ok
+test_multiple_randomized_worlds (test_experiment.MeshMathematicalTests.test_multiple_randomized_worlds) ... ok
+test_proof_factorization_against_exhaustive_paths (test_experiment.MeshMathematicalTests.test_proof_factorization_against_exhaustive_paths) ... ok
+test_provenance_and_physical_rays (test_experiment.MeshMathematicalTests.test_provenance_and_physical_rays) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.165s
+
+OK

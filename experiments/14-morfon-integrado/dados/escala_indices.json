@@ -1,0 +1,33 @@
+[
+  {
+    "type": "10k_disconnected",
+    "nodes": 10004,
+    "edges_before": 2,
+    "edges_after": 2,
+    "ratio": 1.0
+  },
+  {
+    "type": "high_degree",
+    "fanout": 100,
+    "nodes": 202,
+    "edges": 100,
+    "rays": 100,
+    "active": 101
+  },
+  {
+    "type": "high_degree",
+    "fanout": 1000,
+    "nodes": 2002,
+    "edges": 1000,
+    "rays": 1000,
+    "active": 1001
+  },
+  {
+    "type": "high_degree",
+    "fanout": 4000,
+    "nodes": 8002,
+    "edges": 4000,
+    "rays": 4000,
+    "active": 4001
+  }
+]

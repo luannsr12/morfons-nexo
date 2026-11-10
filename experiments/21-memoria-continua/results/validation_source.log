@@ -1,0 +1,43 @@
+test_3_live_examples_create_new_schema (test_continuous.TestContinuousNexo.test_3_live_examples_create_new_schema) ... ok
+test_ask_then_learn_bare_answer (test_continuous.TestContinuousNexo.test_ask_then_learn_bare_answer) ... ok
+test_frozen_memory_has_no_evaluation_answers (test_continuous.TestContinuousNexo.test_frozen_memory_has_no_evaluation_answers) ... ok
+test_learn_name_in_first_dialogue (test_continuous.TestContinuousNexo.test_learn_name_in_first_dialogue) ... ok
+test_live_fact_proves_logical_premise (test_continuous.TestContinuousNexo.test_live_fact_proves_logical_premise) ... ok
+test_multiword_new_value_and_key (test_continuous.TestContinuousNexo.test_multiword_new_value_and_key) ... ok
+test_negative_ambiguity_safe (test_continuous.TestContinuousNexo.test_negative_ambiguity_safe) ... ok
+test_only_one_example_no_overgeneralization (test_continuous.TestContinuousNexo.test_only_one_example_no_overgeneralization) ... ok
+test_pending_does_not_swallow_known_statement (test_continuous.TestContinuousNexo.test_pending_does_not_swallow_known_statement) ... ok
+test_persist_and_resume (test_continuous.TestContinuousNexo.test_persist_and_resume) ... ok
+test_philosophical_proof_persists_restart (test_continuous.TestContinuousNexo.test_philosophical_proof_persists_restart) ... ok
+test_predecessor_cannot_understand_name (test_continuous.TestContinuousNexo.test_predecessor_cannot_understand_name) ... ok
+test_reasoning_binary_retained (test_continuous.TestContinuousNexo.test_reasoning_binary_retained) ... ok
+test_revision_not_old_current (test_continuous.TestContinuousNexo.test_revision_not_old_current) ... ok
+test_self_question_is_real_morphon (test_continuous.TestContinuousNexo.test_self_question_is_real_morphon) ... ok
+test_session_isolation (test_continuous.TestContinuousNexo.test_session_isolation) ... ok
+test_shared_verb_induction (test_continuous.TestContinuousNexo.test_shared_verb_induction) ... ok
+test_unparsed_question_episodic_memory (test_continuous.TestContinuousNexo.test_unparsed_question_episodic_memory) ... ok
+test_uninterrupted_vs_resumed_identical_memory (test_regression_extended.TestExactReproducibility.test_uninterrupted_vs_resumed_identical_memory) ... ok
+test_ambiguous_evidence_does_not_create_alias (test_regression_extended.TestParaphraseLearning.test_ambiguous_evidence_does_not_create_alias) ... ok
+test_learned_alias_survives_restart (test_regression_extended.TestParaphraseLearning.test_learned_alias_survives_restart) ... ok
+test_novel_question_paraphrase_is_learned_from_dialogue (test_regression_extended.TestParaphraseLearning.test_novel_question_paraphrase_is_learned_from_dialogue) ... ok
+test_single_paraphrase_demonstration_not_sufficient (test_regression_extended.TestParaphraseLearning.test_single_paraphrase_demonstration_not_sufficient) ... ok
+test_elliptic_statement_after_question (test_regression_extended.TestPartialObservation.test_elliptic_statement_after_question) ... ok
+test_same_operation_on_different_unseen_verb (test_regression_extended.TestPartialObservation.test_same_operation_on_different_unseen_verb) ... ok
+test_unknown_statement_does_not_answer_unrelated_goal (test_regression_extended.TestPendingVsObservation.test_unknown_statement_does_not_answer_unrelated_goal) ... ok
+test_correction_survives_restart (test_regression_extended.TestRegressions.test_correction_survives_restart) ... ok
+test_different_sessions_do_not_share_facts (test_regression_extended.TestRegressions.test_different_sessions_do_not_share_facts) ... ok
+test_dynamic_memory_capacity (test_regression_extended.TestRegressions.test_dynamic_memory_capacity) ... ok
+test_failed_inference_does_not_claim_rule (test_regression_extended.TestRegressions.test_failed_inference_does_not_claim_rule) ... ok
+test_logic_proof_depends_on_live_fact (test_regression_extended.TestRegressions.test_logic_proof_depends_on_live_fact) ... ok
+test_multiple_distinct_topics_interleaved (test_regression_extended.TestRegressions.test_multiple_distinct_topics_interleaved) ... ok
+test_no_rule_without_multiple_experiences (test_regression_extended.TestRegressions.test_no_rule_without_multiple_experiences) ... ok
+test_one_ray_activates_additional_supports (test_regression_extended.TestRegressions.test_one_ray_activates_additional_supports) ... ok
+test_pending_survives_restart (test_regression_extended.TestRegressions.test_pending_survives_restart) ... ok
+test_proactive_self_question_on_unparsed (test_regression_extended.TestRegressions.test_proactive_self_question_on_unparsed) ... ok
+test_stored_evidence_not_a_cache (test_regression_extended.TestRegressions.test_stored_evidence_not_a_cache) ... ok
+test_unknown_is_not_fake_response (test_regression_extended.TestRegressions.test_unknown_is_not_fake_response) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 17.225s
+
+OK

@@ -1,0 +1,310 @@
+{
+  "cases": 173,
+  "correct": 173,
+  "by_case": {
+    "delayed_location": {
+      "n": 40,
+      "ok": 40
+    },
+    "delayed_possession": {
+      "n": 40,
+      "ok": 40
+    },
+    "episodic_recall": {
+      "n": 22,
+      "ok": 22
+    },
+    "new_philosophical_inference": {
+      "n": 20,
+      "ok": 20
+    },
+    "old_binary_arithmetic": {
+      "n": 1,
+      "ok": 1
+    },
+    "revision_latest": {
+      "n": 25,
+      "ok": 25
+    },
+    "revision_old_not_true": {
+      "n": 25,
+      "ok": 25
+    }
+  },
+  "unsupported_free_questions": [
+    {
+      "question": "Por que as minhas escolhas mudam conforme meu passado?",
+      "reason": "self_identified_unparsed_question",
+      "answer": "Não conheço essa construção ainda. Você pode me ensinar a resposta?"
+    },
+    {
+      "question": "O que torna uma crença justificada?",
+      "reason": "self_identified_unparsed_question",
+      "answer": "Não conheço essa construção ainda. Você pode me ensinar a resposta?"
+    },
+    {
+      "question": "Você acha que o contexto cria significado?",
+      "reason": "unknown",
+      "answer": "Ainda não disponho de uma relação que permita concluir o contexto cria significado."
+    },
+    {
+      "question": "Se existem duas interpretações, como decidir entre elas?",
+      "reason": "self_identified_unparsed_question",
+      "answer": "Não conheço essa construção ainda. Você pode me ensinar a resposta?"
+    },
+    {
+      "question": "O que você pensa sobre a origem da consciência?",
+      "reason": "self_identified_unparsed_question",
+      "answer": "Não conheço essa construção ainda. Você pode me ensinar a resposta?"
+    }
+  ],
+  "unknown_episodes": [
+    {
+      "question": "Qual é a origem de mineral0?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11710
+    },
+    {
+      "question": "Qual é a origem de mineral1?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11723
+    },
+    {
+      "question": "Qual é a origem de mineral2?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11736
+    },
+    {
+      "question": "Qual é a origem de mineral3?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11749
+    },
+    {
+      "question": "Qual é a origem de mineral4?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11762
+    },
+    {
+      "question": "Qual é a origem de mineral5?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11775
+    },
+    {
+      "question": "Qual é a origem de mineral6?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11788
+    },
+    {
+      "question": "Qual é a origem de mineral7?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11801
+    },
+    {
+      "question": "Qual é a origem de mineral8?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11814
+    },
+    {
+      "question": "Qual é a origem de mineral9?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11827
+    },
+    {
+      "question": "Qual é a origem de mineral10?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11840
+    },
+    {
+      "question": "Qual é a origem de mineral11?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11853
+    },
+    {
+      "question": "Qual é a origem de mineral12?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11866
+    },
+    {
+      "question": "Qual é a origem de mineral13?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11879
+    },
+    {
+      "question": "Qual é a origem de mineral14?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11892
+    },
+    {
+      "question": "Qual é a origem de mineral15?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11905
+    },
+    {
+      "question": "Qual é a origem de mineral16?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11918
+    },
+    {
+      "question": "Qual é a origem de mineral17?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11931
+    },
+    {
+      "question": "Qual é a origem de mineral18?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11944
+    },
+    {
+      "question": "Qual é a origem de mineral19?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11957
+    },
+    {
+      "question": "Qual é a origem de mineral20?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11970
+    },
+    {
+      "question": "Qual é a origem de mineral21?",
+      "reason": "self_identified_unparsed_question",
+      "goal": 11983
+    }
+  ],
+  "morphons": 12362,
+  "introspection": {
+    "session": "adversarial",
+    "turns": 392,
+    "facts_current": 81,
+    "stored_schemas": 11,
+    "learned_paraphrases": 0,
+    "unresolved_questions": [
+      {
+        "uid": 12325,
+        "question": "Por que as minhas escolhas mudam conforme meu passado?",
+        "schema": null
+      },
+      {
+        "uid": 12334,
+        "question": "O que torna uma crença justificada?",
+        "schema": null
+      },
+      {
+        "uid": 12351,
+        "question": "Se existem duas interpretações, como decidir entre elas?",
+        "schema": null
+      },
+      {
+        "uid": 12359,
+        "question": "O que você pensa sobre a origem da consciência?",
+        "schema": null
+      }
+    ],
+    "recent_self_questions": [
+      {
+        "id": 12361,
+        "source": "observed_gap",
+        "question_or_observation": "O que você pensa sobre a origem da consciência?",
+        "closed": false
+      },
+      {
+        "id": 12353,
+        "source": "observed_gap",
+        "question_or_observation": "Se existem duas interpretações, como decidir entre elas?",
+        "closed": false
+      },
+      {
+        "id": 12343,
+        "source": "observed_gap",
+        "question_or_observation": "O que torna uma crença justificada?",
+        "closed": false
+      },
+      {
+        "id": 12336,
+        "source": "observed_gap",
+        "question_or_observation": "O que torna uma crença justificada?",
+        "closed": false
+      },
+      {
+        "id": 12327,
+        "source": "observed_gap",
+        "question_or_observation": "Por que as minhas escolhas mudam conforme meu passado?",
+        "closed": false
+      }
+    ],
+    "recent_facts": [
+      {
+        "id": 11696,
+        "value": "Salim24",
+        "evidence": 1,
+        "schema": 10208,
+        "key": []
+      },
+      {
+        "id": 10934,
+        "value": "volume39",
+        "evidence": 1,
+        "schema": 10213,
+        "key": [
+          "velaria39"
+        ]
+      },
+      {
+        "id": 10926,
+        "value": "Regio39",
+        "evidence": 1,
+        "schema": 10209,
+        "key": [
+          "velaria39"
+        ]
+      },
+      {
+        "id": 10916,
+        "value": "volume38",
+        "evidence": 1,
+        "schema": 10213,
+        "key": [
+          "velaria38"
+        ]
+      },
+      {
+        "id": 10908,
+        "value": "Regio38",
+        "evidence": 1,
+        "schema": 10209,
+        "key": [
+          "velaria38"
+        ]
+      },
+      {
+        "id": 10898,
+        "value": "volume37",
+        "evidence": 1,
+        "schema": 10213,
+        "key": [
+          "velaria37"
+        ]
+      },
+      {
+        "id": 10890,
+        "value": "Regio37",
+        "evidence": 1,
+        "schema": 10209,
+        "key": [
+          "velaria37"
+        ]
+      },
+      {
+        "id": 10880,
+        "value": "volume36",
+        "evidence": 1,
+        "schema": 10213,
+        "key": [
+          "velaria36"
+        ]
+      }
+    ],
+    "morphons": 12362,
+    "last_reason": "self_identified_unparsed_question",
+    "self_question_morphons": 27
+  }
+}

@@ -1,0 +1,4760 @@
+{
+  "design": "streaming prediction with sparse event-indexed spheres (positive rule mining)",
+  "notes": [
+    "The generator defines hidden laws; the learner never sees these definitions.",
+    "Output labels are supplied AFTER each prediction as observations.",
+    "Sphere active with >=1 ray; only full support is a match for evidence.",
+    "No global scan in retrieval; proposed pairs use only event tokens.",
+    "Candidate generation is bounded and supervised by observed outcomes.",
+    "No causal inference or language learning claimed."
+  ],
+  "seed_set": [
+    2,
+    3,
+    5,
+    7,
+    11
+  ],
+  "world_config": {
+    "pares": [
+      1100,
+      1100,
+      2
+    ],
+    "trincas_e_ausencia": [
+      1650,
+      1100,
+      3
+    ],
+    "coocorrencia_enganosa": [
+      1100,
+      1100,
+      2
+    ],
+    "sem_relacao": [
+      1100,
+      1100,
+      2
+    ]
+  },
+  "summary": {
+    "pares": {
+      "atomica": {
+        "accuracy": 0.8125,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 5.6,
+        "created_mean": 83.8,
+        "discarded_mean": 78.2,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "composta": {
+        "accuracy": 0.9793,
+        "balanced_accuracy": 0.9513,
+        "f1": 0.9425,
+        "precision": 0.982,
+        "recall": 0.9064,
+        "candidates_live_mean": 141,
+        "created_mean": 867.8,
+        "discarded_mean": 726.8,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "sem_poda": {
+        "accuracy": 0.9793,
+        "balanced_accuracy": 0.9513,
+        "f1": 0.9425,
+        "precision": 0.982,
+        "recall": 0.9064,
+        "candidates_live_mean": 288,
+        "created_mean": 288,
+        "discarded_mean": 0,
+        "baseline_balanced_accuracy": 0.5
+      }
+    },
+    "trincas_e_ausencia": {
+      "atomica": {
+        "accuracy": 0.8244,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 9,
+        "created_mean": 110.6,
+        "discarded_mean": 101.6,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "pares": {
+        "accuracy": 0.8244,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 142,
+        "created_mean": 1052.6,
+        "discarded_mean": 910.6,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "composta": {
+        "accuracy": 0.9803,
+        "balanced_accuracy": 0.9528,
+        "f1": 0.9416,
+        "precision": 0.9754,
+        "recall": 0.9105,
+        "candidates_live_mean": 649.4,
+        "created_mean": 2836.6,
+        "discarded_mean": 2187.2,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "sem_poda": {
+        "accuracy": 0.9803,
+        "balanced_accuracy": 0.9528,
+        "f1": 0.9416,
+        "precision": 0.9754,
+        "recall": 0.9105,
+        "candidates_live_mean": 1012.6,
+        "created_mean": 1012.6,
+        "discarded_mean": 0,
+        "baseline_balanced_accuracy": 0.5
+      }
+    },
+    "coocorrencia_enganosa": {
+      "atomica": {
+        "accuracy": 0.838,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 7.4,
+        "created_mean": 82.6,
+        "discarded_mean": 75.2,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "composta": {
+        "accuracy": 0.9793,
+        "balanced_accuracy": 0.942,
+        "f1": 0.932,
+        "precision": 0.9826,
+        "recall": 0.8869,
+        "candidates_live_mean": 152.2,
+        "created_mean": 834.4,
+        "discarded_mean": 682.2,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "sem_poda": {
+        "accuracy": 0.9793,
+        "balanced_accuracy": 0.942,
+        "f1": 0.932,
+        "precision": 0.9826,
+        "recall": 0.8869,
+        "candidates_live_mean": 287.8,
+        "created_mean": 287.8,
+        "discarded_mean": 0,
+        "baseline_balanced_accuracy": 0.5
+      }
+    },
+    "sem_relacao": {
+      "atomica": {
+        "accuracy": 0.8445,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 1.4,
+        "created_mean": 95.6,
+        "discarded_mean": 94.2,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "composta": {
+        "accuracy": 0.8445,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 92.4,
+        "created_mean": 1108.8,
+        "discarded_mean": 1016.4,
+        "baseline_balanced_accuracy": 0.5
+      },
+      "sem_poda": {
+        "accuracy": 0.8445,
+        "balanced_accuracy": 0.5,
+        "f1": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "candidates_live_mean": 288,
+        "created_mean": 288,
+        "discarded_mean": 0,
+        "baseline_balanced_accuracy": 0.5
+      }
+    }
+  },
+  "runs": [
+    {
+      "world": "pares",
+      "seed": 2,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8182,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 900,
+        "fp": 0,
+        "fn": 200
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8182,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 900,
+        "fp": 0,
+        "fn": 200
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 5,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 79,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 8229,
+        "prequential": {
+          "correct": 871,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 229,
+          "tn": 871
+        },
+        "index_edges": 5,
+        "cooldowns": 19,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.017,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 2,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9882,
+        "balanced_accuracy": 0.9714,
+        "precision": 0.9895,
+        "recall": 0.945,
+        "f1": 0.9668,
+        "tp": 189,
+        "tn": 898,
+        "fp": 2,
+        "fn": 11
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8182,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 900,
+        "fp": 0,
+        "fn": 200
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 116,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 103,
+            "positives": 101,
+            "confidence": 0.981
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 116,
+            "positives": 115,
+            "confidence": 0.991
+          }
+        ],
+        "created": 869,
+        "discarded": 753,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 284,
+        "rays_visited_total": 274030,
+        "prequential": {
+          "correct": 1046,
+          "total": 1100,
+          "tp": 178,
+          "fp": 3,
+          "fn": 51,
+          "tn": 868
+        },
+        "index_edges": 227,
+        "cooldowns": 157,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.111,
+        "time_test_sec": 0.047
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 2,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9882,
+        "balanced_accuracy": 0.9714,
+        "precision": 0.9895,
+        "recall": 0.945,
+        "f1": 0.9668,
+        "tp": 189,
+        "tn": 898,
+        "fp": 2,
+        "fn": 11
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8182,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 900,
+        "fp": 0,
+        "fn": 200
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 103,
+            "positives": 101,
+            "confidence": 0.981
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 116,
+            "positives": 115,
+            "confidence": 0.991
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 601417,
+        "prequential": {
+          "correct": 1046,
+          "total": 1100,
+          "tp": 178,
+          "fp": 3,
+          "fn": 51,
+          "tn": 868
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.185,
+        "time_test_sec": 0.117
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 3,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8118,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 893,
+        "fp": 0,
+        "fn": 207
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8118,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 893,
+        "fp": 0,
+        "fn": 207
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 8,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 83,
+        "discarded": 75,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 9272,
+        "prequential": {
+          "correct": 921,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 179,
+          "tn": 921
+        },
+        "index_edges": 8,
+        "cooldowns": 15,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.016,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 3,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9465,
+        "precision": 0.9738,
+        "recall": 0.8986,
+        "f1": 0.9347,
+        "tp": 186,
+        "tn": 888,
+        "fp": 5,
+        "fn": 21
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8118,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 893,
+        "fp": 0,
+        "fn": 207
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 145,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 93,
+            "positives": 91,
+            "confidence": 0.978
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 85,
+            "positives": 85,
+            "confidence": 1.0
+          }
+        ],
+        "created": 859,
+        "discarded": 714,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 276,
+        "rays_visited_total": 304598,
+        "prequential": {
+          "correct": 1059,
+          "total": 1100,
+          "tp": 139,
+          "fp": 1,
+          "fn": 40,
+          "tn": 920
+        },
+        "index_edges": 282,
+        "cooldowns": 127,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.12,
+        "time_test_sec": 0.057
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 3,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9465,
+        "precision": 0.9738,
+        "recall": 0.8986,
+        "f1": 0.9347,
+        "tp": 186,
+        "tn": 888,
+        "fp": 5,
+        "fn": 21
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8118,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 893,
+        "fp": 0,
+        "fn": 207
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 93,
+            "positives": 91,
+            "confidence": 0.978
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 85,
+            "positives": 85,
+            "confidence": 1.0
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 598043,
+        "prequential": {
+          "correct": 1059,
+          "total": 1100,
+          "tp": 139,
+          "fp": 1,
+          "fn": 40,
+          "tn": 920
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.204,
+        "time_test_sec": 0.13
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 5,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 4,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 80,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 7696,
+        "prequential": {
+          "correct": 923,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 177,
+          "tn": 923
+        },
+        "index_edges": 4,
+        "cooldowns": 20,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.018,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 5,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9462,
+        "precision": 0.9674,
+        "recall": 0.899,
+        "f1": 0.9319,
+        "tp": 178,
+        "tn": 896,
+        "fp": 6,
+        "fn": 20
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 140,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 89,
+            "positives": 87,
+            "confidence": 0.978
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 85,
+            "positives": 83,
+            "confidence": 0.976
+          }
+        ],
+        "created": 869,
+        "discarded": 729,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 277,
+        "rays_visited_total": 298604,
+        "prequential": {
+          "correct": 1058,
+          "total": 1100,
+          "tp": 139,
+          "fp": 4,
+          "fn": 38,
+          "tn": 919
+        },
+        "index_edges": 276,
+        "cooldowns": 137,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.128,
+        "time_test_sec": 0.059
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 5,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9462,
+        "precision": 0.9674,
+        "recall": 0.899,
+        "f1": 0.9319,
+        "tp": 178,
+        "tn": 896,
+        "fp": 6,
+        "fn": 20
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 89,
+            "positives": 87,
+            "confidence": 0.978
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 85,
+            "positives": 83,
+            "confidence": 0.976
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 598857,
+        "prequential": {
+          "correct": 1058,
+          "total": 1100,
+          "tp": 139,
+          "fp": 4,
+          "fn": 38,
+          "tn": 919
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.182,
+        "time_test_sec": 0.122
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 7,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8036,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 884,
+        "fp": 0,
+        "fn": 216
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8036,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 884,
+        "fp": 0,
+        "fn": 216
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 6,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 78,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 8539,
+        "prequential": {
+          "correct": 906,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 194,
+          "tn": 906
+        },
+        "index_edges": 6,
+        "cooldowns": 18,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.016,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 7,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9745,
+        "balanced_accuracy": 0.9369,
+        "precision": 0.9947,
+        "recall": 0.875,
+        "f1": 0.931,
+        "tp": 189,
+        "tn": 883,
+        "fp": 1,
+        "fn": 27
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8036,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 884,
+        "fp": 0,
+        "fn": 216
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 159,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 90,
+            "positives": 87,
+            "confidence": 0.967
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 97,
+            "positives": 97,
+            "confidence": 1.0
+          }
+        ],
+        "created": 860,
+        "discarded": 701,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 287,
+        "rays_visited_total": 323347,
+        "prequential": {
+          "correct": 1051,
+          "total": 1100,
+          "tp": 148,
+          "fp": 3,
+          "fn": 46,
+          "tn": 903
+        },
+        "index_edges": 312,
+        "cooldowns": 120,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.131,
+        "time_test_sec": 0.069
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 7,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9745,
+        "balanced_accuracy": 0.9369,
+        "precision": 0.9947,
+        "recall": 0.875,
+        "f1": 0.931,
+        "tp": 189,
+        "tn": 883,
+        "fp": 1,
+        "fn": 27
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8036,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 884,
+        "fp": 0,
+        "fn": 216
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 90,
+            "positives": 87,
+            "confidence": 0.967
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 97,
+            "positives": 97,
+            "confidence": 1.0
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 601738,
+        "prequential": {
+          "correct": 1051,
+          "total": 1100,
+          "tp": 148,
+          "fp": 3,
+          "fn": 46,
+          "tn": 903
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.179,
+        "time_test_sec": 0.115
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 11,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8091,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 890,
+        "fp": 0,
+        "fn": 210
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8091,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 890,
+        "fp": 0,
+        "fn": 210
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 5,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 79,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 8210,
+        "prequential": {
+          "correct": 895,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 205,
+          "tn": 895
+        },
+        "index_edges": 5,
+        "cooldowns": 19,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.017,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 11,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9809,
+        "balanced_accuracy": 0.9555,
+        "precision": 0.9846,
+        "recall": 0.9143,
+        "f1": 0.9481,
+        "tp": 192,
+        "tn": 887,
+        "fp": 3,
+        "fn": 18
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8091,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 890,
+        "fp": 0,
+        "fn": 210
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 145,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 96,
+            "positives": 94,
+            "confidence": 0.979
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 101,
+            "positives": 98,
+            "confidence": 0.97
+          }
+        ],
+        "created": 882,
+        "discarded": 737,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 284,
+        "rays_visited_total": 306053,
+        "prequential": {
+          "correct": 1052,
+          "total": 1100,
+          "tp": 160,
+          "fp": 3,
+          "fn": 45,
+          "tn": 892
+        },
+        "index_edges": 285,
+        "cooldowns": 141,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.12,
+        "time_test_sec": 0.063
+      }
+    },
+    {
+      "world": "pares",
+      "seed": 11,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9809,
+        "balanced_accuracy": 0.9555,
+        "precision": 0.9846,
+        "recall": 0.9143,
+        "f1": 0.9481,
+        "tp": 192,
+        "tn": 887,
+        "fp": 3,
+        "fn": 18
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8091,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 890,
+        "fp": 0,
+        "fn": 210
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "seen": 96,
+            "positives": 94,
+            "confidence": 0.979
+          },
+          {
+            "parts": [
+              [
+                2,
+                1
+              ],
+              [
+                9,
+                1
+              ]
+            ],
+            "seen": 101,
+            "positives": 98,
+            "confidence": 0.97
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 600880,
+        "prequential": {
+          "correct": 1052,
+          "total": 1100,
+          "tp": 160,
+          "fp": 3,
+          "fn": 45,
+          "tn": 892
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.207,
+        "time_test_sec": 0.129
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 2,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 6,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 111,
+        "discarded": 105,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 22,
+        "rays_visited_total": 12641,
+        "prequential": {
+          "correct": 1351,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 299,
+          "tn": 1351
+        },
+        "index_edges": 6,
+        "cooldowns": 16,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.024,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 2,
+      "method": "pares",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 137,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1084,
+        "discarded": 947,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 241,
+        "rays_visited_total": 353911,
+        "prequential": {
+          "correct": 1351,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 299,
+          "tn": 1351
+        },
+        "index_edges": 268,
+        "cooldowns": 90,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.148,
+        "time_test_sec": 0.062
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 2,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9845,
+        "balanced_accuracy": 0.9654,
+        "precision": 0.9792,
+        "recall": 0.9353,
+        "f1": 0.9567,
+        "tp": 188,
+        "tn": 895,
+        "fp": 4,
+        "fn": 13
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 613,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 174,
+            "positives": 173,
+            "confidence": 0.994
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 109,
+            "positives": 105,
+            "confidence": 0.963
+          }
+        ],
+        "created": 2803,
+        "discarded": 2190,
+        "promoted": 10,
+        "demoted": 8,
+        "redundant_removed": 0,
+        "max_candidates_seen": 755,
+        "rays_visited_total": 2203945,
+        "prequential": {
+          "correct": 1579,
+          "total": 1650,
+          "tp": 239,
+          "fp": 11,
+          "fn": 60,
+          "tn": 1340
+        },
+        "index_edges": 1696,
+        "cooldowns": 253,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.661,
+        "time_test_sec": 0.338
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 2,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9845,
+        "balanced_accuracy": 0.9654,
+        "precision": 0.9792,
+        "recall": 0.9353,
+        "f1": 0.9567,
+        "tp": 188,
+        "tn": 895,
+        "fp": 4,
+        "fn": 13
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8173,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 899,
+        "fp": 0,
+        "fn": 201
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 971,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 174,
+            "positives": 173,
+            "confidence": 0.994
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 109,
+            "positives": 105,
+            "confidence": 0.963
+          }
+        ],
+        "created": 971,
+        "discarded": 0,
+        "promoted": 10,
+        "demoted": 8,
+        "redundant_removed": 0,
+        "max_candidates_seen": 971,
+        "rays_visited_total": 3373696,
+        "prequential": {
+          "correct": 1579,
+          "total": 1650,
+          "tp": 239,
+          "fp": 11,
+          "fn": 60,
+          "tn": 1340
+        },
+        "index_edges": 2649,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.978,
+        "time_test_sec": 0.524
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 3,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 11,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 109,
+        "discarded": 98,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 22,
+        "rays_visited_total": 15544,
+        "prequential": {
+          "correct": 1336,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 314,
+          "tn": 1336
+        },
+        "index_edges": 11,
+        "cooldowns": 11,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.025,
+        "time_test_sec": 0.006
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 3,
+      "method": "pares",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 139,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1054,
+        "discarded": 915,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 236,
+        "rays_visited_total": 355188,
+        "prequential": {
+          "correct": 1336,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 314,
+          "tn": 1336
+        },
+        "index_edges": 267,
+        "cooldowns": 82,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.157,
+        "time_test_sec": 0.056
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 3,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9827,
+        "balanced_accuracy": 0.9549,
+        "precision": 0.9888,
+        "recall": 0.9119,
+        "f1": 0.9488,
+        "tp": 176,
+        "tn": 905,
+        "fp": 2,
+        "fn": 17
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 608,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 184,
+            "positives": 181,
+            "confidence": 0.984
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 120,
+            "positives": 120,
+            "confidence": 1.0
+          }
+        ],
+        "created": 2723,
+        "discarded": 2115,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 788,
+        "rays_visited_total": 2229121,
+        "prequential": {
+          "correct": 1589,
+          "total": 1650,
+          "tp": 257,
+          "fp": 4,
+          "fn": 57,
+          "tn": 1332
+        },
+        "index_edges": 1674,
+        "cooldowns": 184,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.736,
+        "time_test_sec": 0.338
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 3,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9827,
+        "balanced_accuracy": 0.9549,
+        "precision": 0.9888,
+        "recall": 0.9119,
+        "f1": 0.9488,
+        "tp": 176,
+        "tn": 905,
+        "fp": 2,
+        "fn": 17
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8245,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 907,
+        "fp": 0,
+        "fn": 193
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 1020,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 184,
+            "positives": 181,
+            "confidence": 0.984
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 120,
+            "positives": 120,
+            "confidence": 1.0
+          }
+        ],
+        "created": 1020,
+        "discarded": 0,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 1020,
+        "rays_visited_total": 3507353,
+        "prequential": {
+          "correct": 1589,
+          "total": 1650,
+          "tp": 257,
+          "fp": 4,
+          "fn": 57,
+          "tn": 1332
+        },
+        "index_edges": 2796,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 1.016,
+        "time_test_sec": 0.585
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 5,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 14,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 109,
+        "discarded": 95,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 22,
+        "rays_visited_total": 16899,
+        "prequential": {
+          "correct": 1385,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 265,
+          "tn": 1385
+        },
+        "index_edges": 14,
+        "cooldowns": 8,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.024,
+        "time_test_sec": 0.007
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 5,
+      "method": "pares",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 164,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1015,
+        "discarded": 851,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 234,
+        "rays_visited_total": 374850,
+        "prequential": {
+          "correct": 1385,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 265,
+          "tn": 1385
+        },
+        "index_edges": 314,
+        "cooldowns": 66,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.146,
+        "time_test_sec": 0.07
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 5,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9709,
+        "balanced_accuracy": 0.9262,
+        "precision": 0.9702,
+        "recall": 0.8579,
+        "f1": 0.9106,
+        "tp": 163,
+        "tn": 905,
+        "fp": 5,
+        "fn": 27
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 757,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 152,
+            "positives": 144,
+            "confidence": 0.947
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 101,
+            "positives": 99,
+            "confidence": 0.98
+          }
+        ],
+        "created": 2834,
+        "discarded": 2077,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 799,
+        "rays_visited_total": 2411119,
+        "prequential": {
+          "correct": 1583,
+          "total": 1650,
+          "tp": 206,
+          "fp": 8,
+          "fn": 59,
+          "tn": 1377
+        },
+        "index_edges": 2093,
+        "cooldowns": 157,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.684,
+        "time_test_sec": 0.439
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 5,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9709,
+        "balanced_accuracy": 0.9262,
+        "precision": 0.9702,
+        "recall": 0.8579,
+        "f1": 0.9106,
+        "tp": 163,
+        "tn": 905,
+        "fp": 5,
+        "fn": 27
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8273,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 910,
+        "fp": 0,
+        "fn": 190
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 1045,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 152,
+            "positives": 144,
+            "confidence": 0.947
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 101,
+            "positives": 99,
+            "confidence": 0.98
+          }
+        ],
+        "created": 1045,
+        "discarded": 0,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 1045,
+        "rays_visited_total": 3592092,
+        "prequential": {
+          "correct": 1583,
+          "total": 1650,
+          "tp": 206,
+          "fp": 8,
+          "fn": 59,
+          "tn": 1377
+        },
+        "index_edges": 2871,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 1.031,
+        "time_test_sec": 0.564
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 7,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 8,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 112,
+        "discarded": 104,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 22,
+        "rays_visited_total": 13342,
+        "prequential": {
+          "correct": 1376,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 274,
+          "tn": 1376
+        },
+        "index_edges": 8,
+        "cooldowns": 14,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.023,
+        "time_test_sec": 0.005
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 7,
+      "method": "pares",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 138,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1064,
+        "discarded": 926,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 241,
+        "rays_visited_total": 352314,
+        "prequential": {
+          "correct": 1376,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 274,
+          "tn": 1376
+        },
+        "index_edges": 268,
+        "cooldowns": 79,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.148,
+        "time_test_sec": 0.06
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 7,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9791,
+        "balanced_accuracy": 0.9527,
+        "precision": 0.96,
+        "recall": 0.913,
+        "f1": 0.9359,
+        "tp": 168,
+        "tn": 909,
+        "fp": 7,
+        "fn": 16
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 647,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 140,
+            "positives": 136,
+            "confidence": 0.971
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 114,
+            "positives": 111,
+            "confidence": 0.974
+          }
+        ],
+        "created": 2935,
+        "discarded": 2288,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 738,
+        "rays_visited_total": 2225580,
+        "prequential": {
+          "correct": 1579,
+          "total": 1650,
+          "tp": 208,
+          "fp": 5,
+          "fn": 66,
+          "tn": 1371
+        },
+        "index_edges": 1795,
+        "cooldowns": 249,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.711,
+        "time_test_sec": 0.368
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 7,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9791,
+        "balanced_accuracy": 0.9527,
+        "precision": 0.96,
+        "recall": 0.913,
+        "f1": 0.9359,
+        "tp": 168,
+        "tn": 909,
+        "fp": 7,
+        "fn": 16
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 1022,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 140,
+            "positives": 136,
+            "confidence": 0.971
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 114,
+            "positives": 111,
+            "confidence": 0.974
+          }
+        ],
+        "created": 1022,
+        "discarded": 0,
+        "promoted": 3,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 1022,
+        "rays_visited_total": 3503077,
+        "prequential": {
+          "correct": 1579,
+          "total": 1650,
+          "tp": 208,
+          "fp": 5,
+          "fn": 66,
+          "tn": 1371
+        },
+        "index_edges": 2802,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 1.0,
+        "time_test_sec": 0.573
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 11,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 6,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 112,
+        "discarded": 106,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 22,
+        "rays_visited_total": 12324,
+        "prequential": {
+          "correct": 1360,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 290,
+          "tn": 1360
+        },
+        "index_edges": 6,
+        "cooldowns": 15,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.027,
+        "time_test_sec": 0.005
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 11,
+      "method": "pares",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 132,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1046,
+        "discarded": 914,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 235,
+        "rays_visited_total": 349165,
+        "prequential": {
+          "correct": 1360,
+          "total": 1650,
+          "tp": 0,
+          "fp": 0,
+          "fn": 290,
+          "tn": 1360
+        },
+        "index_edges": 258,
+        "cooldowns": 86,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.173,
+        "time_test_sec": 0.06
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 11,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9845,
+        "balanced_accuracy": 0.965,
+        "precision": 0.9788,
+        "recall": 0.9343,
+        "f1": 0.9561,
+        "tp": 185,
+        "tn": 898,
+        "fp": 4,
+        "fn": 13
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 622,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 166,
+            "positives": 165,
+            "confidence": 0.994
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 114,
+            "positives": 111,
+            "confidence": 0.974
+          }
+        ],
+        "created": 2888,
+        "discarded": 2266,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 756,
+        "rays_visited_total": 2253490,
+        "prequential": {
+          "correct": 1588,
+          "total": 1650,
+          "tp": 232,
+          "fp": 4,
+          "fn": 58,
+          "tn": 1356
+        },
+        "index_edges": 1728,
+        "cooldowns": 280,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.724,
+        "time_test_sec": 0.354
+      }
+    },
+    {
+      "world": "trincas_e_ausencia",
+      "seed": 11,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9845,
+        "balanced_accuracy": 0.965,
+        "precision": 0.9788,
+        "recall": 0.9343,
+        "f1": 0.9561,
+        "tp": 185,
+        "tn": 898,
+        "fp": 4,
+        "fn": 13
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.82,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 902,
+        "fp": 0,
+        "fn": 198
+      },
+      "model": {
+        "n_experiences": 1650,
+        "n_candidates_live": 1005,
+        "n_useful": 2,
+        "n_minimal_useful": 2,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "seen": 166,
+            "positives": 165,
+            "confidence": 0.994
+          },
+          {
+            "parts": [
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ],
+            "seen": 114,
+            "positives": 111,
+            "confidence": 0.974
+          }
+        ],
+        "created": 1005,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 1005,
+        "rays_visited_total": 3512319,
+        "prequential": {
+          "correct": 1588,
+          "total": 1650,
+          "tp": 232,
+          "fp": 4,
+          "fn": 58,
+          "tn": 1356
+        },
+        "index_edges": 2751,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 1.03,
+        "time_test_sec": 0.564
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 2,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8264,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 909,
+        "fp": 0,
+        "fn": 191
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8264,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 909,
+        "fp": 0,
+        "fn": 191
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 8,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 76,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 10079,
+        "prequential": {
+          "correct": 949,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 151,
+          "tn": 949
+        },
+        "index_edges": 8,
+        "cooldowns": 15,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.015,
+        "time_test_sec": 0.005
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 2,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9882,
+        "balanced_accuracy": 0.9722,
+        "precision": 0.9837,
+        "recall": 0.9476,
+        "f1": 0.9653,
+        "tp": 181,
+        "tn": 906,
+        "fp": 3,
+        "fn": 10
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8264,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 909,
+        "fp": 0,
+        "fn": 191
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 157,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 134,
+            "positives": 130,
+            "confidence": 0.97
+          }
+        ],
+        "created": 859,
+        "discarded": 702,
+        "promoted": 1,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 278,
+        "rays_visited_total": 313075,
+        "prequential": {
+          "correct": 1061,
+          "total": 1100,
+          "tp": 116,
+          "fp": 4,
+          "fn": 35,
+          "tn": 945
+        },
+        "index_edges": 306,
+        "cooldowns": 90,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.105,
+        "time_test_sec": 0.067
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 2,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9882,
+        "balanced_accuracy": 0.9722,
+        "precision": 0.9837,
+        "recall": 0.9476,
+        "f1": 0.9653,
+        "tp": 181,
+        "tn": 906,
+        "fp": 3,
+        "fn": 10
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8264,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 909,
+        "fp": 0,
+        "fn": 191
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 134,
+            "positives": 130,
+            "confidence": 0.97
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 1,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 595993,
+        "prequential": {
+          "correct": 1061,
+          "total": 1100,
+          "tp": 116,
+          "fp": 4,
+          "fn": 35,
+          "tn": 945
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.183,
+        "time_test_sec": 0.122
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 3,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8409,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 925,
+        "fp": 0,
+        "fn": 175
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8409,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 925,
+        "fp": 0,
+        "fn": 175
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 12,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 84,
+        "discarded": 72,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 12641,
+        "prequential": {
+          "correct": 925,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 175,
+          "tn": 925
+        },
+        "index_edges": 12,
+        "cooldowns": 12,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.016,
+        "time_test_sec": 0.006
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 3,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9303,
+        "precision": 0.9869,
+        "recall": 0.8629,
+        "f1": 0.9207,
+        "tp": 151,
+        "tn": 923,
+        "fp": 2,
+        "fn": 24
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8409,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 925,
+        "fp": 0,
+        "fn": 175
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 186,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 164,
+            "positives": 162,
+            "confidence": 0.988
+          }
+        ],
+        "created": 843,
+        "discarded": 657,
+        "promoted": 2,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 267,
+        "rays_visited_total": 356524,
+        "prequential": {
+          "correct": 1070,
+          "total": 1100,
+          "tp": 148,
+          "fp": 3,
+          "fn": 27,
+          "tn": 922
+        },
+        "index_edges": 360,
+        "cooldowns": 83,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.11,
+        "time_test_sec": 0.078
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 3,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9303,
+        "precision": 0.9869,
+        "recall": 0.8629,
+        "f1": 0.9207,
+        "tp": 151,
+        "tn": 923,
+        "fp": 2,
+        "fn": 24
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8409,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 925,
+        "fp": 0,
+        "fn": 175
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 287,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 164,
+            "positives": 162,
+            "confidence": 0.988
+          }
+        ],
+        "created": 287,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 287,
+        "rays_visited_total": 589812,
+        "prequential": {
+          "correct": 1070,
+          "total": 1100,
+          "tp": 148,
+          "fp": 3,
+          "fn": 27,
+          "tn": 922
+        },
+        "index_edges": 550,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.182,
+        "time_test_sec": 0.119
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 5,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8436,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 928,
+        "fp": 0,
+        "fn": 172
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8436,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 928,
+        "fp": 0,
+        "fn": 172
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 5,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 81,
+        "discarded": 76,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 8928,
+        "prequential": {
+          "correct": 911,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 189,
+          "tn": 911
+        },
+        "index_edges": 5,
+        "cooldowns": 18,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.017,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 5,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9363,
+        "precision": 0.9679,
+        "recall": 0.8779,
+        "f1": 0.9207,
+        "tp": 151,
+        "tn": 923,
+        "fp": 5,
+        "fn": 21
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8436,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 928,
+        "fp": 0,
+        "fn": 172
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 136,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 177,
+            "positives": 176,
+            "confidence": 0.994
+          }
+        ],
+        "created": 800,
+        "discarded": 664,
+        "promoted": 6,
+        "demoted": 5,
+        "redundant_removed": 0,
+        "max_candidates_seen": 238,
+        "rays_visited_total": 299166,
+        "prequential": {
+          "correct": 1067,
+          "total": 1100,
+          "tp": 162,
+          "fp": 6,
+          "fn": 27,
+          "tn": 905
+        },
+        "index_edges": 267,
+        "cooldowns": 110,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.111,
+        "time_test_sec": 0.06
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 5,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9764,
+        "balanced_accuracy": 0.9363,
+        "precision": 0.9679,
+        "recall": 0.8779,
+        "f1": 0.9207,
+        "tp": 151,
+        "tn": 923,
+        "fp": 5,
+        "fn": 21
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8436,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 928,
+        "fp": 0,
+        "fn": 172
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 177,
+            "positives": 176,
+            "confidence": 0.994
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 6,
+        "demoted": 5,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 590779,
+        "prequential": {
+          "correct": 1067,
+          "total": 1100,
+          "tp": 162,
+          "fp": 6,
+          "fn": 27,
+          "tn": 905
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.184,
+        "time_test_sec": 0.116
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 7,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 5,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 81,
+        "discarded": 76,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 8626,
+        "prequential": {
+          "correct": 943,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 157,
+          "tn": 943
+        },
+        "index_edges": 5,
+        "cooldowns": 19,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.016,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 7,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9745,
+        "balanced_accuracy": 0.9283,
+        "precision": 0.9875,
+        "recall": 0.8587,
+        "f1": 0.9186,
+        "tp": 158,
+        "tn": 914,
+        "fp": 2,
+        "fn": 26
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 130,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 140,
+            "positives": 138,
+            "confidence": 0.986
+          }
+        ],
+        "created": 815,
+        "discarded": 685,
+        "promoted": 2,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 259,
+        "rays_visited_total": 288598,
+        "prequential": {
+          "correct": 1063,
+          "total": 1100,
+          "tp": 124,
+          "fp": 4,
+          "fn": 33,
+          "tn": 939
+        },
+        "index_edges": 255,
+        "cooldowns": 134,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.108,
+        "time_test_sec": 0.054
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 7,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9745,
+        "balanced_accuracy": 0.9283,
+        "precision": 0.9875,
+        "recall": 0.8587,
+        "f1": 0.9186,
+        "tp": 158,
+        "tn": 914,
+        "fp": 2,
+        "fn": 26
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8327,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 916,
+        "fp": 0,
+        "fn": 184
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 140,
+            "positives": 138,
+            "confidence": 0.986
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 2,
+        "demoted": 1,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 594673,
+        "prequential": {
+          "correct": 1063,
+          "total": 1100,
+          "tp": 124,
+          "fp": 4,
+          "fn": 33,
+          "tn": 939
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.184,
+        "time_test_sec": 0.122
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 11,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8464,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 931,
+        "fp": 0,
+        "fn": 169
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8464,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 931,
+        "fp": 0,
+        "fn": 169
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 7,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 83,
+        "discarded": 76,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 10041,
+        "prequential": {
+          "correct": 926,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 174,
+          "tn": 926
+        },
+        "index_edges": 7,
+        "cooldowns": 17,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.017,
+        "time_test_sec": 0.005
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 11,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9809,
+        "balanced_accuracy": 0.9427,
+        "precision": 0.9868,
+        "recall": 0.8876,
+        "f1": 0.9346,
+        "tp": 150,
+        "tn": 929,
+        "fp": 2,
+        "fn": 19
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8464,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 931,
+        "fp": 0,
+        "fn": 169
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 152,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 153,
+            "positives": 152,
+            "confidence": 0.993
+          }
+        ],
+        "created": 855,
+        "discarded": 703,
+        "promoted": 1,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 275,
+        "rays_visited_total": 318109,
+        "prequential": {
+          "correct": 1065,
+          "total": 1100,
+          "tp": 139,
+          "fp": 0,
+          "fn": 35,
+          "tn": 926
+        },
+        "index_edges": 297,
+        "cooldowns": 114,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.112,
+        "time_test_sec": 0.065
+      }
+    },
+    {
+      "world": "coocorrencia_enganosa",
+      "seed": 11,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.9809,
+        "balanced_accuracy": 0.9427,
+        "precision": 0.9868,
+        "recall": 0.8876,
+        "f1": 0.9346,
+        "tp": 150,
+        "tn": 929,
+        "fp": 2,
+        "fn": 19
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8464,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 931,
+        "fp": 0,
+        "fn": 169
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 1,
+        "n_minimal_useful": 1,
+        "minimal_useful": [
+          {
+            "parts": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "seen": 153,
+            "positives": 152,
+            "confidence": 0.993
+          }
+        ],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 1,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 593742,
+        "prequential": {
+          "correct": 1065,
+          "total": 1100,
+          "tp": 139,
+          "fp": 0,
+          "fn": 35,
+          "tn": 926
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.18,
+        "time_test_sec": 0.113
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 2,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 0,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 95,
+        "discarded": 95,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 5791,
+        "prequential": {
+          "correct": 946,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 154,
+          "tn": 946
+        },
+        "index_edges": 0,
+        "cooldowns": 24,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.015,
+        "time_test_sec": 0.003
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 2,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 83,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1108,
+        "discarded": 1025,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 287,
+        "rays_visited_total": 220429,
+        "prequential": {
+          "correct": 946,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 154,
+          "tn": 946
+        },
+        "index_edges": 166,
+        "cooldowns": 190,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.092,
+        "time_test_sec": 0.036
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 2,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 924,
+        "fp": 0,
+        "fn": 176
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 602167,
+        "prequential": {
+          "correct": 946,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 154,
+          "tn": 946
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.18,
+        "time_test_sec": 0.117
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 3,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 1,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 95,
+        "discarded": 94,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 6212,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 1,
+        "cooldowns": 23,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.021,
+        "time_test_sec": 0.003
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 3,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 78,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1092,
+        "discarded": 1014,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 282,
+        "rays_visited_total": 216584,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 155,
+        "cooldowns": 201,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.093,
+        "time_test_sec": 0.036
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 3,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8491,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 934,
+        "fp": 0,
+        "fn": 166
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 599166,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.189,
+        "time_test_sec": 0.121
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 5,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 2,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 96,
+        "discarded": 94,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 6665,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 2,
+        "cooldowns": 22,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.018,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 5,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 96,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1115,
+        "discarded": 1019,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 286,
+        "rays_visited_total": 233770,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 190,
+        "cooldowns": 182,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.094,
+        "time_test_sec": 0.042
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 5,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8536,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 939,
+        "fp": 0,
+        "fn": 161
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 601358,
+        "prequential": {
+          "correct": 936,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 164,
+          "tn": 936
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.182,
+        "time_test_sec": 0.149
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 7,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 1,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 96,
+        "discarded": 95,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 6161,
+        "prequential": {
+          "correct": 943,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 157,
+          "tn": 943
+        },
+        "index_edges": 1,
+        "cooldowns": 23,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.021,
+        "time_test_sec": 0.004
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 7,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 81,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1125,
+        "discarded": 1044,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 283,
+        "rays_visited_total": 215870,
+        "prequential": {
+          "correct": 943,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 157,
+          "tn": 943
+        },
+        "index_edges": 161,
+        "cooldowns": 200,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.124,
+        "time_test_sec": 0.046
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 7,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8418,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 926,
+        "fp": 0,
+        "fn": 174
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 599803,
+        "prequential": {
+          "correct": 943,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 157,
+          "tn": 943
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.244,
+        "time_test_sec": 0.159
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 11,
+      "method": "atomica",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 3,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 96,
+        "discarded": 93,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 24,
+        "rays_visited_total": 7189,
+        "prequential": {
+          "correct": 940,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 160,
+          "tn": 940
+        },
+        "index_edges": 3,
+        "cooldowns": 21,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.02,
+        "time_test_sec": 0.006
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 11,
+      "method": "composta",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 124,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 1104,
+        "discarded": 980,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 287,
+        "rays_visited_total": 264377,
+        "prequential": {
+          "correct": 940,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 160,
+          "tn": 940
+        },
+        "index_edges": 245,
+        "cooldowns": 157,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.124,
+        "time_test_sec": 0.066
+      }
+    },
+    {
+      "world": "sem_relacao",
+      "seed": 11,
+      "method": "sem_poda",
+      "test": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "base_all_zero": {
+        "n": 1100,
+        "accuracy": 0.8382,
+        "balanced_accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "tp": 0,
+        "tn": 922,
+        "fp": 0,
+        "fn": 178
+      },
+      "model": {
+        "n_experiences": 1100,
+        "n_candidates_live": 288,
+        "n_useful": 0,
+        "n_minimal_useful": 0,
+        "minimal_useful": [],
+        "created": 288,
+        "discarded": 0,
+        "promoted": 0,
+        "demoted": 0,
+        "redundant_removed": 0,
+        "max_candidates_seen": 288,
+        "rays_visited_total": 595634,
+        "prequential": {
+          "correct": 940,
+          "total": 1100,
+          "tp": 0,
+          "fp": 0,
+          "fn": 160,
+          "tn": 940
+        },
+        "index_edges": 552,
+        "cooldowns": 0,
+        "expired_uncertain": 0,
+        "blocked_proposals": 0,
+        "time_train_sec": 0.254,
+        "time_test_sec": 0.2
+      }
+    }
+  ]
+}

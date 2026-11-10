@@ -1,0 +1,21 @@
+toggle_cond 0 degree 1 test 16 / 16 answer 16 plans 32 / 32 marks 12 nodes 358
+toggle_cond 0 degree 2 test 16 / 16 answer 16 plans 32 / 32 marks 12 nodes 358
+toggle_cond 1 degree 1 test 16 / 16 answer 16 plans 20 / 20 marks 12 nodes 347
+toggle_cond 1 degree 2 test 16 / 16 answer 16 plans 20 / 20 marks 12 nodes 347
+context 0 degree 1 test 8 / 16 answer 8 plans 11 / 13 marks 11 nodes 336
+context 0 degree 2 test 16 / 16 answer 16 plans 13 / 13 marks 13 nodes 374
+context 1 degree 1 test 8 / 16 answer 8 plans 3 / 7 marks 11 nodes 337
+context 1 degree 2 test 16 / 16 answer 16 plans 7 / 7 marks 13 nodes 383
+parity 0 degree 1 test 16 / 16 answer 16 plans 16 / 16 marks 14 nodes 390
+parity 0 degree 2 test 16 / 16 answer 16 plans 16 / 16 marks 14 nodes 390
+parity 1 degree 1 test 16 / 16 answer 16 plans 19 / 19 marks 14 nodes 392
+parity 1 degree 2 test 16 / 16 answer 16 plans 19 / 19 marks 14 nodes 392
+asym 0 degree 1 test 8 / 16 answer 8 plans 18 / 22 marks 11 nodes 336
+asym 0 degree 2 test 16 / 16 answer 16 plans 22 / 22 marks 14 nodes 401
+asym 1 degree 1 test 8 / 16 answer 8 plans 12 / 17 marks 11 nodes 346
+asym 1 degree 2 test 16 / 16 answer 16 plans 17 / 17 marks 14 nodes 390
+history 0 degree 1 test 0 / 16 answer 0 plans 0 / 14 marks 8 nodes 289
+history 0 degree 2 test 16 / 16 answer 16 plans 14 / 14 marks 12 nodes 389
+history 1 degree 1 test 0 / 16 answer 0 plans 0 / 6 marks 8 nodes 286
+history 1 degree 2 test 16 / 16 answer 16 plans 6 / 6 marks 12 nodes 440
+SUMMARY {"1": {"train": 480, "holdout": 160, "correct": 96, "answered": 96, "errors": 0, "abstentions": 64, "plans": 166, "found": 131, "success": 131, "live_marks": 112, "instances": 10}, "2": {"train": 480, "holdout": 160, "correct": 160, "answered": 160, "errors": 0, "abstentions": 0, "plans": 166, "found": 166, "success": 166, "live_marks": 130, "instances": 10}}

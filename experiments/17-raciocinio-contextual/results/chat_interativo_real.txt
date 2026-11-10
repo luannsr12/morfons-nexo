@@ -1,0 +1,16 @@
+NEXO | teste integrado de contexto (sem LLM).
+Ensine com frases como: Hoje Mara mora em Recife / Mara guarda Caderno / Caderno fica em Olinda
+Pergunte: Onde mora Mara? / E antes? / Onde fica o objeto que Mara guarda? / Quanto é 17 mais 26?
+Comandos: /sair, /zerar, /estado
+Você> [Relação adicionada à memória; nenhuma resposta gerada]
+Você> [Relação adicionada à memória; nenhuma resposta gerada]
+Você> [Relação adicionada à memória; nenhuma resposta gerada]
+Você> [Relação adicionada à memória; nenhuma resposta gerada]
+Você> [Relação adicionada à memória; nenhuma resposta gerada]
+Você> NEXO> Mara mora em Recife. [passos=1, raios=3]
+Você> NEXO> Mara morava em Olinda. [passos=1, raios=3]
+Você> NEXO> O objeto que Mara guarda fica em Olinda. [passos=2, raios=6]
+Você> NEXO> O lugar onde fica o objeto que Mara guarda fica na região Pernambuco. [passos=3, raios=9]
+Você> NEXO> O resultado é 43. [passos=6, raios=24]
+Você> NEXO> Não encontrei um caminho aprendido para responder a isso. [no_language_pattern]
+Você> 

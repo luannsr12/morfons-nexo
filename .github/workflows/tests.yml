@@ -1,0 +1,22 @@
+name: Regressões e integridade
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependências científicas opcionais usadas nas suítes
+        run: python -m pip install -r requirements-optional.txt
+      - name: Validar integridade das fontes originais
+        run: python scripts/verify_source_hashes.py
+      - name: Conferir resultados primários
+        run: python scripts/verify_results.py
+      - name: Rodar todas as suítes
+        run: python scripts/test_all.py --no-save

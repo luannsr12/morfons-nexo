@@ -1,0 +1,76 @@
+{"type": "grounded_observation", "text": "Iara guarda Pote", "sensor": {"subject": "Iara", "relation_id": "tango", "object": "Pote", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Livro veio de Limoeiro", "sensor": {"subject": "Livro", "relation_id": "eta", "object": "Limoeiro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Carmo pertence a Centuria", "sensor": {"subject": "Carmo", "relation_id": "sigma", "object": "Centuria", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Hoje Davi mora em Surubim", "sensor": {"subject": "Davi", "relation_id": "zeta", "object": "Surubim", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Antes Heitor morava em Carmo", "sensor": {"subject": "Heitor", "relation_id": "zeta", "object": "Carmo", "scope_id": "fase0"}}
+{"type": "grounded_observation", "text": "Antes Iara morava em Pesqueira", "sensor": {"subject": "Iara", "relation_id": "zeta", "object": "Pesqueira", "scope_id": "fase0"}}
+{"type": "grounded_observation", "text": "Davi visita Surubim", "sensor": {"subject": "Davi", "relation_id": "delta", "object": "Surubim", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Rute guarda Mapa", "sensor": {"subject": "Rute", "relation_id": "tango", "object": "Mapa", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Heitor visita Limoeiro", "sensor": {"subject": "Heitor", "relation_id": "delta", "object": "Limoeiro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Heitor guarda Fita", "sensor": {"subject": "Heitor", "relation_id": "tango", "object": "Fita", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Surubim pertence a Sulavia", "sensor": {"subject": "Surubim", "relation_id": "sigma", "object": "Sulavia", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Livro fica em Limoeiro", "sensor": {"subject": "Livro", "relation_id": "omega", "object": "Limoeiro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Petrolina pertence a Oestina", "sensor": {"subject": "Petrolina", "relation_id": "sigma", "object": "Oestina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Iara visita Petrolina", "sensor": {"subject": "Iara", "relation_id": "delta", "object": "Petrolina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Antes Rute morava em Jaboatao", "sensor": {"subject": "Rute", "relation_id": "zeta", "object": "Jaboatao", "scope_id": "fase0"}}
+{"type": "grounded_observation", "text": "Davi guarda Livro", "sensor": {"subject": "Davi", "relation_id": "tango", "object": "Livro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Pesqueira pertence a Sulavia", "sensor": {"subject": "Pesqueira", "relation_id": "sigma", "object": "Sulavia", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Fita veio de Petrolina", "sensor": {"subject": "Fita", "relation_id": "eta", "object": "Petrolina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Pote veio de Salgueiro", "sensor": {"subject": "Pote", "relation_id": "eta", "object": "Salgueiro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Fita fica em Petrolina", "sensor": {"subject": "Fita", "relation_id": "omega", "object": "Petrolina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Pote fica em Salgueiro", "sensor": {"subject": "Pote", "relation_id": "omega", "object": "Salgueiro", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Mapa fica em Pesqueira", "sensor": {"subject": "Mapa", "relation_id": "omega", "object": "Pesqueira", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Arcoverde pertence a Lestoria", "sensor": {"subject": "Arcoverde", "relation_id": "sigma", "object": "Lestoria", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Jaboatao pertence a Oestina", "sensor": {"subject": "Jaboatao", "relation_id": "sigma", "object": "Oestina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Rute visita Arcoverde", "sensor": {"subject": "Rute", "relation_id": "delta", "object": "Arcoverde", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Igarassu pertence a Nordalia", "sensor": {"subject": "Igarassu", "relation_id": "sigma", "object": "Nordalia", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Limoeiro pertence a Nordalia", "sensor": {"subject": "Limoeiro", "relation_id": "sigma", "object": "Nordalia", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Salgueiro pertence a Lestoria", "sensor": {"subject": "Salgueiro", "relation_id": "sigma", "object": "Lestoria", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Hoje Iara mora em Petrolina", "sensor": {"subject": "Iara", "relation_id": "zeta", "object": "Petrolina", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Mapa veio de Pesqueira", "sensor": {"subject": "Mapa", "relation_id": "eta", "object": "Pesqueira", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Hoje Rute mora em Arcoverde", "sensor": {"subject": "Rute", "relation_id": "zeta", "object": "Arcoverde", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Antes Davi morava em Igarassu", "sensor": {"subject": "Davi", "relation_id": "zeta", "object": "Igarassu", "scope_id": "fase0"}}
+{"type": "grounded_observation", "text": "Gravata pertence a Centuria", "sensor": {"subject": "Gravata", "relation_id": "sigma", "object": "Centuria", "scope_id": "fase1"}}
+{"type": "grounded_observation", "text": "Hoje Heitor mora em Limoeiro", "sensor": {"subject": "Heitor", "relation_id": "zeta", "object": "Limoeiro", "scope_id": "fase1"}}
+{"type": "demonstrated_question", "question": "Onde morava Davi", "entity": "Davi", "answer_entity": "Igarassu", "reply": "Davi morava em Igarassu", "category_for_audit_only": "antes"}
+{"type": "demonstrated_question", "question": "Onde está a coisa guardada por Davi", "entity": "Davi", "answer_entity": "Limoeiro", "reply": "A coisa guardada por Davi está em Limoeiro", "category_for_audit_only": "dois_saltos"}
+{"type": "demonstrated_question", "question": "Em que região fica Surubim", "entity": "Surubim", "answer_entity": "Sulavia", "reply": "Surubim fica na região Sulavia", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Onde fica Mapa", "entity": "Mapa", "answer_entity": "Pesqueira", "reply": "Mapa fica em Pesqueira", "category_for_audit_only": "objeto_lugar"}
+{"type": "demonstrated_question", "question": "O que Rute guarda", "entity": "Rute", "answer_entity": "Mapa", "reply": "Rute guarda Mapa", "category_for_audit_only": "objeto"}
+{"type": "demonstrated_question", "question": "Onde fica Livro", "entity": "Livro", "answer_entity": "Limoeiro", "reply": "Livro fica em Limoeiro", "category_for_audit_only": "objeto_lugar"}
+{"type": "demonstrated_question", "question": "O que Iara guarda", "entity": "Iara", "answer_entity": "Pote", "reply": "Iara guarda Pote", "category_for_audit_only": "objeto"}
+{"type": "demonstrated_question", "question": "Em que região fica Gravata", "entity": "Gravata", "answer_entity": "Centuria", "reply": "Gravata fica na região Centuria", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Em que região fica Carmo", "entity": "Carmo", "answer_entity": "Centuria", "reply": "Carmo fica na região Centuria", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "O que Davi guarda", "entity": "Davi", "answer_entity": "Livro", "reply": "Davi guarda Livro", "category_for_audit_only": "objeto"}
+{"type": "demonstrated_question", "question": "Em que região fica Pesqueira", "entity": "Pesqueira", "answer_entity": "Sulavia", "reply": "Pesqueira fica na região Sulavia", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Onde morava Heitor", "entity": "Heitor", "answer_entity": "Carmo", "reply": "Heitor morava em Carmo", "category_for_audit_only": "antes"}
+{"type": "demonstrated_question", "question": "Onde morava Rute", "entity": "Rute", "answer_entity": "Jaboatao", "reply": "Rute morava em Jaboatao", "category_for_audit_only": "antes"}
+{"type": "demonstrated_question", "question": "Onde mora Davi", "entity": "Davi", "answer_entity": "Surubim", "reply": "Davi mora em Surubim", "category_for_audit_only": "agora"}
+{"type": "demonstrated_question", "question": "Em que região fica Petrolina", "entity": "Petrolina", "answer_entity": "Oestina", "reply": "Petrolina fica na região Oestina", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Onde mora quem guarda Mapa", "entity": "Mapa", "answer_entity": "Arcoverde", "reply": "Quem guarda Mapa mora em Arcoverde", "category_for_audit_only": "inverso_dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde mora quem guarda Fita", "entity": "Fita", "answer_entity": "Limoeiro", "reply": "Quem guarda Fita mora em Limoeiro", "category_for_audit_only": "inverso_dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde está a coisa guardada por Iara", "entity": "Iara", "answer_entity": "Salgueiro", "reply": "A coisa guardada por Iara está em Salgueiro", "category_for_audit_only": "dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde mora Heitor", "entity": "Heitor", "answer_entity": "Limoeiro", "reply": "Heitor mora em Limoeiro", "category_for_audit_only": "agora"}
+{"type": "demonstrated_question", "question": "Onde fica Pote", "entity": "Pote", "answer_entity": "Salgueiro", "reply": "Pote fica em Salgueiro", "category_for_audit_only": "objeto_lugar"}
+{"type": "demonstrated_question", "question": "Em que região fica Limoeiro", "entity": "Limoeiro", "answer_entity": "Nordalia", "reply": "Limoeiro fica na região Nordalia", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Em que região fica Igarassu", "entity": "Igarassu", "answer_entity": "Nordalia", "reply": "Igarassu fica na região Nordalia", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Onde fica Fita", "entity": "Fita", "answer_entity": "Petrolina", "reply": "Fita fica em Petrolina", "category_for_audit_only": "objeto_lugar"}
+{"type": "demonstrated_question", "question": "Onde está a coisa guardada por Heitor", "entity": "Heitor", "answer_entity": "Petrolina", "reply": "A coisa guardada por Heitor está em Petrolina", "category_for_audit_only": "dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde morava Iara", "entity": "Iara", "answer_entity": "Pesqueira", "reply": "Iara morava em Pesqueira", "category_for_audit_only": "antes"}
+{"type": "demonstrated_question", "question": "Em que região fica Jaboatao", "entity": "Jaboatao", "answer_entity": "Oestina", "reply": "Jaboatao fica na região Oestina", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "O que Heitor guarda", "entity": "Heitor", "answer_entity": "Fita", "reply": "Heitor guarda Fita", "category_for_audit_only": "objeto"}
+{"type": "demonstrated_question", "question": "Onde mora Iara", "entity": "Iara", "answer_entity": "Petrolina", "reply": "Iara mora em Petrolina", "category_for_audit_only": "agora"}
+{"type": "demonstrated_question", "question": "Em que região fica Arcoverde", "entity": "Arcoverde", "answer_entity": "Lestoria", "reply": "Arcoverde fica na região Lestoria", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Em que região fica Salgueiro", "entity": "Salgueiro", "answer_entity": "Lestoria", "reply": "Salgueiro fica na região Lestoria", "category_for_audit_only": "regiao"}
+{"type": "demonstrated_question", "question": "Onde mora Rute", "entity": "Rute", "answer_entity": "Arcoverde", "reply": "Rute mora em Arcoverde", "category_for_audit_only": "agora"}
+{"type": "demonstrated_question", "question": "Onde está a coisa guardada por Rute", "entity": "Rute", "answer_entity": "Pesqueira", "reply": "A coisa guardada por Rute está em Pesqueira", "category_for_audit_only": "dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde mora quem guarda Pote", "entity": "Pote", "answer_entity": "Petrolina", "reply": "Quem guarda Pote mora em Petrolina", "category_for_audit_only": "inverso_dois_saltos"}
+{"type": "demonstrated_question", "question": "Onde mora quem guarda Livro", "entity": "Livro", "answer_entity": "Surubim", "reply": "Quem guarda Livro mora em Surubim", "category_for_audit_only": "inverso_dois_saltos"}
+{"type": "demonstrated_reference", "text": "o objeto que Davi guarda", "entity": "Davi", "resolved_to": "Livro"}
+{"type": "demonstrated_reference", "text": "o lugar onde fica Livro", "entity": "Livro", "resolved_to": "Limoeiro"}
+{"type": "demonstrated_reference", "text": "o objeto que Rute guarda", "entity": "Rute", "resolved_to": "Mapa"}
+{"type": "demonstrated_reference", "text": "o lugar onde fica Mapa", "entity": "Mapa", "resolved_to": "Pesqueira"}
+{"type": "demonstrated_reference", "text": "o objeto que Heitor guarda", "entity": "Heitor", "resolved_to": "Fita"}
+{"type": "demonstrated_reference", "text": "o lugar onde fica Fita", "entity": "Fita", "resolved_to": "Petrolina"}
+{"type": "demonstrated_reference", "text": "o objeto que Iara guarda", "entity": "Iara", "resolved_to": "Pote"}
+{"type": "demonstrated_reference", "text": "o lugar onde fica Pote", "entity": "Pote", "resolved_to": "Salgueiro"}

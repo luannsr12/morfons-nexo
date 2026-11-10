@@ -1,0 +1,391 @@
+{
+  "normal": {
+    "correct": 1000,
+    "total": 1000,
+    "by_type": {
+      "agora": "80/80",
+      "antes": "80/80",
+      "composicao_nunca_treinada": "80/80",
+      "contexto_sem_nome_agora": "80/80",
+      "contexto_sem_nome_antes": "80/80",
+      "dois_saltos": "80/80",
+      "inverso_dois_saltos": "80/80",
+      "objeto": "80/80",
+      "objeto_lugar": "80/80",
+      "regiao": "200/200",
+      "tres_saltos_nunca_treinada": "80/80"
+    },
+    "abstention": 0
+  },
+  "swap_time": {
+    "correct": 600,
+    "total": 1000,
+    "by_type": {
+      "agora": "0/80",
+      "antes": "0/80",
+      "composicao_nunca_treinada": "80/80",
+      "contexto_sem_nome_agora": "0/80",
+      "contexto_sem_nome_antes": "0/80",
+      "dois_saltos": "80/80",
+      "inverso_dois_saltos": "0/80",
+      "objeto": "80/80",
+      "objeto_lugar": "80/80",
+      "regiao": "200/200",
+      "tres_saltos_nunca_treinada": "80/80"
+    },
+    "abstention": 201
+  },
+  "erase_facts": {
+    "correct": 0,
+    "total": 1000,
+    "by_type": {
+      "agora": "0/80",
+      "antes": "0/80",
+      "composicao_nunca_treinada": "0/80",
+      "contexto_sem_nome_agora": "0/80",
+      "contexto_sem_nome_antes": "0/80",
+      "dois_saltos": "0/80",
+      "inverso_dois_saltos": "0/80",
+      "objeto": "0/80",
+      "objeto_lugar": "0/80",
+      "regiao": "0/200",
+      "tres_saltos_nunca_treinada": "0/80"
+    },
+    "abstention": 1000
+  },
+  "without_recursive_composition": {
+    "correct": 840,
+    "total": 1000,
+    "by_type": {
+      "agora": "80/80",
+      "antes": "80/80",
+      "composicao_nunca_treinada": "0/80",
+      "contexto_sem_nome_agora": "80/80",
+      "contexto_sem_nome_antes": "80/80",
+      "dois_saltos": "80/80",
+      "inverso_dois_saltos": "80/80",
+      "objeto": "80/80",
+      "objeto_lugar": "80/80",
+      "regiao": "200/200",
+      "tres_saltos_nunca_treinada": "0/80"
+    },
+    "abstention": 160
+  },
+  "curve": [
+    {
+      "worlds": 1,
+      "questions_supervised": 42,
+      "correct": 220,
+      "total": 500,
+      "by_type": {
+        "agora": "0/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "0/40",
+        "contexto_sem_nome_agora": "0/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "0/40",
+        "inverso_dois_saltos": "0/40",
+        "objeto": "40/40",
+        "objeto_lugar": "0/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "0/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.11
+    },
+    {
+      "worlds": 2,
+      "questions_supervised": 84,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.13
+    },
+    {
+      "worlds": 5,
+      "questions_supervised": 210,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.15
+    },
+    {
+      "worlds": 10,
+      "questions_supervised": 420,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.18
+    },
+    {
+      "worlds": 25,
+      "questions_supervised": 1050,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.27
+    },
+    {
+      "worlds": 50,
+      "questions_supervised": 2100,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.44
+    },
+    {
+      "worlds": 100,
+      "questions_supervised": 4200,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 0.82
+    },
+    {
+      "worlds": 240,
+      "questions_supervised": 10080,
+      "correct": 500,
+      "total": 500,
+      "by_type": {
+        "agora": "40/40",
+        "antes": "40/40",
+        "composicao_nunca_treinada": "40/40",
+        "contexto_sem_nome_agora": "40/40",
+        "contexto_sem_nome_antes": "40/40",
+        "dois_saltos": "40/40",
+        "inverso_dois_saltos": "40/40",
+        "objeto": "40/40",
+        "objeto_lugar": "40/40",
+        "regiao": "100/100",
+        "tres_saltos_nunca_treinada": "40/40"
+      },
+      "morphons": 44,
+      "time_seconds": 1.77
+    }
+  ],
+  "hard_phrases": {
+    "Poderia me informar a cidade onde mora Vinala1234560?": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    },
+    "Você sabe o endereço de Vinala1234560?": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    },
+    "O que Vinala1234560 aprendeu sobre a chuva?": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    },
+    "Por que o ser humano interpreta contextos?": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    },
+    "Quanto é 17 mais 26?": {
+      "answer": "O resultado é 43.",
+      "reason": "learned_binary_transduction",
+      "result": 43,
+      "rays": 24,
+      "steps": [
+        {
+          "morphon": 57,
+          "rays": 4,
+          "input": [
+            1,
+            0,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 56,
+          "rays": 4,
+          "input": [
+            0,
+            1,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 58,
+          "rays": 4,
+          "input": [
+            0,
+            0,
+            0
+          ],
+          "output": [
+            0,
+            0
+          ]
+        },
+        {
+          "morphon": 56,
+          "rays": 4,
+          "input": [
+            0,
+            1,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 48,
+          "rays": 4,
+          "input": [
+            1,
+            1,
+            0
+          ],
+          "output": [
+            0,
+            1
+          ]
+        },
+        {
+          "morphon": 55,
+          "rays": 4,
+          "input": [
+            0,
+            0,
+            1
+          ],
+          "output": [
+            1,
+            0
+          ]
+        }
+      ],
+      "hops": 6
+    }
+  },
+  "unknown_entity": {
+    "answer": null,
+    "reason": "missing_relation",
+    "path": [
+      [
+        "zeta",
+        "fase1",
+        1
+      ]
+    ]
+  },
+  "scale": {
+    "edges_before": 3,
+    "edges_with_10000_disconnected": 3,
+    "same_answer": true
+  },
+  "training_without_output_supervision": {
+    "eval": {
+      "correct": 0,
+      "total": 750,
+      "by_type": {
+        "agora": "0/60",
+        "antes": "0/60",
+        "composicao_nunca_treinada": "0/60",
+        "contexto_sem_nome_agora": "0/60",
+        "contexto_sem_nome_antes": "0/60",
+        "dois_saltos": "0/60",
+        "inverso_dois_saltos": "0/60",
+        "objeto": "0/60",
+        "objeto_lugar": "0/60",
+        "regiao": "0/150",
+        "tres_saltos_nunca_treinada": "0/60"
+      },
+      "abstention": 270
+    },
+    "training": {
+      "sensors": 1700,
+      "questions": 806,
+      "references": 161,
+      "unmatched": 1533
+    }
+  }
+}

@@ -1,0 +1,23 @@
+test_all_observed_questions (test_integrado.IntegratedTest.test_all_observed_questions) ... ok
+test_ambiguity_does_not_guess (test_integrado.IntegratedTest.test_ambiguity_does_not_guess) ... ok
+test_binary_transducer_learned_with_same_morphons (test_integrado.IntegratedTest.test_binary_transducer_learned_with_same_morphons) ... ok
+test_bit_machine_cannot_operate_without_traces (test_integrado.IntegratedTest.test_bit_machine_cannot_operate_without_traces) ... ok
+test_compositions_never_taught (test_integrado.IntegratedTest.test_compositions_never_taught) ... ok
+test_context_focus (test_integrado.IntegratedTest.test_context_focus) ... ok
+test_learner_snapshot_identical (test_integrado.IntegratedTest.test_learner_snapshot_identical) ... ok
+test_memory_change (test_integrado.IntegratedTest.test_memory_change) ... ok
+test_memory_snapshot_identical (test_integrado.IntegratedTest.test_memory_snapshot_identical) ... ok
+test_multiword_entities_and_followup (test_integrado.IntegratedTest.test_multiword_entities_and_followup) ... ok
+test_no_test_names_memorized (test_integrado.IntegratedTest.test_no_test_names_memorized) ... ok
+test_one_ray_activates (test_integrado.IntegratedTest.test_one_ray_activates) ... ok
+test_past_retained_when_now_changed (test_integrado.IntegratedTest.test_past_retained_when_now_changed) ... ok
+test_real_geography_scenario (test_integrado.IntegratedTest.test_real_geography_scenario) ... ok
+test_reinforced_ray_count (test_integrado.IntegratedTest.test_reinforced_ray_count) ... ok
+test_unknown_entity_abstains (test_integrado.IntegratedTest.test_unknown_entity_abstains) ... ok
+test_unknown_lexical_format_abstains (test_integrado.IntegratedTest.test_unknown_lexical_format_abstains) ... ok
+test_without_reference_subphrases (test_integrado.IntegratedTest.test_without_reference_subphrases) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.164s
+
+OK

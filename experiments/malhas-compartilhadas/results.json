@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "seeds": {
+      "main": 1917,
+      "oracle": 66
+    },
+    "num_world_cases": 600,
+    "notes": [
+      "Controlled finite relational worlds, deliberately constructed to test mechanisms",
+      "Generator supplies identities, relation tags and context scopes",
+      "No learning of shared identities or new Genesis policy is claimed"
+    ]
+  },
+  "class_balance": {
+    "shared_and_aligned": 313,
+    "shared_but_misaligned": 126,
+    "split_but_aligned": 110,
+    "split_and_misaligned": 51
+  },
+  "evaluations": {
+    "shared_context": {
+      "mode": "shared_context",
+      "tp": 313,
+      "fp": 0,
+      "fn": 0,
+      "tn": 287,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "mean_examined": 2.253,
+      "max_examined": 3,
+      "elapsed_ms": 3.469
+    },
+    "isolated": {
+      "mode": "isolated",
+      "tp": 0,
+      "fp": 0,
+      "fn": 313,
+      "tn": 287,
+      "accuracy": 0.47833333333333333,
+      "precision": 0.0,
+      "recall": 0.0,
+      "mean_examined": 1.732,
+      "max_examined": 2,
+      "elapsed_ms": 1.929
+    },
+    "no_context": {
+      "mode": "no_context",
+      "tp": 313,
+      "fp": 126,
+      "fn": 0,
+      "tn": 161,
+      "accuracy": 0.79,
+      "precision": 0.7129840546697038,
+      "recall": 1.0,
+      "mean_examined": 2.463,
+      "max_examined": 3,
+      "elapsed_ms": 3.226
+    },
+    "label_match": {
+      "mode": "label_match",
+      "tp": 313,
+      "fp": 110,
+      "fn": 0,
+      "tn": 177,
+      "accuracy": 0.8166666666666667,
+      "precision": 0.7399527186761229,
+      "recall": 1.0,
+      "mean_examined": 2.705,
+      "max_examined": 3,
+      "elapsed_ms": 3.216
+    },
+    "label_no_context": {
+      "mode": "label_no_context",
+      "tp": 313,
+      "fp": 287,
+      "fn": 0,
+      "tn": 0,
+      "accuracy": 0.5216666666666666,
+      "precision": 0.5216666666666666,
+      "recall": 1.0,
+      "mean_examined": 3,
+      "max_examined": 3,
+      "elapsed_ms": 2.932
+    }
+  },
+  "cost_model": {
+    "node_unit_bytes": 64,
+    "node_layer_reference_bytes": 8,
+    "copy_bridge_bytes": 16,
+    "layer_occurrences": 3600,
+    "distinct_used_units": 2561,
+    "minimal_copy_bridges": 1039,
+    "copied_cost": 247024,
+    "shared_cost": 192704,
+    "saving": 54320,
+    "saving_pct": 21.98976617656584
+  },
+  "locality": {
+    "extra_disconnected_nodes": 20000,
+    "probes_before": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ],
+    "probes_after": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      2
+    ]
+  },
+  "motif": {
+    "identity_pattern": "(('VAR', 0), ('VAR', 0))",
+    "unrelated_pattern": "(('VAR', 0), ('VAR', 1))",
+    "identity_savings_n2": -2,
+    "identity_savings_n3": 2,
+    "unrelated_savings_n3": -22,
+    "novel_identity_input": "new_fragment",
+    "novel_identity_output": "new_fragment",
+    "exact_reconstructions": 6
+  },
+  "cross_mesh_pattern": {
+    "observed_complete_paths": 2,
+    "generalized_variables": 5,
+    "new_unseen_path_matches": true,
+    "broken_identity_rejected": true,
+    "broken_context_rejected": true,
+    "conservative_reconstructions": 2,
+    "pattern": "('chain', ('edge', 0, 'r0', ('VAR', 0), ('VAR', 1), ('VAR', 2)), ('edge', 1, 'r1', ('VAR', 1), ('VAR', 3), ('VAR', 2)), ('edge', 2, 'r2', ('VAR', 3), ('VAR', 4), ('VAR', 2)))"
+  },
+  "factorized_provenance": [
+    {
+      "diamonds": 1,
+      "evidence_facts": 4,
+      "explicit_proof_paths": 2,
+      "explicit_examined": 4,
+      "factorized_dag_nodes": 9,
+      "factorized_examined": 4,
+      "target_physical_rays": 2,
+      "enumerated_ms": 0.014,
+      "factorized_ms": 0.0234
+    },
+    {
+      "diamonds": 2,
+      "evidence_facts": 8,
+      "explicit_proof_paths": 4,
+      "explicit_examined": 12,
+      "factorized_dag_nodes": 18,
+      "factorized_examined": 8,
+      "target_physical_rays": 2,
+      "enumerated_ms": 0.0236,
+      "factorized_ms": 0.0138
+    },
+    {
+      "diamonds": 3,
+      "evidence_facts": 12,
+      "explicit_proof_paths": 8,
+      "explicit_examined": 28,
+      "factorized_dag_nodes": 27,
+      "factorized_examined": 12,
+      "target_physical_rays": 2,
+      "enumerated_ms": 0.047,
+      "factorized_ms": 0.0148
+    },
+    {
+      "diamonds": 5,
+      "evidence_facts": 20,
+      "explicit_proof_paths": 32,
+      "explicit_examined": 124,
+      "factorized_dag_nodes": 45,
+      "factorized_examined": 20,
+      "target_physical_rays": 2,
+      "enumerated_ms": 0.1781,
+      "factorized_ms": 0.0226
+    },
+    {
+      "diamonds": 8,
+      "evidence_facts": 32,
+      "explicit_proof_paths": 256,
+      "explicit_examined": 1020,
+      "factorized_dag_nodes": 72,
+      "factorized_examined": 32,
+      "target_physical_rays": 2,
+      "enumerated_ms": 2.3105,
+      "factorized_ms": 0.0362
+    },
+    {
+      "diamonds": 10,
+      "evidence_facts": 40,
+      "explicit_proof_paths": 1024,
+      "explicit_examined": 4092,
+      "factorized_dag_nodes": 90,
+      "factorized_examined": 40,
+      "target_physical_rays": 2,
+      "enumerated_ms": 8.3768,
+      "factorized_ms": 0.0508
+    },
+    {
+      "diamonds": 12,
+      "evidence_facts": 48,
+      "explicit_proof_paths": 4096,
+      "explicit_examined": 16380,
+      "factorized_dag_nodes": 108,
+      "factorized_examined": 48,
+      "target_physical_rays": 2,
+      "enumerated_ms": 41.5767,
+      "factorized_ms": 0.0845
+    }
+  ],
+  "provenance_and_rays": {
+    "initial_independent_paths": 2,
+    "initial_terminal_distinct_rays": 2,
+    "after_unrelated_ray": 3,
+    "remaining_proofs_after_retraction": 1,
+    "nucleus_unchanged": true
+  },
+  "independent_bruteforce_graphs": 250
+}

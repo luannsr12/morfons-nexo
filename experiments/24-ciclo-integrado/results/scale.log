@@ -1,0 +1,7 @@
+0 84 / 84 nodes 149 marks new 30 reused 274
+1 84 / 84 nodes 145 marks new 26 reused 287
+2 84 / 84 nodes 150 marks new 31 reused 323
+3 84 / 84 nodes 149 marks new 30 reused 349
+4 84 / 84 nodes 149 marks new 30 reused 297
+5 84 / 84 nodes 152 marks new 33 reused 308
+SUMMARY {"train": 264, "holdout": 504, "correct": 504, "abstentions": 0, "errors": 0, "nodes": 894, "faces": 3144, "marks_created": 180, "marks_reused": 1838, "instances": 6}

@@ -1,0 +1,1393 @@
+{
+  "degree_three": [
+    {
+      "seed": 0,
+      "phases": [
+        {
+          "examples_per_action": 11,
+          "tested": 10,
+          "correct": 1,
+          "wrong": 1,
+          "abstain": 8,
+          "current_degrees": {
+            "0": [
+              1,
+              2,
+              1
+            ],
+            "1": [
+              2,
+              1,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                1,
+                1,
+                1
+              ],
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            }
+          ]
+        },
+        {
+          "examples_per_action": 15,
+          "tested": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "current_degrees": {
+            "0": [
+              3,
+              2,
+              2
+            ],
+            "1": [
+              2,
+              3,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                1,
+                0,
+                0
+              ],
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            }
+          ]
+        }
+      ],
+      "intervention": {
+        "action": 1,
+        "input": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "prediction": [
+          1,
+          1,
+          1
+        ],
+        "observation": [
+          1,
+          0,
+          1
+        ],
+        "new_episodes": 1,
+        "current_history": 1
+      },
+      "nucleus_unchanged": true
+    },
+    {
+      "seed": 1,
+      "phases": [
+        {
+          "examples_per_action": 11,
+          "tested": 10,
+          "correct": 1,
+          "wrong": 1,
+          "abstain": 8,
+          "current_degrees": {
+            "0": [
+              1,
+              2,
+              1
+            ],
+            "1": [
+              2,
+              1,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                1,
+                1,
+                1
+              ],
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            }
+          ]
+        },
+        {
+          "examples_per_action": 15,
+          "tested": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "current_degrees": {
+            "0": [
+              3,
+              2,
+              2
+            ],
+            "1": [
+              2,
+              3,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                1,
+                0,
+                0
+              ],
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            }
+          ]
+        }
+      ],
+      "intervention": {
+        "action": 1,
+        "input": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "prediction": [
+          1,
+          1,
+          1
+        ],
+        "observation": [
+          1,
+          0,
+          1
+        ],
+        "new_episodes": 1,
+        "current_history": 1
+      },
+      "nucleus_unchanged": true
+    },
+    {
+      "seed": 2,
+      "phases": [
+        {
+          "examples_per_action": 11,
+          "tested": 10,
+          "correct": 1,
+          "wrong": 1,
+          "abstain": 8,
+          "current_degrees": {
+            "0": [
+              1,
+              2,
+              1
+            ],
+            "1": [
+              2,
+              1,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                1,
+                1,
+                1
+              ],
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            }
+          ]
+        },
+        {
+          "examples_per_action": 15,
+          "tested": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "current_degrees": {
+            "0": [
+              3,
+              2,
+              2
+            ],
+            "1": [
+              2,
+              3,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                1,
+                0,
+                0
+              ],
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            }
+          ]
+        }
+      ],
+      "intervention": {
+        "action": 1,
+        "input": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "prediction": [
+          1,
+          1,
+          1
+        ],
+        "observation": [
+          1,
+          0,
+          1
+        ],
+        "new_episodes": 1,
+        "current_history": 1
+      },
+      "nucleus_unchanged": true
+    },
+    {
+      "seed": 3,
+      "phases": [
+        {
+          "examples_per_action": 11,
+          "tested": 10,
+          "correct": 1,
+          "wrong": 1,
+          "abstain": 8,
+          "current_degrees": {
+            "0": [
+              1,
+              2,
+              1
+            ],
+            "1": [
+              2,
+              1,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                0,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                1,
+                1,
+                1
+              ],
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                0,
+                1
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                0
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": null,
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "insufficient_experience"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": null,
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "insufficient_experience"
+            }
+          ]
+        },
+        {
+          "examples_per_action": 15,
+          "tested": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "current_degrees": {
+            "0": [
+              3,
+              2,
+              2
+            ],
+            "1": [
+              2,
+              3,
+              2
+            ]
+          },
+          "cases": [
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 0,
+              "pred": [
+                1,
+                0,
+                0
+              ],
+              "real": [
+                1,
+                0,
+                0
+              ],
+              "reason": "ok"
+            },
+            {
+              "input": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "action": 1,
+              "pred": [
+                0,
+                1,
+                1
+              ],
+              "real": [
+                0,
+                1,
+                1
+              ],
+              "reason": "ok"
+            }
+          ]
+        }
+      ],
+      "intervention": {
+        "action": 1,
+        "input": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "prediction": [
+          1,
+          1,
+          1
+        ],
+        "observation": [
+          1,
+          0,
+          1
+        ],
+        "new_episodes": 1,
+        "current_history": 1
+      },
+      "nucleus_unchanged": true
+    }
+  ],
+  "contradiction": {
+    "before": [
+      0,
+      0,
+      1
+    ],
+    "after": null,
+    "reason": "inconsistent",
+    "retained_conflicting_events": 2,
+    "all_no_self_edits": true
+  },
+  "edge_ablation": {
+    "original": [
+      1,
+      0,
+      1
+    ],
+    "without_required_edge": [
+      0,
+      0,
+      1
+    ],
+    "after_restore": [
+      1,
+      0,
+      1
+    ],
+    "changed": true,
+    "restored_exactly": true,
+    "irrelevant_edge_changed_result": false,
+    "edge": [
+      15,
+      24
+    ]
+  },
+  "history_collapse": [
+    {
+      "kind": 0,
+      "indistinguishable_without_history": 12,
+      "min_wrong_on_full_pairs": 12,
+      "examples": [
+        {
+          "state": [
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "h0": [
+            0,
+            1,
+            0
+          ],
+          "h1": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "state": [
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "h0": [
+            0,
+            1,
+            1
+          ],
+          "h1": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "state": [
+            0,
+            1,
+            0
+          ],
+          "action": 1,
+          "h0": [
+            0,
+            0,
+            0
+          ],
+          "h1": [
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "kind": 1,
+      "indistinguishable_without_history": 16,
+      "min_wrong_on_full_pairs": 16,
+      "examples": [
+        {
+          "state": [
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "h0": [
+            1,
+            0,
+            0
+          ],
+          "h1": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "state": [
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "h0": [
+            0,
+            1,
+            0
+          ],
+          "h1": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "state": [
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "h0": [
+            1,
+            0,
+            1
+          ],
+          "h1": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "kind": 2,
+      "indistinguishable_without_history": 14,
+      "min_wrong_on_full_pairs": 14,
+      "examples": [
+        {
+          "state": [
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "h0": [
+            0,
+            1,
+            0
+          ],
+          "h1": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "state": [
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "h0": [
+            0,
+            1,
+            1
+          ],
+          "h1": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "state": [
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "h0": [
+            0,
+            0,
+            0
+          ],
+          "h1": [
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "kind": 3,
+      "indistinguishable_without_history": 8,
+      "min_wrong_on_full_pairs": 8,
+      "examples": [
+        {
+          "state": [
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "h0": [
+            1,
+            0,
+            1
+          ],
+          "h1": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "state": [
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "h0": [
+            1,
+            1,
+            1
+          ],
+          "h1": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "state": [
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "h0": [
+            1,
+            1,
+            0
+          ],
+          "h1": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

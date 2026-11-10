@@ -1,0 +1,189 @@
+{
+  "instances": 20,
+  "train": 960,
+  "holdout": 320,
+  "correct": 0,
+  "answered": 0,
+  "cases": [
+    {
+      "seed": 0,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 1,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 3,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 4,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 5,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 6,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 7,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 8,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 9,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 10,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 11,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 12,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 13,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 14,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 15,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 16,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 17,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 18,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    },
+    {
+      "seed": 19,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "reasons": {
+        "contradiction": 16
+      }
+    }
+  ]
+}

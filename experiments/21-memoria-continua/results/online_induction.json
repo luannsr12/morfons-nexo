@@ -1,0 +1,158 @@
+[
+  {
+    "kind": 0,
+    "question": "Qual é minha ferramenta favorita?",
+    "expected": "Cerium0",
+    "answer": "Cerium0",
+    "correct": true,
+    "schema_count": 12,
+    "lessons": [
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  },
+  {
+    "kind": 1,
+    "question": "Qual é minha descoberta recente?",
+    "expected": "Cerium1",
+    "answer": "Cerium1",
+    "correct": true,
+    "schema_count": 13,
+    "lessons": [
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  },
+  {
+    "kind": 2,
+    "question": "Qual é minha conclusão provisória?",
+    "expected": "Cerium2",
+    "answer": "Cerium2",
+    "correct": true,
+    "schema_count": 13,
+    "lessons": [
+      [
+        "observed_relational_fact",
+        "recalled_from_live_memory",
+        "unparsed_observation"
+      ],
+      [
+        "observed_relational_fact",
+        "recalled_from_live_memory",
+        "unparsed_observation"
+      ],
+      [
+        "observed_relational_fact",
+        "recalled_from_live_memory",
+        "unparsed_observation"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  },
+  {
+    "kind": 3,
+    "question": "Qual é o formato de Taliko3?",
+    "expected": "Cerium3",
+    "answer": "Cerium3",
+    "correct": true,
+    "schema_count": 14,
+    "lessons": [
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  },
+  {
+    "kind": 4,
+    "question": "Qual é o tamanho de Taliko4?",
+    "expected": "Cerium4",
+    "answer": "Cerium4",
+    "correct": true,
+    "schema_count": 15,
+    "lessons": [
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  },
+  {
+    "kind": 5,
+    "question": "O que o mineral Taliko5 contém?",
+    "expected": "Cerium5",
+    "answer": "Cerium5",
+    "correct": true,
+    "schema_count": 16,
+    "lessons": [
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ],
+      [
+        "unparsed_observation",
+        "self_identified_unparsed_question",
+        "online_linguistic_experience"
+      ]
+    ],
+    "reason": "recalled_from_live_memory"
+  }
+]

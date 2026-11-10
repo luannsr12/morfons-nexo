@@ -1,0 +1,6 @@
+pair_or             0 W_order_controller        acc=1.000 bal=1.000 nodes=340 nested=0
+pair_or             0 AD_pruned_controller      acc=1.000 bal=1.000 nodes=273 nested=0
+pair_or             0 AE_pruned_nested          acc=1.000 bal=1.000 nodes=273 nested=0
+quad                0 W_order_controller        acc=1.000 bal=1.000 nodes=452 nested=0
+quad                0 AD_pruned_controller      acc=1.000 bal=1.000 nodes=310 nested=0
+quad                0 AE_pruned_nested          acc=1.000 bal=1.000 nodes=328 nested=149

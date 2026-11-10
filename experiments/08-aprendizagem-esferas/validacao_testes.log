@@ -1,0 +1,13 @@
+test_candidate_does_not_get_credit_for_birth_example (test_learner.NexoStructuralTests.test_candidate_does_not_get_credit_for_birth_example) ... ok
+test_learns_pair_without_embedding_world_rule (test_learner.NexoStructuralTests.test_learns_pair_without_embedding_world_rule) ... ok
+test_negative_control_no_rule (test_learner.NexoStructuralTests.test_negative_control_no_rule) ... ok
+test_one_ray_activates_and_extra_ray_raises_support (test_learner.NexoStructuralTests.test_one_ray_activates_and_extra_ray_raises_support) ... ok
+test_partial_activation_does_not_fake_complete_rule (test_learner.NexoStructuralTests.test_partial_activation_does_not_fake_complete_rule) ... ok
+test_remote_memories_are_not_scanned_on_activation (test_learner.NexoStructuralTests.test_remote_memories_are_not_scanned_on_activation) ... ok
+test_zero_observed_is_not_missing (test_learner.NexoStructuralTests.test_zero_observed_is_not_missing) ... ok
+test_save_restore_inference_without_training_events (test_learner.PersistenceTests.test_save_restore_inference_without_training_events) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.655s
+
+OK

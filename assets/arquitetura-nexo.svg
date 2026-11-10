@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-label="Fluxo: experiência, fragmentos, Mórfons e malhas, inferência, ação e revisão">
+<defs><style>.base{font-family:Arial,sans-serif}.h{font-size:23px;font-weight:700;fill:#132b3a}.d{font-size:16px;fill:#51667a}.t{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#246c75}</style></defs>
+<rect width="1200" height="390" rx="20" fill="#f6fafc"/>
+<path d="M228 168H272M466 168H510M704 168H748M942 168H987" stroke="#68aab1" stroke-width="4" stroke-linecap="round"/><path d="M260 159L273 168 260 177 M498 159L511 168 498 177 M736 159L749 168 736 177 M975 159L988 168 975 177" fill="none" stroke="#68aab1" stroke-width="3"/>
+<g><rect x="30" y="85" width="198" height="165" rx="15" fill="#e6f4f2" stroke="#9bd4cd"/><text x="48" y="123" class="t base">ENTRADA</text><text x="48" y="163" class="h base">Experiência</text><text x="48" y="192" class="d base">Sinais + contexto</text><text x="48" y="218" class="d base">+ proveniência</text></g>
+<g><rect x="272" y="85" width="194" height="165" rx="15" fill="#e7eefc" stroke="#aabde3"/><text x="289" y="123" class="t base">INCIDÊNCIA</text><text x="289" y="163" class="h base">Fragmentos</text><text x="289" y="192" class="d base">Raios e marcas</text><text x="289" y="218" class="d base">observadas</text></g>
+<g><rect x="510" y="85" width="194" height="165" rx="15" fill="#e6f4f2" stroke="#9bd4cd"/><text x="528" y="123" class="t base">ORGANIZAÇÃO</text><text x="528" y="163" class="h base">Mórfons</text><text x="528" y="192" class="d base">Faces, portas,</text><text x="528" y="218" class="d base">malhas e memória</text></g>
+<g><rect x="748" y="85" width="194" height="165" rx="15" fill="#e7eefc" stroke="#aabde3"/><text x="765" y="123" class="t base">OPERAÇÃO</text><text x="765" y="163" class="h base">Inferência</text><text x="765" y="192" class="d base">Composição e</text><text x="765" y="218" class="d base">previsão</text></g>
+<g><rect x="987" y="85" width="184" height="165" rx="15" fill="#e6f4f2" stroke="#9bd4cd"/><text x="1004" y="123" class="t base">FEEDBACK</text><text x="1004" y="163" class="h base">Ação e revisão</text><text x="1004" y="192" class="d base">Novo resultado,</text><text x="1004" y="218" class="d base">nova memória</text></g>
+<path d="M1080 251V318Q1080 337 1050 337H121Q93 337 93 318V252" fill="none" stroke="#61b3a7" stroke-width="3" stroke-dasharray="9 8"/><path d="M84 264L93 251 102 264" fill="none" stroke="#61b3a7" stroke-width="3"/>
+<text x="584" y="322" text-anchor="middle" class="d base">Ciclo de aprendizagem e reorganização</text>
+<text x="34" y="42" class="t base">ESQUEMA CONCEITUAL · NÃO É UMA MÉTRICA EXPERIMENTAL</text>
+</svg>

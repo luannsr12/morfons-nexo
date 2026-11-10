@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Se utilizar os conceitos ou resultados do NEXO, cite preferencialmente o artigo no Zenodo."
+title: "NEXO: memória relacional executável — repositório experimental"
+version: "1.0"
+type: software
+authors:
+  - family-names: "Rosa Alves da Silva"
+    given-names: "Luan"
+    orcid: "https://orcid.org/0009-0000-2754-7135"
+license: MIT
+keywords:
+  - memória relacional
+  - Morfons
+  - aprendizagem estrutural
+  - computação experimental
+  - causalidade
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Rosa"
+      given-names: "L."
+  title: "NEXO: Arquitetura de memória relacional executável — fundamentos, demonstrações e resultados experimentais com auditoria causal"
+  year: 2026
+  publisher: "Zenodo"
+  version: "1.0"
+  doi: "10.5281/zenodo.24094723"

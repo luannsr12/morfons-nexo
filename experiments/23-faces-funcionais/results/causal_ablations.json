@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "queries": 240,
+    "without_rays": 240,
+    "active_mark_tests": 651,
+    "ablated_active_mark_changed": 651,
+    "inactive_mark_tests": 240,
+    "ablated_inactive_mark_unchanged": 240,
+    "face_deleted_blocks": 240
+  },
+  "cases": [
+    {
+      "world": "toggle_cond",
+      "seed": 0,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 51,
+      "active_mark_tests": 51,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 1,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 48,
+      "active_mark_tests": 48,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 2,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 47,
+      "active_mark_tests": 47,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "context",
+      "seed": 0,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 38,
+      "active_mark_tests": 38,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "context",
+      "seed": 1,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 41,
+      "active_mark_tests": 41,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "context",
+      "seed": 2,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 39,
+      "active_mark_tests": 39,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "parity",
+      "seed": 0,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 38,
+      "active_mark_tests": 38,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "parity",
+      "seed": 1,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 46,
+      "active_mark_tests": 46,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "parity",
+      "seed": 2,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 38,
+      "active_mark_tests": 38,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "asym",
+      "seed": 0,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 45,
+      "active_mark_tests": 45,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "asym",
+      "seed": 1,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 40,
+      "active_mark_tests": 40,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "asym",
+      "seed": 2,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 47,
+      "active_mark_tests": 47,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "history",
+      "seed": 0,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 39,
+      "active_mark_tests": 39,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "history",
+      "seed": 1,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 50,
+      "active_mark_tests": 50,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    },
+    {
+      "world": "history",
+      "seed": 2,
+      "queries": 16,
+      "without_rays": 16,
+      "ablated_active_mark_changed": 44,
+      "active_mark_tests": 44,
+      "ablated_inactive_mark_unchanged": 16,
+      "inactive_mark_tests": 16,
+      "face_deleted_blocks": 16
+    }
+  ]
+}

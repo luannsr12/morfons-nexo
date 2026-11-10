@@ -1,0 +1,18 @@
+test_contradictions_abstain (test_integrated.IntegrationTest.test_contradictions_abstain) ... ok
+test_feedback_session_same_memory (test_integrated.IntegrationTest.test_feedback_session_same_memory) ... ok
+test_higher_order_update (test_integrated.IntegrationTest.test_higher_order_update) ... ok
+test_internal_prediction_not_training (test_integrated.IntegrationTest.test_internal_prediction_not_training) ... ok
+test_no_face_split_on_conflict (test_integrated.IntegrationTest.test_no_face_split_on_conflict) ... ok
+test_no_pulses_no_prediction (test_integrated.IntegrationTest.test_no_pulses_no_prediction) ... ok
+test_no_self_written_faces (test_integrated.IntegrationTest.test_no_self_written_faces) ... ok
+test_nucleus_immutable (test_integrated.IntegrationTest.test_nucleus_immutable) ... ok
+test_one_ray_active_support_more (test_integrated.IntegrationTest.test_one_ray_active_support_more) ... ok
+test_query_compose (test_integrated.IntegrationTest.test_query_compose) ... ok
+test_real_edge_ablation (test_integrated.IntegrationTest.test_real_edge_ablation) ... ok
+test_snapshot_recovery (test_integrated.IntegrationTest.test_snapshot_recovery) ... ok
+test_training_and_holdout (test_integrated.IntegrationTest.test_training_and_holdout) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.080s
+
+OK

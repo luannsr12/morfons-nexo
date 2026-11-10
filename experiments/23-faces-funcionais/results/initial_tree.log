@@ -1,0 +1,22 @@
+toggle_cond 0 morph True test 12 / 16 answered 16 plans 26 / 32 faces 120 splits 55
+toggle_cond 0 morph False test 1 / 16 answered 16 plans 1 / 32 faces 10 splits 0
+toggle_cond 1 morph True test 14 / 16 answered 16 plans 17 / 20 faces 84 splits 37
+toggle_cond 1 morph False test 0 / 16 answered 16 plans 2 / 20 faces 10 splits 0
+context 0 morph True test 8 / 16 answered 16 plans 11 / 13 faces 98 splits 44
+context 0 morph False test 0 / 16 answered 16 plans 1 / 13 faces 10 splits 0
+context 1 morph True test 13 / 16 answered 16 plans 6 / 7 faces 112 splits 51
+context 1 morph False test 1 / 16 answered 16 plans 0 / 7 faces 10 splits 0
+parity 0 morph True test 8 / 16 answered 16 plans 16 / 16 faces 100 splits 45
+parity 0 morph False test 1 / 16 answered 16 plans 0 / 16 faces 10 splits 0
+parity 1 morph True test 16 / 16 answered 16 plans 19 / 19 faces 78 splits 34
+parity 1 morph False test 0 / 16 answered 16 plans 1 / 19 faces 10 splits 0
+asym 0 morph True test 10 / 16 answered 16 plans 19 / 22 faces 96 splits 43
+asym 0 morph False test 0 / 16 answered 16 plans 0 / 22 faces 10 splits 0
+asym 1 morph True test 16 / 16 answered 16 plans 17 / 17 faces 72 splits 31
+asym 1 morph False test 0 / 16 answered 16 plans 0 / 17 faces 10 splits 0
+history 0 morph True test 11 / 16 answered 16 plans 14 / 14 faces 122 splits 56
+history 0 morph False test 1 / 16 answered 16 plans 0 / 14 faces 10 splits 0
+history 1 morph True test 12 / 16 answered 16 plans 6 / 6 faces 124 splits 57
+history 1 morph False test 0 / 16 answered 16 plans 0 / 6 faces 10 splits 0
+SUMMARY {"True": {"instances": 10, "train": 480, "holdout": 160, "correct": 120, "answered": 160, "errors": 40, "abstentions": 0, "plans": 166, "found": 151, "success": 151, "subdivisions": 453, "face_count": 1006}, "False": {"instances": 10, "train": 480, "holdout": 160, "correct": 4, "answered": 160, "errors": 156, "abstentions": 0, "plans": 166, "found": 11, "success": 5, "subdivisions": 0, "face_count": 100}}
+SAVED /mnt/data/NEXO_Exp23_Faces_Causais/results/evaluation.json

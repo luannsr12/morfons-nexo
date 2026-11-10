@@ -1,0 +1,277 @@
+{
+  "archives": [
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "original_zip": "NEXO_Experimento_08_Aprendizagem_de_Esferas.zip",
+      "sha256": "9427fb096de90136d5234b3978a78d49626040716af94ead0611f22ff7e00141",
+      "size_bytes": 28629,
+      "included_folder": "experiments/08-aprendizagem-esferas",
+      "original_files_included": 12
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "original_zip": "NEXO_Experimento_14_Morfon_Integrado.zip",
+      "sha256": "247e7a1455ca1aee602841f69ea62e2b3c878b8d9845bb8e2c6c929a91ec6c1e",
+      "size_bytes": 22290388,
+      "included_folder": "experiments/14-morfon-integrado",
+      "original_files_included": 106
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "original_zip": "NEXO_Experimento_17_Raciocinio_Contextual_e_Conversa.zip",
+      "sha256": "8af50c83e20f68df189dcbbc9f761359904938c9bba666d43071ceb52c301bc6",
+      "size_bytes": 603669,
+      "included_folder": "experiments/17-raciocinio-contextual",
+      "original_files_included": 32
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "original_zip": "NEXO_Experimento_21_Memoria_Continua_Autoobservacao.zip",
+      "sha256": "4d5882e1cb320a24db396fea1d70526b70661f56aaf63374de4a66f02c9dd4aa",
+      "size_bytes": 8311894,
+      "included_folder": "experiments/21-memoria-continua",
+      "original_files_included": 50
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "original_zip": "NEXO_EXP23_VERIFICADO.zip",
+      "sha256": "30cead76df53387709eabc1def88de1b5b7ce22d143abb9ca5a9db33752b8c57",
+      "size_bytes": 360133,
+      "included_folder": "experiments/23-faces-funcionais",
+      "original_files_included": 34
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "original_zip": "NEXO_EXP24_INTEGRADO_VERIFICADO.zip",
+      "sha256": "e298fde41d6a0ac314da9f2fd868f44287e13147a8517df899343ea2cf7c2cfa",
+      "size_bytes": 10132664,
+      "included_folder": "experiments/24-ciclo-integrado",
+      "original_files_included": 27
+    },
+    {
+      "experiment": "malhas-compartilhadas",
+      "original_zip": "NEXO_Experimento_Malhas_Relacionais_Compartilhadas.zip",
+      "sha256": "2e7b21a26a66f17b938a5c84cae3b069c039feb6dfc61bf731f9cef93d1676a9",
+      "size_bytes": 247771,
+      "included_folder": "experiments/malhas-compartilhadas",
+      "original_files_included": 14
+    }
+  ],
+  "omitted_nested_historical_archives_and_caches": [
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "__pycache__/learner.cpython-313.pyc",
+      "bytes": 21856
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "__pycache__/worlds.cpython-313.pyc",
+      "bytes": 4178
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "historico_separado/nexo_controle_condicoes.py",
+      "bytes": 1154
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "historico_separado/nexo_esferas_experimentos.py",
+      "bytes": 10708
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "historico_separado/nexo_esferas_resultados.json",
+      "bytes": 2311
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "historico_separado/LEIA.md",
+      "bytes": 479
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "historico_separado/nexo_esferas_controles.py",
+      "bytes": 2407
+    },
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "path": "tests/__pycache__/test_learner.cpython-313.pyc",
+      "bytes": 9029
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp11.zip",
+      "bytes": 4182015
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp08.zip",
+      "bytes": 28629
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp09.zip",
+      "bytes": 1369180
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp10.zip",
+      "bytes": 3182684
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp12.zip",
+      "bytes": 6074114
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "historico/Exp13.zip",
+      "bytes": 6893723
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "codigo/__pycache__/morfon.cpython-313.pyc",
+      "bytes": 48907
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "codigo/__pycache__/mundos.cpython-313.pyc",
+      "bytes": 3327
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "path": "testes/__pycache__/test_integracao.cpython-313.pyc",
+      "bytes": 13389
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "path": "historico_Exp16.zip",
+      "bytes": 345882
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "path": "tests/__pycache__/test_integrado.cpython-313.pyc",
+      "bytes": 17436
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "path": "src/__pycache__/grounded.cpython-313.pyc",
+      "bytes": 37765
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "path": "src/__pycache__/laboratorio.cpython-313.pyc",
+      "bytes": 18279
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "path": "src/__pycache__/morfon.cpython-313.pyc",
+      "bytes": 48887
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "historico_Exp20.zip",
+      "bytes": 4691475
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "tests/__pycache__/test_continuous.cpython-313.pyc",
+      "bytes": 13703
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "tests/__pycache__/test_regression_extended.cpython-313.pyc",
+      "bytes": 20627
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "src/__pycache__/continuous.cpython-313.pyc",
+      "bytes": 48948
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "src/__pycache__/nexo20.cpython-313.pyc",
+      "bytes": 39429
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "src/base17/__pycache__/grounded.cpython-313.pyc",
+      "bytes": 37780
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "path": "src/base17/__pycache__/morfon.cpython-313.pyc",
+      "bytes": 52682
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "path": "tests/__pycache__/test_spectral.cpython-313.pyc",
+      "bytes": 7309
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "path": "tests/__pycache__/test_faces.cpython-313.pyc",
+      "bytes": 5314
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "path": "src/__pycache__/facets.cpython-313.pyc",
+      "bytes": 22120
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "path": "src/__pycache__/spectral_faces.cpython-313.pyc",
+      "bytes": 22766
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "path": "originals/__pycache__/morfon_exp21_original.cpython-313.pyc",
+      "bytes": 52693
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "originals/NEXO_EXP23_VERIFICADO.zip",
+      "bytes": 360133
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "originals/NEXO_EXP22_REORGANIZACAO_ENDOGENA_2026-11-08.zip",
+      "bytes": 9581966
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "tests/__pycache__/test_integrated.cpython-313.pyc",
+      "bytes": 10914
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "src/__pycache__/adversarial.cpython-313.pyc",
+      "bytes": 11302
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "src/__pycache__/integrated.cpython-313.pyc",
+      "bytes": 30268
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "src/__pycache__/evaluate.cpython-313.pyc",
+      "bytes": 19687
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "path": "originals/__pycache__/morfon_exp21_original.cpython-313.pyc",
+      "bytes": 52724
+    },
+    {
+      "experiment": "malhas-compartilhadas",
+      "path": "__pycache__/test_experiment.cpython-313.pyc",
+      "bytes": 8504
+    },
+    {
+      "experiment": "malhas-compartilhadas",
+      "path": "__pycache__/experiment.cpython-313.pyc",
+      "bytes": 38525
+    }
+  ]
+}

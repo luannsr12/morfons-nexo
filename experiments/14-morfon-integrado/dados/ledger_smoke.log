@@ -1,0 +1,12 @@
+pair_or             0 ORIGINAL_08               acc=1.000 bal=1.000 nodes=381 nested=0
+pair_or             0 W_order_controller        acc=1.000 bal=1.000 nodes=341 nested=0
+pair_or             0 AD_pruned_controller      acc=1.000 bal=1.000 nodes=274 nested=0
+pair_or             0 AE_pruned_nested          acc=1.000 bal=1.000 nodes=274 nested=0
+quad                0 ORIGINAL_08               acc=0.927 bal=0.500 nodes=119 nested=0
+quad                0 W_order_controller        acc=1.000 bal=1.000 nodes=453 nested=0
+quad                0 AD_pruned_controller      acc=1.000 bal=1.000 nodes=311 nested=0
+quad                0 AE_pruned_nested          acc=1.000 bal=1.000 nodes=329 nested=149
+noisy               0 ORIGINAL_08               acc=0.912 bal=0.909 nodes=418 nested=0
+noisy               0 W_order_controller        acc=0.919 bal=0.917 nodes=1183 nested=0
+noisy               0 AD_pruned_controller      acc=0.919 bal=0.917 nodes=952 nested=0
+noisy               0 AE_pruned_nested          acc=0.919 bal=0.917 nodes=856 nested=384

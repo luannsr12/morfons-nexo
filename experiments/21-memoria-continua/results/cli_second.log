@@ -1,0 +1,28 @@
+NEXO 21 | memoria continua. /memoria /salvar /sair
+Diga algo novo, pergunte depois, corrija e reinicie: o estado sera mantido.
+Você > NEXO > Violeta
+         [memória: recalled_from_live_memory ; prova: 10219 ]
+Você > NEXO > Registrei essa informação.
+         [memória: observed_relational_fact ; prova: 10233 ]
+Você > NEXO > Cátia
+         [memória: recalled_from_live_memory ; prova: 10233 ]
+Você > {
+  "session": "principal",
+  "turns": 5,
+  "facts_current": 1,
+  "stored_schemas": 11,
+  "unresolved_questions": [],
+  "recent_facts": [
+    {
+      "id": 10233,
+      "value": "Cátia",
+      "evidence": 1,
+      "schema": 10208,
+      "key": []
+    }
+  ],
+  "morphons": 10239,
+  "last_reason": "recalled_from_live_memory",
+  "self_question_morphons": 0
+}
+Você > 

@@ -1,0 +1,137 @@
+01 HUMANO: Qual é meu nome?
+   NEXO: Ainda não sei. Você pode me contar a resposta?
+   RASTRO: self_identified_missing_fact / novas unidades 5
+
+02 HUMANO: Íris
+   NEXO: Aprendi com sua resposta: Íris.
+   RASTRO: learned_from_human / novas unidades 9
+
+03 HUMANO: Qual é meu nome?
+   NEXO: Íris
+   RASTRO: recalled_from_live_memory / novas unidades 2
+
+04 HUMANO: Meu nome é Selma.
+   NEXO: Registrei essa informação.
+   RASTRO: observed_relational_fact / novas unidades 8
+
+05 HUMANO: Qual é meu nome?
+   NEXO: Selma
+   RASTRO: recalled_from_live_memory / novas unidades 2
+
+06 HUMANO: Onde eu moro?
+   NEXO: Ainda não sei. Você pode me contar a resposta?
+   RASTRO: self_identified_missing_fact / novas unidades 5
+
+07 HUMANO: Moro em Recife
+   NEXO: Aprendi uma observação parcial e atualizei a relação.
+   RASTRO: learned_from_partial_observation / novas unidades 11
+
+08 HUMANO: Onde eu moro?
+   NEXO: Recife
+   RASTRO: recalled_from_live_memory / novas unidades 2
+
+09 HUMANO: Minha hipótese é que as interpretações mudam com a experiência.
+   NEXO: Registrei essa informação.
+   RASTRO: observed_relational_fact / novas unidades 10
+
+10 HUMANO: Qual é minha hipótese?
+   NEXO: que as interpretações mudam com a experiência
+   RASTRO: recalled_from_live_memory / novas unidades 3
+
+11 HUMANO: Se a memória muda, então a interpretação pode mudar.
+   NEXO: Registrei essa premissa.
+   RASTRO: stored_implication / novas unidades 10
+
+12 HUMANO: Considere que a memória muda.
+   NEXO: Registrei essa premissa.
+   RASTRO: stored_observation / novas unidades 4
+
+13 HUMANO: O que se conclui?
+   NEXO: Uma consequência dessas premissas é que a interpretação pode mudar.
+   RASTRO: learned_inference / novas unidades 5
+
+14 HUMANO: Por quê?
+   NEXO: A conclusão a interpretação pode mudar depende da relação que parte de se a memória muda então a interpretação pode mudar; a memória muda.
+   RASTRO: learned_proof_trace / novas unidades 3
+
+15 HUMANO: Isso permite concluir que toda interpretação é verdadeira?
+   NEXO: Ainda não disponho de uma relação que permita concluir toda interpretação é verdadeira.
+   RASTRO: unknown / novas unidades 5
+
+16 HUMANO: O símbolo recém-descoberto representa uma estrutura desconhecida.
+   NEXO: Observei isso. Ainda não sei como relacionar essa frase a outras experiências.
+   RASTRO: unparsed_observation / novas unidades 10
+
+17 HUMANO: O que esse símbolo representa?
+   NEXO: Não conheço essa construção ainda. Você pode me ensinar a resposta?
+   RASTRO: self_identified_unparsed_question / novas unidades 7
+
+AUTO-INSPEÇÃO FINAL:
+{
+  "session": "conversa_demonstracao",
+  "turns": 17,
+  "facts_current": 3,
+  "stored_schemas": 11,
+  "learned_paraphrases": 0,
+  "unresolved_questions": [
+    {
+      "uid": 10314,
+      "question": "O que esse símbolo representa?",
+      "schema": null
+    }
+  ],
+  "recent_self_questions": [
+    {
+      "id": 10316,
+      "source": "observed_gap",
+      "question_or_observation": "O que esse símbolo representa?",
+      "closed": false
+    },
+    {
+      "id": 10309,
+      "source": "unexplained_observation",
+      "question_or_observation": "O símbolo recém-descoberto representa uma estrutura desconhecida.",
+      "closed": false
+    },
+    {
+      "id": 10246,
+      "source": "observed_gap",
+      "question_or_observation": "Onde eu moro?",
+      "closed": true
+    },
+    {
+      "id": 10220,
+      "source": "observed_gap",
+      "question_or_observation": "Qual é meu nome?",
+      "closed": true
+    }
+  ],
+  "recent_facts": [
+    {
+      "id": 10266,
+      "value": "que as interpretações mudam com a experiência",
+      "evidence": 1,
+      "schema": 10205,
+      "key": []
+    },
+    {
+      "id": 10253,
+      "value": "Recife",
+      "evidence": 1,
+      "schema": 10211,
+      "key": [
+        "moro"
+      ]
+    },
+    {
+      "id": 10236,
+      "value": "Selma",
+      "evidence": 1,
+      "schema": 10208,
+      "key": []
+    }
+  ],
+  "morphons": 10317,
+  "last_reason": "self_identified_unparsed_question",
+  "self_question_morphons": 4
+}

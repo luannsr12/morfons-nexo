@@ -1,0 +1,296 @@
+[
+  {
+    "group": 0,
+    "utterances": [
+      "Melora0k0 mora em Loxia0v0.",
+      "Em qual cidade Melora0k0 reside?",
+      "Loxia0v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 0,
+    "utterances": [
+      "Melora0k1 mora em Loxia0v1.",
+      "Em qual cidade Melora0k1 reside?",
+      "Loxia0v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 0,
+    "utterances": [
+      "Melora0k2 mora em Loxia0v2.",
+      "Em qual cidade Melora0k2 reside?",
+      "Loxia0v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 1,
+    "utterances": [
+      "Melora1k0 mora em Loxia1v0.",
+      "Onde é o domicílio de Melora1k0?",
+      "Loxia1v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 1,
+    "utterances": [
+      "Melora1k1 mora em Loxia1v1.",
+      "Onde é o domicílio de Melora1k1?",
+      "Loxia1v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 1,
+    "utterances": [
+      "Melora1k2 mora em Loxia1v2.",
+      "Onde é o domicílio de Melora1k2?",
+      "Loxia1v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 2,
+    "utterances": [
+      "Melora2k0 guarda Loxia2v0.",
+      "Qual artigo Melora2k0 mantém guardado?",
+      "Loxia2v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 2,
+    "utterances": [
+      "Melora2k1 guarda Loxia2v1.",
+      "Qual artigo Melora2k1 mantém guardado?",
+      "Loxia2v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 2,
+    "utterances": [
+      "Melora2k2 guarda Loxia2v2.",
+      "Qual artigo Melora2k2 mantém guardado?",
+      "Loxia2v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 3,
+    "utterances": [
+      "A cor de Melora3k0 é Loxia3v0.",
+      "Qual tom tem Melora3k0?",
+      "Loxia3v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 3,
+    "utterances": [
+      "A cor de Melora3k1 é Loxia3v1.",
+      "Qual tom tem Melora3k1?",
+      "Loxia3v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 3,
+    "utterances": [
+      "A cor de Melora3k2 é Loxia3v2.",
+      "Qual tom tem Melora3k2?",
+      "Loxia3v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 4,
+    "utterances": [
+      "Melora4k0 prefere Loxia4v0.",
+      "O que Melora4k0 mais gosta?",
+      "Loxia4v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 4,
+    "utterances": [
+      "Melora4k1 prefere Loxia4v1.",
+      "O que Melora4k1 mais gosta?",
+      "Loxia4v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 4,
+    "utterances": [
+      "Melora4k2 prefere Loxia4v2.",
+      "O que Melora4k2 mais gosta?",
+      "Loxia4v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 5,
+    "utterances": [
+      "O livro Melora5k0 fica em Loxia5v0.",
+      "Em que lugar está o livro Melora5k0?",
+      "Loxia5v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 5,
+    "utterances": [
+      "O livro Melora5k1 fica em Loxia5v1.",
+      "Em que lugar está o livro Melora5k1?",
+      "Loxia5v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 5,
+    "utterances": [
+      "O livro Melora5k2 fica em Loxia5v2.",
+      "Em que lugar está o livro Melora5k2?",
+      "Loxia5v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  },
+  {
+    "group": 6,
+    "utterances": [
+      "Meu nome é Loxia6v0.",
+      "Como eu sou chamado?",
+      "Loxia6v0"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 6,
+    "utterances": [
+      "Meu nome é Loxia6v1.",
+      "Como eu sou chamado?",
+      "Loxia6v1"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 0
+  },
+  {
+    "group": 6,
+    "utterances": [
+      "Meu nome é Loxia6v2.",
+      "Como eu sou chamado?",
+      "Loxia6v2"
+    ],
+    "reasons": [
+      "observed_relational_fact",
+      "self_identified_unparsed_question",
+      "episodic_answer_not_general_rule"
+    ],
+    "new_aliases": 1
+  }
+]

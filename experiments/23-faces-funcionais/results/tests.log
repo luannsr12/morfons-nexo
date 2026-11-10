@@ -1,0 +1,18 @@
+test_ablate_face_blocks_inference (test_faces.FaceTests.test_ablate_face_blocks_inference) ... ok
+test_context_forces_morphological_split (test_faces.FaceTests.test_context_forces_morphological_split) ... ok
+test_no_split_cannot_separate_conflict (test_faces.FaceTests.test_no_split_cannot_separate_conflict) ... ok
+test_no_teacher_during_inference (test_faces.FaceTests.test_no_teacher_during_inference) ... ok
+test_original_core_identity_and_rays (test_faces.FaceTests.test_original_core_identity_and_rays) ... ok
+test_snapshot_roundtrip (test_faces.FaceTests.test_snapshot_roundtrip) ... ok
+test_conflict_expands_degree_and_splits_marks (test_spectral.SpectralTests.test_conflict_expands_degree_and_splits_marks) ... ok
+test_gf2_solver (test_spectral.SpectralTests.test_gf2_solver) ... ok
+test_imagination_does_not_become_observed_evidence (test_spectral.SpectralTests.test_imagination_does_not_become_observed_evidence) ... ok
+test_marks_causally_required (test_spectral.SpectralTests.test_marks_causally_required) ... ok
+test_provenance_from_observation_not_thought (test_spectral.SpectralTests.test_provenance_from_observation_not_thought) ... ok
+test_quadratic_relation_learned (test_spectral.SpectralTests.test_quadratic_relation_learned) ... ok
+test_snapshot_roundtrip_original_core (test_spectral.SpectralTests.test_snapshot_roundtrip_original_core) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.007s
+
+OK

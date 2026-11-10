@@ -1,0 +1,37 @@
+[
+  {
+    "world": 1,
+    "patterns": 16,
+    "morphons": 44,
+    "training_questions": 42,
+    "train_seconds": 0.008
+  },
+  {
+    "world": 10,
+    "patterns": 16,
+    "morphons": 44,
+    "training_questions": 420,
+    "train_seconds": 0.07
+  },
+  {
+    "world": 50,
+    "patterns": 16,
+    "morphons": 44,
+    "training_questions": 2100,
+    "train_seconds": 0.35
+  },
+  {
+    "world": 100,
+    "patterns": 16,
+    "morphons": 44,
+    "training_questions": 4200,
+    "train_seconds": 0.695
+  },
+  {
+    "world": 240,
+    "patterns": 16,
+    "morphons": 44,
+    "training_questions": 10080,
+    "train_seconds": 1.681
+  }
+]

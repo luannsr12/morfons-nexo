@@ -1,0 +1,270 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Qual é meu nome?",
+      "nexo": "Ainda não sei. Você pode me contar a resposta?",
+      "reason": "self_identified_missing_fact",
+      "new_morphons": 5,
+      "fact_uid": null,
+      "goal_uid": 10218,
+      "trace": null
+    },
+    {
+      "turn": 2,
+      "user": "Íris",
+      "nexo": "Aprendi com sua resposta: Íris.",
+      "reason": "learned_from_human",
+      "new_morphons": 9,
+      "fact_uid": 10225,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 3,
+      "user": "Qual é meu nome?",
+      "nexo": "Íris",
+      "reason": "recalled_from_live_memory",
+      "new_morphons": 2,
+      "fact_uid": 10225,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 4,
+      "user": "Meu nome é Selma.",
+      "nexo": "Registrei essa informação.",
+      "reason": "observed_relational_fact",
+      "new_morphons": 8,
+      "fact_uid": 10236,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 5,
+      "user": "Qual é meu nome?",
+      "nexo": "Selma",
+      "reason": "recalled_from_live_memory",
+      "new_morphons": 2,
+      "fact_uid": 10236,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 6,
+      "user": "Onde eu moro?",
+      "nexo": "Ainda não sei. Você pode me contar a resposta?",
+      "reason": "self_identified_missing_fact",
+      "new_morphons": 5,
+      "fact_uid": null,
+      "goal_uid": 10244,
+      "trace": null
+    },
+    {
+      "turn": 7,
+      "user": "Moro em Recife",
+      "nexo": "Aprendi uma observação parcial e atualizei a relação.",
+      "reason": "learned_from_partial_observation",
+      "new_morphons": 11,
+      "fact_uid": 10253,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 8,
+      "user": "Onde eu moro?",
+      "nexo": "Recife",
+      "reason": "recalled_from_live_memory",
+      "new_morphons": 2,
+      "fact_uid": 10253,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 9,
+      "user": "Minha hipótese é que as interpretações mudam com a experiência.",
+      "nexo": "Registrei essa informação.",
+      "reason": "observed_relational_fact",
+      "new_morphons": 10,
+      "fact_uid": 10266,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 10,
+      "user": "Qual é minha hipótese?",
+      "nexo": "que as interpretações mudam com a experiência",
+      "reason": "recalled_from_live_memory",
+      "new_morphons": 3,
+      "fact_uid": 10266,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 11,
+      "user": "Se a memória muda, então a interpretação pode mudar.",
+      "nexo": "Registrei essa premissa.",
+      "reason": "stored_implication",
+      "new_morphons": 10,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 12,
+      "user": "Considere que a memória muda.",
+      "nexo": "Registrei essa premissa.",
+      "reason": "stored_observation",
+      "new_morphons": 4,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 13,
+      "user": "O que se conclui?",
+      "nexo": "Uma consequência dessas premissas é que a interpretação pode mudar.",
+      "reason": "learned_inference",
+      "new_morphons": 5,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": {
+        "rule_morphon": 7673,
+        "parent_morphons": [
+          10281,
+          10285
+        ],
+        "conclusion": "a interpretação pode mudar",
+        "premise": "se a memória muda então a interpretação pode mudar; a memória muda",
+        "hypothesis": false,
+        "proof_sources": [
+          "se a memória muda então a interpretação pode mudar",
+          "a memória muda"
+        ],
+        "ray_support": 3
+      }
+    },
+    {
+      "turn": 14,
+      "user": "Por quê?",
+      "nexo": "A conclusão a interpretação pode mudar depende da relação que parte de se a memória muda então a interpretação pode mudar; a memória muda.",
+      "reason": "learned_proof_trace",
+      "new_morphons": 3,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": {
+        "rule_morphon": 7673,
+        "parent_morphons": [
+          10281,
+          10285
+        ],
+        "conclusion": "a interpretação pode mudar",
+        "premise": "se a memória muda então a interpretação pode mudar; a memória muda",
+        "hypothesis": false,
+        "proof_sources": [
+          "se a memória muda então a interpretação pode mudar",
+          "a memória muda"
+        ],
+        "ray_support": 3
+      }
+    },
+    {
+      "turn": 15,
+      "user": "Isso permite concluir que toda interpretação é verdadeira?",
+      "nexo": "Ainda não disponho de uma relação que permita concluir toda interpretação é verdadeira.",
+      "reason": "unknown",
+      "new_morphons": 5,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 16,
+      "user": "O símbolo recém-descoberto representa uma estrutura desconhecida.",
+      "nexo": "Observei isso. Ainda não sei como relacionar essa frase a outras experiências.",
+      "reason": "unparsed_observation",
+      "new_morphons": 10,
+      "fact_uid": null,
+      "goal_uid": null,
+      "trace": null
+    },
+    {
+      "turn": 17,
+      "user": "O que esse símbolo representa?",
+      "nexo": "Não conheço essa construção ainda. Você pode me ensinar a resposta?",
+      "reason": "self_identified_unparsed_question",
+      "new_morphons": 7,
+      "fact_uid": null,
+      "goal_uid": 10314,
+      "trace": null
+    }
+  ],
+  "introspection": {
+    "session": "conversa_demonstracao",
+    "turns": 17,
+    "facts_current": 3,
+    "stored_schemas": 11,
+    "learned_paraphrases": 0,
+    "unresolved_questions": [
+      {
+        "uid": 10314,
+        "question": "O que esse símbolo representa?",
+        "schema": null
+      }
+    ],
+    "recent_self_questions": [
+      {
+        "id": 10316,
+        "source": "observed_gap",
+        "question_or_observation": "O que esse símbolo representa?",
+        "closed": false
+      },
+      {
+        "id": 10309,
+        "source": "unexplained_observation",
+        "question_or_observation": "O símbolo recém-descoberto representa uma estrutura desconhecida.",
+        "closed": false
+      },
+      {
+        "id": 10246,
+        "source": "observed_gap",
+        "question_or_observation": "Onde eu moro?",
+        "closed": true
+      },
+      {
+        "id": 10220,
+        "source": "observed_gap",
+        "question_or_observation": "Qual é meu nome?",
+        "closed": true
+      }
+    ],
+    "recent_facts": [
+      {
+        "id": 10266,
+        "value": "que as interpretações mudam com a experiência",
+        "evidence": 1,
+        "schema": 10205,
+        "key": []
+      },
+      {
+        "id": 10253,
+        "value": "Recife",
+        "evidence": 1,
+        "schema": 10211,
+        "key": [
+          "moro"
+        ]
+      },
+      {
+        "id": 10236,
+        "value": "Selma",
+        "evidence": 1,
+        "schema": 10208,
+        "key": []
+      }
+    ],
+    "morphons": 10317,
+    "last_reason": "self_identified_unparsed_question",
+    "self_question_morphons": 4
+  }
+}

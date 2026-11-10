@@ -1,0 +1,4455 @@
+{
+  "cubic": [
+    {
+      "seed": 0,
+      "ntrain_per_action": 24,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "ntrain_per_action": 24,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "ntrain_per_action": 24,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "ntrain_per_action": 24,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "ntrain_per_action": 30,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "ntrain_per_action": 30,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "ntrain_per_action": 30,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "ntrain_per_action": 30,
+      "degree": 2,
+      "correct": 0,
+      "answered": 0,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "contradiction"
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "ntrain_per_action": 24,
+      "degree": 3,
+      "correct": 3,
+      "answered": 3,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "ntrain_per_action": 24,
+      "degree": 3,
+      "correct": 3,
+      "answered": 3,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "ntrain_per_action": 24,
+      "degree": 3,
+      "correct": 1,
+      "answered": 1,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "ntrain_per_action": 24,
+      "degree": 3,
+      "correct": 3,
+      "answered": 3,
+      "holdout": 16,
+      "results": [
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": null,
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": false,
+          "reason": "unidentified"
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "ntrain_per_action": 30,
+      "degree": 3,
+      "correct": 4,
+      "answered": 4,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "ntrain_per_action": 30,
+      "degree": 3,
+      "correct": 4,
+      "answered": 4,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "expected": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "ntrain_per_action": 30,
+      "degree": 3,
+      "correct": 4,
+      "answered": 4,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "ntrain_per_action": 30,
+      "degree": 3,
+      "correct": 4,
+      "answered": 4,
+      "holdout": 4,
+      "results": [
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "action": 0,
+          "prediction": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expected": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "expected": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "correct": true,
+          "reason": "ok"
+        },
+        {
+          "state": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "action": 1,
+          "prediction": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "correct": true,
+          "reason": "ok"
+        }
+      ]
+    }
+  ],
+  "noise": [
+    {
+      "world": "toggle_cond",
+      "seed": 0,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 1,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "toggle_cond",
+      "seed": 2,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "context",
+      "seed": 0,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "context",
+      "seed": 1,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "context",
+      "seed": 2,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "parity",
+      "seed": 0,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "parity",
+      "seed": 1,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "parity",
+      "seed": 2,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "asym",
+      "seed": 0,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "asym",
+      "seed": 1,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "asym",
+      "seed": 2,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "history",
+      "seed": 0,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "history",
+      "seed": 1,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    },
+    {
+      "world": "history",
+      "seed": 2,
+      "corruptions_per_channel": 3,
+      "total_bit_corruptions": 30,
+      "correct": 64,
+      "answered": 64,
+      "holdout": 64,
+      "corrections": [
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        },
+        {
+          "degree": 2,
+          "distance": 3,
+          "corrected": 3
+        }
+      ]
+    }
+  ],
+  "hidden_context": {
+    "conflicting_same_input": true,
+    "reason": "contradiction",
+    "episodes_saved": 2
+  },
+  "distance": {
+    "n": 32,
+    "k": 16,
+    "minimum_distance": 8,
+    "correctable": 3
+  },
+  "four_flips": {
+    "identified": false,
+    "distance": 4,
+    "ties": 8,
+    "capacity": 3
+  },
+  "runtime": 3.908358321000037
+}

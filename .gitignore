@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+Thumbs.db
+reproducibility/local_test_run.json
+reproducibility/local_test_run.log

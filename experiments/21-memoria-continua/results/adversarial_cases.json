@@ -1,0 +1,1040 @@
+[
+  {
+    "case": "delayed_location",
+    "expected": "Regio39",
+    "actual": "Regio39",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume39",
+    "actual": "volume39",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio38",
+    "actual": "Regio38",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume38",
+    "actual": "volume38",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio37",
+    "actual": "Regio37",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume37",
+    "actual": "volume37",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio36",
+    "actual": "Regio36",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume36",
+    "actual": "volume36",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio35",
+    "actual": "Regio35",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume35",
+    "actual": "volume35",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio34",
+    "actual": "Regio34",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume34",
+    "actual": "volume34",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio33",
+    "actual": "Regio33",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume33",
+    "actual": "volume33",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio32",
+    "actual": "Regio32",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume32",
+    "actual": "volume32",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio31",
+    "actual": "Regio31",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume31",
+    "actual": "volume31",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio30",
+    "actual": "Regio30",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume30",
+    "actual": "volume30",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio29",
+    "actual": "Regio29",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume29",
+    "actual": "volume29",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio28",
+    "actual": "Regio28",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume28",
+    "actual": "volume28",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio27",
+    "actual": "Regio27",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume27",
+    "actual": "volume27",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio26",
+    "actual": "Regio26",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume26",
+    "actual": "volume26",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio25",
+    "actual": "Regio25",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume25",
+    "actual": "volume25",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio24",
+    "actual": "Regio24",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume24",
+    "actual": "volume24",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio23",
+    "actual": "Regio23",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume23",
+    "actual": "volume23",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio22",
+    "actual": "Regio22",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume22",
+    "actual": "volume22",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio21",
+    "actual": "Regio21",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume21",
+    "actual": "volume21",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio20",
+    "actual": "Regio20",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume20",
+    "actual": "volume20",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio19",
+    "actual": "Regio19",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume19",
+    "actual": "volume19",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio18",
+    "actual": "Regio18",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume18",
+    "actual": "volume18",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio17",
+    "actual": "Regio17",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume17",
+    "actual": "volume17",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio16",
+    "actual": "Regio16",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume16",
+    "actual": "volume16",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio15",
+    "actual": "Regio15",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume15",
+    "actual": "volume15",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio14",
+    "actual": "Regio14",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume14",
+    "actual": "volume14",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio13",
+    "actual": "Regio13",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume13",
+    "actual": "volume13",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio12",
+    "actual": "Regio12",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume12",
+    "actual": "volume12",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio11",
+    "actual": "Regio11",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume11",
+    "actual": "volume11",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio10",
+    "actual": "Regio10",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume10",
+    "actual": "volume10",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio9",
+    "actual": "Regio9",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume9",
+    "actual": "volume9",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio8",
+    "actual": "Regio8",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume8",
+    "actual": "volume8",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio7",
+    "actual": "Regio7",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume7",
+    "actual": "volume7",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio6",
+    "actual": "Regio6",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume6",
+    "actual": "volume6",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio5",
+    "actual": "Regio5",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume5",
+    "actual": "volume5",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio4",
+    "actual": "Regio4",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume4",
+    "actual": "volume4",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio3",
+    "actual": "Regio3",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume3",
+    "actual": "volume3",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio2",
+    "actual": "Regio2",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume2",
+    "actual": "volume2",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio1",
+    "actual": "Regio1",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume1",
+    "actual": "volume1",
+    "ok": true
+  },
+  {
+    "case": "delayed_location",
+    "expected": "Regio0",
+    "actual": "Regio0",
+    "ok": true
+  },
+  {
+    "case": "delayed_possession",
+    "expected": "volume0",
+    "actual": "volume0",
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim0",
+    "actual": "Salim0",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim1",
+    "actual": "Salim1",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim2",
+    "actual": "Salim2",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim3",
+    "actual": "Salim3",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim4",
+    "actual": "Salim4",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim5",
+    "actual": "Salim5",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim6",
+    "actual": "Salim6",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim7",
+    "actual": "Salim7",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim8",
+    "actual": "Salim8",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim9",
+    "actual": "Salim9",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim10",
+    "actual": "Salim10",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim11",
+    "actual": "Salim11",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim12",
+    "actual": "Salim12",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim13",
+    "actual": "Salim13",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim14",
+    "actual": "Salim14",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim15",
+    "actual": "Salim15",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim16",
+    "actual": "Salim16",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim17",
+    "actual": "Salim17",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim18",
+    "actual": "Salim18",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim19",
+    "actual": "Salim19",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim20",
+    "actual": "Salim20",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim21",
+    "actual": "Salim21",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim22",
+    "actual": "Salim22",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim23",
+    "actual": "Salim23",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "revision_latest",
+    "expected": "Salim24",
+    "actual": "Salim24",
+    "ok": true
+  },
+  {
+    "case": "revision_old_not_true",
+    "expected": false,
+    "actual": false,
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte0",
+    "actual": "Fonte0",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte1",
+    "actual": "Fonte1",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte2",
+    "actual": "Fonte2",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte3",
+    "actual": "Fonte3",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte4",
+    "actual": "Fonte4",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte5",
+    "actual": "Fonte5",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte6",
+    "actual": "Fonte6",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte7",
+    "actual": "Fonte7",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte8",
+    "actual": "Fonte8",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte9",
+    "actual": "Fonte9",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte10",
+    "actual": "Fonte10",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte11",
+    "actual": "Fonte11",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte12",
+    "actual": "Fonte12",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte13",
+    "actual": "Fonte13",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte14",
+    "actual": "Fonte14",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte15",
+    "actual": "Fonte15",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte16",
+    "actual": "Fonte16",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte17",
+    "actual": "Fonte17",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte18",
+    "actual": "Fonte18",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte19",
+    "actual": "Fonte19",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte20",
+    "actual": "Fonte20",
+    "ok": true
+  },
+  {
+    "case": "episodic_recall",
+    "expected": "Fonte21",
+    "actual": "Fonte21",
+    "ok": true
+  },
+  {
+    "case": "old_binary_arithmetic",
+    "expected": true,
+    "actual": true,
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  },
+  {
+    "case": "new_philosophical_inference",
+    "expected": "yes",
+    "actual": "yes",
+    "ok": true
+  }
+]

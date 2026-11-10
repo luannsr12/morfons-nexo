@@ -1,0 +1,3 @@
+total 173 / 173
+bycase {'delayed_location': {'n': 40, 'ok': 40}, 'delayed_possession': {'n': 40, 'ok': 40}, 'episodic_recall': {'n': 22, 'ok': 22}, 'new_philosophical_inference': {'n': 20, 'ok': 20}, 'old_binary_arithmetic': {'n': 1, 'ok': 1}, 'revision_latest': {'n': 25, 'ok': 25}, 'revision_old_not_true': {'n': 25, 'ok': 25}}
+unknown [('Por que as minhas escolhas mudam conforme meu passado?', 'self_identified_unparsed_question'), ('O que torna uma crença justificada?', 'self_identified_unparsed_question'), ('Você acha que o contexto cria significado?', 'unknown'), ('Se existem duas interpretações, como decidir entre elas?', 'self_identified_unparsed_question'), ('O que você pensa sobre a origem da consciência?', 'self_identified_unparsed_question')]

@@ -1,0 +1,12 @@
+formed: 11 schemas: 11 nodes: 10215
+10204 ['{key0}', 'prefere', '{value}'] -->  ['o', 'que', '{key0}', 'prefere'] evidence 18
+10205 ['minha', 'hipotese', 'e', '{value}'] -->  ['qual', 'e', 'minha', 'hipotese'] evidence 18
+10206 ['o', 'objeto', '{key0}', 'pertence', 'a', '{value}'] -->  ['a', 'quem', 'pertence', 'o', 'objeto', '{key0}'] evidence 18
+10207 ['meu', 'projeto', 'se', 'chama', '{value}'] -->  ['como', 'se', 'chama', 'meu', 'projeto'] evidence 18
+10208 ['meu', 'nome', 'e', '{value}'] -->  ['qual', 'e', 'meu', 'nome'] evidence 18
+10209 ['{key0}', 'mora', 'em', '{value}'] -->  ['onde', '{key0}', 'mora'] evidence 18
+10210 ['a', 'cor', 'de', '{key0}', 'e', '{value}'] -->  ['qual', 'e', 'a', 'cor', 'de', '{key0}'] evidence 18
+10211 ['eu', '{key0}', 'em', '{value}'] -->  ['onde', 'eu', '{key0}'] evidence 36
+10212 ['eu', 'estou', 'estudando', '{value}'] -->  ['o', 'que', 'estou', 'estudando'] evidence 18
+10213 ['{key0}', 'guarda', '{value}'] -->  ['o', 'que', '{key0}', 'guarda'] evidence 18
+10214 ['o', 'livro', '{key0}', 'fica', 'em', '{value}'] -->  ['onde', 'fica', 'o', 'livro', '{key0}'] evidence 18

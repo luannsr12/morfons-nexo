@@ -1,0 +1,28 @@
+{
+  "training_examples": 216,
+  "learned_schemas_before_interaction": 11,
+  "new_schemas": 5,
+  "holdout_queries": 384,
+  "holdout_correct": 384,
+  "online_novel_queries": 6,
+  "online_novel_correct": 6,
+  "initial_morphons": 10216,
+  "after_morphons": 15082,
+  "restored_name": "Valeria",
+  "last_response": "recalled_from_live_memory",
+  "turns_before_restart": 844,
+  "turns_after_restart": 845,
+  "persisted_self_questions": 33,
+  "elapsed_seconds": 2.574
+}
+logic:
+Minha hipótese é que a revisão de uma hipótese requer novas evidências. => Registrei essa informação. ( observed_relational_fact )
+Qual é minha hipótese? => que a revisão de uma hipótese requer novas evidências ( recalled_from_live_memory )
+Se meu nome é Rubia, então a pessoa se identifica como Rubia. => Registrei essa premissa. ( stored_implication )
+Meu nome é Rubia. => Registrei essa informação. ( observed_relational_fact )
+O que se conclui? => Uma consequência dessas premissas é que a pessoa se identifica como Rubia. ( learned_inference )
+Por quê? => A conclusão a pessoa se identifica como Rubia depende da relação que parte de se meu nome é Rubia então a pessoa se identifica como Rubia; meu nome é Rubia. ( learned_proof_trace )
+Meu nome é Valeria. => Registrei essa informação. ( observed_relational_fact )
+Isso permite concluir que meu nome é Rubia? => Ainda não disponho de uma relação que permita concluir meu nome é Rubia. ( unknown )
+Qual é meu nome? => Valeria ( recalled_from_live_memory )
+Isso permite concluir que meu nome é Valeria? => Sim. As relações disponíveis sustentam que meu nome é Valeria. ( yes )

@@ -1,0 +1,19 @@
+test_completed_and_all_propagation_distinct (test_integracao.TestsIntegrated.test_completed_and_all_propagation_distinct) ... ok
+test_controller_evaluations_use_same_memory (test_integracao.TestsIntegrated.test_controller_evaluations_use_same_memory) ... ok
+test_controller_only_past_evidence (test_integracao.TestsIntegrated.test_controller_only_past_evidence) ... ok
+test_geometry_3d_4d (test_integracao.TestsIntegrated.test_geometry_3d_4d) ... ok
+test_global_evidence_resides_in_ledger_morphon (test_integracao.TestsIntegrated.test_global_evidence_resides_in_ledger_morphon) ... ok
+test_local_index_ignores_distant_nodes (test_integracao.TestsIntegrated.test_local_index_ignores_distant_nodes) ... ok
+test_negated_sensor_is_observed_zero (test_integracao.TestsIntegrated.test_negated_sensor_is_observed_zero) ... ok
+test_nested_reconstructs_parents (test_integracao.TestsIntegrated.test_nested_reconstructs_parents) ... ok
+test_no_credit_on_birth (test_integracao.TestsIntegrated.test_no_credit_on_birth) ... ok
+test_one_ray_activates_without_completion (test_integracao.TestsIntegrated.test_one_ray_activates_without_completion) ... ok
+test_snapshot_restore_exact_predict (test_integracao.TestsIntegrated.test_snapshot_restore_exact_predict) ... ok
+test_split_preserves_nested_certification (test_integracao.TestsIntegrated.test_split_preserves_nested_certification) ... ok
+test_training_resume_with_pruning_same_memory (test_integracao.TestsIntegrated.test_training_resume_with_pruning_same_memory) ... ok
+test_zero_and_one_tokens_differ (test_integracao.TestsIntegrated.test_zero_and_one_tokens_differ) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.337s
+
+OK

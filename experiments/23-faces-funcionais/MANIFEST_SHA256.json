@@ -1,0 +1,147 @@
+{
+  "experiment": "NEXO Exp23 causal morphon faces and algebraic marks",
+  "generated_at": "2026-11-09",
+  "source_core_sha256": "842fffcbe268be3b7fc4bd311098c4dbb1b58a52e0291d7359f80434d6c70669",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1492,
+      "sha256": "a50c3864e6ed173ca176466d9ab734b82d08e9c2b99eeeaf6d6ba84ad33eaa7f"
+    },
+    {
+      "path": "RELATORIO_CIENTIFICO.md",
+      "bytes": 16634,
+      "sha256": "acb453928a4800b36df0e735929609e2968f444657a321d40ad6d1df8e3ecdd7"
+    },
+    {
+      "path": "figures/01_generalizacao.png",
+      "bytes": 75398,
+      "sha256": "26bdd694c15b082bea4bdbda3b1f275d541a5fe41f11ce55cb618921ff005b07"
+    },
+    {
+      "path": "figures/02_acoes.png",
+      "bytes": 75934,
+      "sha256": "7740e952c5ee9be0793a02e1ab85efc02994a00301f9de804bf19c0994897890"
+    },
+    {
+      "path": "figures/03_selecao_experiencias.png",
+      "bytes": 53300,
+      "sha256": "166e649d9205054cc6d414ec6eabe7da89f0098d3d2c6d3db4a577deac284960"
+    },
+    {
+      "path": "originals/morfon_exp21_original.py",
+      "bytes": 27791,
+      "sha256": "842fffcbe268be3b7fc4bd311098c4dbb1b58a52e0291d7359f80434d6c70669"
+    },
+    {
+      "path": "results/active_design.json",
+      "bytes": 16459,
+      "sha256": "4aa0ff6e743dbe81305e6f341415578b403bb5d30e9bf9fff88e60724f84efee"
+    },
+    {
+      "path": "results/adversarial.json",
+      "bytes": 79388,
+      "sha256": "53b29c1c2e5ed1e4a2b889c2c9cb5bf3a7b3998359820343f9952683875c9cff"
+    },
+    {
+      "path": "results/causal_ablations.json",
+      "bytes": 4536,
+      "sha256": "99477c013a5f335c159ac9673467f34e911386f6006e2bb56a0d74b26d1e3c28"
+    },
+    {
+      "path": "results/confirmatory.json",
+      "bytes": 5268929,
+      "sha256": "211145a876fdbd4706d1a226c877baab42086721a68d097f34fb81b66482059a"
+    },
+    {
+      "path": "results/confirmatory.log",
+      "bytes": 9253,
+      "sha256": "bfaf97392b12466b51360ccb2521165e6cb07d6a5fb6cf021cb8ae5ebc80c585"
+    },
+    {
+      "path": "results/evaluation.json",
+      "bytes": 381920,
+      "sha256": "dd1208a60a5eb8e6d449c7b3f4a0b982e41970a25512de4ef6ce0276e8817a1c"
+    },
+    {
+      "path": "results/initial_spectral.log",
+      "bytes": 1847,
+      "sha256": "fb7bc2e1d7c676d31112320ad9dac7f32eec84f0d102c2eff6866056ef8528eb"
+    },
+    {
+      "path": "results/initial_tree.log",
+      "bytes": 2039,
+      "sha256": "8cbe29e184efb594bd7563c480199d4bd361675c214966f3157f558846639cfb"
+    },
+    {
+      "path": "results/negative_controls.json",
+      "bytes": 3055,
+      "sha256": "9c2cbcfba409cbcda39214c66a182dbe4d6a52e99db1efb258610408d0ffc0b4"
+    },
+    {
+      "path": "results/spectral_eval.json",
+      "bytes": 315157,
+      "sha256": "7ab348f30c575ab5bb5c3e18361b26e2c2461d3578371840592b98748ddbaa3d"
+    },
+    {
+      "path": "results/tests.log",
+      "bytes": 1466,
+      "sha256": "f599c5a0d664534aebecdbaaa618ddc93f113e66d6446b88b34f9389785033e8"
+    },
+    {
+      "path": "src/active_design.py",
+      "bytes": 2496,
+      "sha256": "0d77351085b0fb9f6bfdbb2b85969fdfb8f78571867955b464b4401b5981f233"
+    },
+    {
+      "path": "src/adversarial.py",
+      "bytes": 5806,
+      "sha256": "92b7215c2bfbd9481abd80f0f5a807b197c63dcd92665048f90c0071f1cfb41f"
+    },
+    {
+      "path": "src/causal_ablations.py",
+      "bytes": 2554,
+      "sha256": "8dcc5abcd10267ce3edde5189e991170f8af3076e798d60d552e3f53914d4d81"
+    },
+    {
+      "path": "src/confirmatory.py",
+      "bytes": 2161,
+      "sha256": "921f03053c3b2503b17d7b0ef708d4d6f31f1f31a05830a40af1b5d3279678aa"
+    },
+    {
+      "path": "src/evaluate.py",
+      "bytes": 6427,
+      "sha256": "cc5345f40b408d4f34dbf67c0e6f5927779ee6528ef30a4aa872a71d6daad92f"
+    },
+    {
+      "path": "src/evaluate_spectral.py",
+      "bytes": 4312,
+      "sha256": "a892eda92c723a0bf361ec1ddd65e1dd4b864682842fb90a57043e1d93b8db50"
+    },
+    {
+      "path": "src/facets.py",
+      "bytes": 11469,
+      "sha256": "ec35f5bd8d6bb97e7165c2f01c4e02f7d785c2744d5a808c7dfa26c3e9879c61"
+    },
+    {
+      "path": "src/negative_controls.py",
+      "bytes": 1640,
+      "sha256": "d67958684ac12ad88bee49c79ffec554111aab17669751e4c568cdc38f098d50"
+    },
+    {
+      "path": "src/spectral_faces.py",
+      "bytes": 11753,
+      "sha256": "3c86f8af8d3b36627e6f6a81b92b32951453d50e956db9271934b2207e1dfad6"
+    },
+    {
+      "path": "tests/test_faces.py",
+      "bytes": 2055,
+      "sha256": "cae4424696361a4146dd3ce2fbd8b2d80de0d83daa701a366a143cf52a95e7c8"
+    },
+    {
+      "path": "tests/test_spectral.py",
+      "bytes": 2871,
+      "sha256": "cda6cd3ca8c30c10e6f0467b7f22cf64deafbef236b9fc91e942689d5306d07d"
+    }
+  ]
+}

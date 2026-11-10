@@ -1,0 +1,574 @@
+[
+  {
+    "source": 0,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 52,
+    "input": [
+      0,
+      1,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 56,
+    "input": [
+      0,
+      1,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 57,
+    "input": [
+      1,
+      0,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 0,
+    "morphon": 58,
+    "input": [
+      0,
+      0,
+      0
+    ],
+    "result": [
+      0,
+      0
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 58,
+    "input": [
+      0,
+      0,
+      0
+    ],
+    "result": [
+      0,
+      0
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 57,
+    "input": [
+      1,
+      0,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 52,
+    "input": [
+      0,
+      1,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 52,
+    "input": [
+      0,
+      1,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 1,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 56,
+    "input": [
+      0,
+      1,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 57,
+    "input": [
+      1,
+      0,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 56,
+    "input": [
+      0,
+      1,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 57,
+    "input": [
+      1,
+      0,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 2,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 56,
+    "input": [
+      0,
+      1,
+      0
+    ],
+    "result": [
+      1,
+      0
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 58,
+    "input": [
+      0,
+      0,
+      0
+    ],
+    "result": [
+      0,
+      0
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 48,
+    "input": [
+      1,
+      1,
+      0
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 52,
+    "input": [
+      0,
+      1,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 50,
+    "input": [
+      1,
+      1,
+      1
+    ],
+    "result": [
+      1,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 52,
+    "input": [
+      0,
+      1,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 54,
+    "input": [
+      1,
+      0,
+      1
+    ],
+    "result": [
+      0,
+      1
+    ]
+  },
+  {
+    "source": 3,
+    "morphon": 55,
+    "input": [
+      0,
+      0,
+      1
+    ],
+    "result": [
+      1,
+      0
+    ]
+  }
+]

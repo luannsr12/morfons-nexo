@@ -1,0 +1,956 @@
+[
+  {
+    "type": "information",
+    "user": "Antes Zevira900422 morava em Vinala900424.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 5,
+      "relation": "zeta",
+      "context": "fase0",
+      "subject": "Zevira900422",
+      "value": "Vinala900424"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900424 pertence a Terrava900424.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 9,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900424",
+      "value": "Terrava900424"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900421 visita Vinala900425.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 13,
+      "relation": "delta",
+      "context": "fase1",
+      "subject": "Zevira900421",
+      "value": "Vinala900425"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Hoje Zevira900420 mora em Vinala900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 16,
+      "relation": "zeta",
+      "context": "fase1",
+      "subject": "Zevira900420",
+      "value": "Vinala900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Hoje Zevira900421 mora em Vinala900423.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 18,
+      "relation": "zeta",
+      "context": "fase1",
+      "subject": "Zevira900421",
+      "value": "Vinala900423"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900423 guarda Batifo900423.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 22,
+      "relation": "tango",
+      "context": "fase1",
+      "subject": "Zevira900423",
+      "value": "Batifo900423"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900422 visita Vinala900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 23,
+      "relation": "delta",
+      "context": "fase1",
+      "subject": "Zevira900422",
+      "value": "Vinala900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900428 pertence a Terrava900423.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 26,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900428",
+      "value": "Terrava900423"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900420 visita Vinala900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 27,
+      "relation": "delta",
+      "context": "fase1",
+      "subject": "Zevira900420",
+      "value": "Vinala900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Antes Zevira900420 morava em Vinala900420.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 29,
+      "relation": "zeta",
+      "context": "fase0",
+      "subject": "Zevira900420",
+      "value": "Vinala900420"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900421 pertence a Terrava900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 31,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900421",
+      "value": "Terrava900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900429 pertence a Terrava900424.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 33,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900429",
+      "value": "Terrava900424"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Antes Zevira900423 morava em Vinala900426.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 35,
+      "relation": "zeta",
+      "context": "fase0",
+      "subject": "Zevira900423",
+      "value": "Vinala900426"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900420 fica em Vinala900425.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 38,
+      "relation": "omega",
+      "context": "fase1",
+      "subject": "Batifo900420",
+      "value": "Vinala900425"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900422 guarda Batifo900422.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 40,
+      "relation": "tango",
+      "context": "fase1",
+      "subject": "Zevira900422",
+      "value": "Batifo900422"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900422 pertence a Terrava900422.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 43,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900422",
+      "value": "Terrava900422"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900423 visita Vinala900427.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 45,
+      "relation": "delta",
+      "context": "fase1",
+      "subject": "Zevira900423",
+      "value": "Vinala900427"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900425 pertence a Terrava900420.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 47,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900425",
+      "value": "Terrava900420"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Antes Zevira900421 morava em Vinala900422.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 48,
+      "relation": "zeta",
+      "context": "fase0",
+      "subject": "Zevira900421",
+      "value": "Vinala900422"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900420 guarda Batifo900420.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 49,
+      "relation": "tango",
+      "context": "fase1",
+      "subject": "Zevira900420",
+      "value": "Batifo900420"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900423 fica em Vinala900428.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 50,
+      "relation": "omega",
+      "context": "fase1",
+      "subject": "Batifo900423",
+      "value": "Vinala900428"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Hoje Zevira900423 mora em Vinala900427.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 51,
+      "relation": "zeta",
+      "context": "fase1",
+      "subject": "Zevira900423",
+      "value": "Vinala900427"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900426 pertence a Terrava900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 52,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900426",
+      "value": "Terrava900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900427 pertence a Terrava900422.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 53,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900427",
+      "value": "Terrava900422"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900423 veio de Vinala900428.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 55,
+      "relation": "eta",
+      "context": "fase1",
+      "subject": "Batifo900423",
+      "value": "Vinala900428"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Zevira900421 guarda Batifo900421.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 57,
+      "relation": "tango",
+      "context": "fase1",
+      "subject": "Zevira900421",
+      "value": "Batifo900421"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900423 pertence a Terrava900423.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 58,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900423",
+      "value": "Terrava900423"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900422 veio de Vinala900423.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 59,
+      "relation": "eta",
+      "context": "fase1",
+      "subject": "Batifo900422",
+      "value": "Vinala900423"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Vinala900420 pertence a Terrava900420.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 60,
+      "relation": "sigma",
+      "context": "fase1",
+      "subject": "Vinala900420",
+      "value": "Terrava900420"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900421 fica em Vinala900426.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 61,
+      "relation": "omega",
+      "context": "fase1",
+      "subject": "Batifo900421",
+      "value": "Vinala900426"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900421 veio de Vinala900425.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 62,
+      "relation": "eta",
+      "context": "fase1",
+      "subject": "Batifo900421",
+      "value": "Vinala900425"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900422 fica em Vinala900427.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 63,
+      "relation": "omega",
+      "context": "fase1",
+      "subject": "Batifo900422",
+      "value": "Vinala900427"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Hoje Zevira900422 mora em Vinala900425.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 64,
+      "relation": "zeta",
+      "context": "fase1",
+      "subject": "Zevira900422",
+      "value": "Vinala900425"
+    }
+  },
+  {
+    "type": "information",
+    "user": "Batifo900420 veio de Vinala900425.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 65,
+      "relation": "eta",
+      "context": "fase1",
+      "subject": "Batifo900420",
+      "value": "Vinala900425"
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde está a coisa guardada por Zevira900420?",
+    "nexo": "A coisa guardada por Zevira900420 está em Vinala900425.",
+    "expected": "A coisa guardada por Zevira900420 está em Vinala900425",
+    "process": {
+      "answer": "A coisa guardada por Zevira900420 está em Vinala900425.",
+      "reason": "grounded_path",
+      "hops": 2,
+      "rays": 6,
+      "path": [
+        [
+          "tango",
+          "fase1",
+          1
+        ],
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        49,
+        38
+      ],
+      "template_node": 26
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde morava Zevira900421?",
+    "nexo": "Zevira900421 morava em Vinala900422.",
+    "expected": "Zevira900421 morava em Vinala900422",
+    "process": {
+      "answer": "Zevira900421 morava em Vinala900422.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "zeta",
+          "fase0",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        48
+      ],
+      "template_node": 21
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde fica Batifo900422?",
+    "nexo": "Batifo900422 fica em Vinala900427.",
+    "expected": "Batifo900422 fica em Vinala900427",
+    "process": {
+      "answer": "Batifo900422 fica em Vinala900427.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        63
+      ],
+      "template_node": 30
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde está a coisa guardada por Zevira900423?",
+    "nexo": "A coisa guardada por Zevira900423 está em Vinala900428.",
+    "expected": "A coisa guardada por Zevira900423 está em Vinala900428",
+    "process": {
+      "answer": "A coisa guardada por Zevira900423 está em Vinala900428.",
+      "reason": "grounded_path",
+      "hops": 2,
+      "rays": 6,
+      "path": [
+        [
+          "tango",
+          "fase1",
+          1
+        ],
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        22,
+        50
+      ],
+      "template_node": 26
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde está a coisa guardada por Zevira900422?",
+    "nexo": "A coisa guardada por Zevira900422 está em Vinala900427.",
+    "expected": "A coisa guardada por Zevira900422 está em Vinala900427",
+    "process": {
+      "answer": "A coisa guardada por Zevira900422 está em Vinala900427.",
+      "reason": "grounded_path",
+      "hops": 2,
+      "rays": 6,
+      "path": [
+        [
+          "tango",
+          "fase1",
+          1
+        ],
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        40,
+        63
+      ],
+      "template_node": 26
+    }
+  },
+  {
+    "type": "question",
+    "user": "O que Zevira900423 guarda?",
+    "nexo": "Zevira900423 guarda Batifo900423.",
+    "expected": "Zevira900423 guarda Batifo900423",
+    "process": {
+      "answer": "Zevira900423 guarda Batifo900423.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "tango",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        22
+      ],
+      "template_node": 32
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde mora Zevira900420?",
+    "nexo": "Zevira900420 mora em Vinala900421.",
+    "expected": "Zevira900420 mora em Vinala900421",
+    "process": {
+      "answer": "Zevira900420 mora em Vinala900421.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "zeta",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        16
+      ],
+      "template_node": 33
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde fica o objeto que Zevira900420 guarda?",
+    "nexo": "O objeto que Zevira900420 guarda fica em Vinala900425.",
+    "expected": "O objeto que Zevira900420 guarda fica em Vinala900425",
+    "process": {
+      "answer": "O objeto que Zevira900420 guarda fica em Vinala900425.",
+      "reason": "grounded_path",
+      "hops": 2,
+      "rays": 6,
+      "path": [
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [
+        {
+          "reference_morphon": 37,
+          "route": [
+            [
+              "tango",
+              "fase1",
+              1
+            ]
+          ],
+          "rays": 3,
+          "port_ids": [
+            49
+          ]
+        }
+      ],
+      "nodes": [
+        38
+      ],
+      "template_node": 30
+    }
+  },
+  {
+    "type": "question",
+    "user": "Em que região fica o lugar onde fica o objeto que Zevira900420 guarda?",
+    "nexo": "O lugar onde fica o objeto que Zevira900420 guarda fica na região Terrava900420.",
+    "expected": "O lugar onde fica o objeto que Zevira900420 guarda fica na região Terrava900420",
+    "process": {
+      "answer": "O lugar onde fica o objeto que Zevira900420 guarda fica na região Terrava900420.",
+      "reason": "grounded_path",
+      "hops": 3,
+      "rays": 9,
+      "path": [
+        [
+          "sigma",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [
+        {
+          "reference_morphon": 37,
+          "route": [
+            [
+              "tango",
+              "fase1",
+              1
+            ]
+          ],
+          "rays": 3,
+          "port_ids": [
+            49
+          ]
+        },
+        {
+          "reference_morphon": 39,
+          "route": [
+            [
+              "omega",
+              "fase1",
+              1
+            ]
+          ],
+          "rays": 3,
+          "port_ids": [
+            38
+          ]
+        }
+      ],
+      "nodes": [
+        47
+      ],
+      "template_node": 29
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde fica o objeto que Zevira900421 guarda?",
+    "nexo": "O objeto que Zevira900421 guarda fica em Vinala900426.",
+    "expected": "O objeto que Zevira900421 guarda fica em Vinala900426",
+    "process": {
+      "answer": "O objeto que Zevira900421 guarda fica em Vinala900426.",
+      "reason": "grounded_path",
+      "hops": 2,
+      "rays": 6,
+      "path": [
+        [
+          "omega",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [
+        {
+          "reference_morphon": 37,
+          "route": [
+            [
+              "tango",
+              "fase1",
+              1
+            ]
+          ],
+          "rays": 3,
+          "port_ids": [
+            57
+          ]
+        }
+      ],
+      "nodes": [
+        61
+      ],
+      "template_node": 30
+    }
+  },
+  {
+    "type": "question",
+    "user": "E antes?",
+    "nexo": "Zevira900420 morava em Vinala900420.",
+    "expected": "Zevira900420 morava em Vinala900420",
+    "process": {
+      "answer": "Zevira900420 morava em Vinala900420.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "zeta",
+          "fase0",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        29
+      ],
+      "template_node": 41
+    }
+  },
+  {
+    "type": "question",
+    "user": "E agora?",
+    "nexo": "Zevira900420 mora em Vinala900421.",
+    "expected": "Zevira900420 mora em Vinala900421",
+    "process": {
+      "answer": "Zevira900420 mora em Vinala900421.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "zeta",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        16
+      ],
+      "template_node": 43
+    }
+  },
+  {
+    "type": "correction",
+    "user": "Hoje Zevira900422 mora em CidadeNova90042.",
+    "nexo": null,
+    "process": {
+      "kind": "observed",
+      "node": 67,
+      "relation": "zeta",
+      "context": "fase1",
+      "subject": "Zevira900422",
+      "value": "CidadeNova90042"
+    }
+  },
+  {
+    "type": "question",
+    "user": "Onde mora Zevira900422?",
+    "nexo": "Zevira900422 mora em CidadeNova90042.",
+    "expected": "Zevira900422 mora em CidadeNova90042.",
+    "process": {
+      "answer": "Zevira900422 mora em CidadeNova90042.",
+      "reason": "grounded_path",
+      "hops": 1,
+      "rays": 3,
+      "path": [
+        [
+          "zeta",
+          "fase1",
+          1
+        ]
+      ],
+      "reference_trace": [],
+      "nodes": [
+        67
+      ],
+      "template_node": 33
+    }
+  },
+  {
+    "type": "unsupported",
+    "user": "Quanto e 17 mais 26?",
+    "nexo": "O resultado é 43.",
+    "process": {
+      "answer": "O resultado é 43.",
+      "reason": "learned_binary_transduction",
+      "result": 43,
+      "rays": 24,
+      "steps": [
+        {
+          "morphon": 57,
+          "rays": 4,
+          "input": [
+            1,
+            0,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 56,
+          "rays": 4,
+          "input": [
+            0,
+            1,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 58,
+          "rays": 4,
+          "input": [
+            0,
+            0,
+            0
+          ],
+          "output": [
+            0,
+            0
+          ]
+        },
+        {
+          "morphon": 56,
+          "rays": 4,
+          "input": [
+            0,
+            1,
+            0
+          ],
+          "output": [
+            1,
+            0
+          ]
+        },
+        {
+          "morphon": 48,
+          "rays": 4,
+          "input": [
+            1,
+            1,
+            0
+          ],
+          "output": [
+            0,
+            1
+          ]
+        },
+        {
+          "morphon": 55,
+          "rays": 4,
+          "input": [
+            0,
+            0,
+            1
+          ],
+          "output": [
+            1,
+            0
+          ]
+        }
+      ],
+      "hops": 6
+    }
+  },
+  {
+    "type": "unsupported",
+    "user": "O que aconteceu ontem com a chuva?",
+    "nexo": null,
+    "process": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    }
+  },
+  {
+    "type": "unsupported",
+    "user": "Qual o sentido da vida?",
+    "nexo": null,
+    "process": {
+      "answer": null,
+      "reason": "no_language_pattern"
+    }
+  }
+]

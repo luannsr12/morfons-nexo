@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="NEXO, memória relacional executável; rede de Mórfons conectados">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a162e"/><stop offset="1" stop-color="#152b3d"/></linearGradient>
+  <linearGradient id="light" x1="0" x2="1"><stop stop-color="#36d3c2"/><stop offset="1" stop-color="#70a7ff"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+ </defs>
+ <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
+ <g opacity=".16" stroke="#84b4c9" stroke-width="1">
+  <path d="M0 70H1200 M0 150H1200 M0 230H1200 M0 310H1200 M70 0V370 M150 0V370 M230 0V370 M310 0V370 M390 0V370 M470 0V370 M550 0V370 M630 0V370 M710 0V370 M790 0V370 M870 0V370 M950 0V370 M1030 0V370 M1110 0V370"/>
+ </g>
+ <circle cx="965" cy="162" r="140" fill="#34d3c2" opacity=".09" filter="url(#shadow)"/>
+ <g fill="none" stroke="#67b3b8" stroke-width="2.2" opacity=".70">
+  <path d="M765 240L864 128 965 185 1064 95 1125 221 965 185 1030 293 864 128 811 303 965 185"/>
+  <path d="M865 128L927 64 1064 95 1125 221" stroke="#72a5ff" stroke-dasharray="6 9" opacity=".7"/>
+ </g>
+ <g>
+  <circle cx="765" cy="240" r="24" fill="#12263b" stroke="#46d6c5" stroke-width="3"/><circle cx="765" cy="240" r="7" fill="#4edbc7"/>
+  <circle cx="864" cy="128" r="31" fill="#12263b" stroke="#6da5ff" stroke-width="3.5"/><circle cx="864" cy="128" r="11" fill="#77adff"/>
+  <circle cx="965" cy="185" r="47" fill="#112a3e" stroke="#53d5c6" stroke-width="4"/><circle cx="965" cy="185" r="26" fill="none" stroke="#53d5c6" opacity=".38" stroke-width="2"/><circle cx="965" cy="185" r="9" fill="#5ee0cf"/>
+  <circle cx="1064" cy="95" r="23" fill="#13263a" stroke="#70a7ff" stroke-width="3"/><circle cx="1064" cy="95" r="7" fill="#70a7ff"/>
+  <circle cx="1125" cy="221" r="25" fill="#13263a" stroke="#70a7ff" stroke-width="3"/><circle cx="1125" cy="221" r="7" fill="#70a7ff"/>
+  <circle cx="1030" cy="293" r="19" fill="#13263a" stroke="#53d5c6" stroke-width="3"/><circle cx="1030" cy="293" r="6" fill="#53d5c6"/>
+  <circle cx="811" cy="303" r="18" fill="#13263a" stroke="#70a7ff" stroke-width="3"/><circle cx="811" cy="303" r="6" fill="#70a7ff"/>
+  <circle cx="927" cy="64" r="13" fill="#13263a" stroke="#70a7ff" stroke-width="2.4"/>
+ </g>
+ <text x="72" y="107" fill="#5addc9" font-size="17" letter-spacing="6" font-family="Arial, sans-serif" font-weight="700">PESQUISA · ARQUITETURA COMPUTACIONAL</text>
+ <text x="70" y="233" fill="#f2f8ff" font-size="118" font-family="Arial, sans-serif" font-weight="750" letter-spacing="-5">NEXO</text>
+ <rect x="73" y="257" width="82" height="4" rx="2" fill="url(#light)"/>
+ <text x="72" y="302" fill="#bdd1e3" font-size="23" font-family="Arial, sans-serif">Memória relacional executável</text>
+ <text x="72" y="335" fill="#8ca6b9" font-size="15" font-family="Arial, sans-serif" letter-spacing="1.7">MÓRFONS    •    EXPERIÊNCIA    •    FUNÇÕES    •    INFERÊNCIA</text>
+</svg>

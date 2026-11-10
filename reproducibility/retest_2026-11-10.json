@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-10",
+  "environment": "Python system via container; Python unittest; all test suites run on original extracted files before package construction",
+  "total_tests": 115,
+  "all_passed": true,
+  "suites": [
+    {
+      "experiment": "08-aprendizagem-esferas",
+      "tests": 8,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "14-morfon-integrado",
+      "tests": 14,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "17-raciocinio-contextual",
+      "tests": 18,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "21-memoria-continua",
+      "tests": 38,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "23-faces-funcionais",
+      "tests": 13,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "24-ciclo-integrado",
+      "tests": 13,
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "experiment": "malhas-compartilhadas",
+      "tests": 11,
+      "passed": true,
+      "exit_code": 0
+    }
+  ]
+}

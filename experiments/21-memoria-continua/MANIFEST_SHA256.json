@@ -1,0 +1,183 @@
+{
+  "experiment": "21",
+  "files": {
+    "README.md": {
+      "sha256": "98037bd225d62b37a9d54e04919402469fbe429cd12f89157e6c2ce269a89bca",
+      "bytes": 3960
+    },
+    "RELATORIO_TECNICO.md": {
+      "sha256": "80c766fa5df6a0493d6ef85390ede6d0fd38c117e6484528c713aaa39a2a40f5",
+      "bytes": 10045
+    },
+    "REPRODUCAO.md": {
+      "sha256": "49137a30b06807873dbf5f87451545e15e8e812f05f8d50bf77d1dda04fb9afc",
+      "bytes": 2040
+    },
+    "figures/01_crescimento_memoria.png": {
+      "sha256": "ac5c079d482372e5f8d67ded05b5ce211cbf9d0761b6b99f6ec60625e4c0344c",
+      "bytes": 64470
+    },
+    "figures/02_parafrases_aprendidas.png": {
+      "sha256": "ea6217f08acb84d805ff9c4f3a9758dd9e9ae2d2f1b6fbf883a1285dcf46f97b",
+      "bytes": 36697
+    },
+    "historico_Exp20.zip": {
+      "sha256": "fbed36745f8c52f8f7e201e17c9675abf032ad48becca88eef4ef69d09b87fa4",
+      "bytes": 4691475
+    },
+    "results/adversarial_cases.json": {
+      "sha256": "3c7474bde8eaad88c085ca07c92dfdf9671732c218b833ff60b64ea3a5977aee",
+      "bytes": 18699
+    },
+    "results/adversarial_stdout.log": {
+      "sha256": "d6d2cc81b0aba3c188ec641739cb70f251c002c23a7d21178fb1c69adecc9c7a",
+      "bytes": 768
+    },
+    "results/adversarial_summary.json": {
+      "sha256": "eb7be04f1b40236af8a6030e261afa3debfb5e42843c10508e5082e842e9ca7d",
+      "bytes": 7845
+    },
+    "results/cli_first.log": {
+      "sha256": "1f2f9117de7daaf57b667b509e122f3454892e1cc8e51befd4c82cbdd05383ed",
+      "bytes": 327
+    },
+    "results/cli_second.log": {
+      "sha256": "45db826ea03ed0c4425de9b400ee1f5a708cb7bdc6e66eb4b9e8106f616c668c",
+      "bytes": 778
+    },
+    "results/demo_stdout.log": {
+      "sha256": "55106452b9f5ccd16f6c337c4810ec410869395b7f15617e1cc48ffc32a44ae3",
+      "bytes": 4100
+    },
+    "results/demonstration_state.json": {
+      "sha256": "5ba9fbdc5041a531f1f2dd41e2f843aa32ab97caa9874ee38dcd16165f2573d4",
+      "bytes": 5077987
+    },
+    "results/dialogue_literal.json": {
+      "sha256": "57703e456674b310e7b3c47a0647036e7d8b413de307577bb63f4c947c1a6536",
+      "bytes": 7282
+    },
+    "results/dialogue_literal.txt": {
+      "sha256": "32e64a4ea102b2d03baecafc829bbb0030ec6e3ad168cf5947d6825a30af37f9",
+      "bytes": 4099
+    },
+    "results/evaluation_stdout.log": {
+      "sha256": "e8973026c61026cf8abda99330fb27153976f4cd54994192e834070a6850b842",
+      "bytes": 1640
+    },
+    "results/holdout.json": {
+      "sha256": "3789c075ed1d899a02b11efa8aebf0ad3e91aeab6efe06dc7d52e2631ac54068",
+      "bytes": 144042
+    },
+    "results/online_induction.json": {
+      "sha256": "cfb0a67a70be3022dceb61ea2b09aabeb478363182266eb25b62c42cbec2b696",
+      "bytes": 3790
+    },
+    "results/paraphrase_holdout.json": {
+      "sha256": "bcbb204148efafb34ab7346a0890e303413b206ff78fcb47af50dd6512c1706b",
+      "bytes": 34977
+    },
+    "results/paraphrase_stdout.log": {
+      "sha256": "f761625753db545537ca453380ccf73a9e1df08fc8694173aac8f6337119a099",
+      "bytes": 355
+    },
+    "results/paraphrase_summary.json": {
+      "sha256": "ef7f0b000caa68b062727b75928a90b435e4f6db03f31f3ba95cd1426fe3d7a0",
+      "bytes": 116
+    },
+    "results/paraphrase_training.json": {
+      "sha256": "25d825b5db9387b2edc9d78d4d9c3d05e0d2f0bfb6e45fdb10439d2b683f7cf1",
+      "bytes": 6512
+    },
+    "results/philosophical_continuity.json": {
+      "sha256": "c48f126b42ddc4fe2e369adfc95bc94d9f17a4de4314e989397ae6e86add587d",
+      "bytes": 2721
+    },
+    "results/summary.json": {
+      "sha256": "7c3c308e5e38107e2eb367554bb856e67ab894bbf1713f102acaae1a0f64ba81",
+      "bytes": 461
+    },
+    "results/trained_and_live_state.json": {
+      "sha256": "262ffad181746e56716c56fd882ac6e8942536f429c32d6450e35c8a364aaf91",
+      "bytes": 7549137
+    },
+    "results/training_schemas.log": {
+      "sha256": "6d3246465c8dbe817220db7c596f00995b99dc6c471e51aa1aadb309b4211973",
+      "bytes": 1122
+    },
+    "results/unittest.log": {
+      "sha256": "bc6adab40e75a7de0fe14b756eeebd748696fd10eadb9e7757fa9db5fe138a25",
+      "bytes": 4864
+    },
+    "results/validation_source.log": {
+      "sha256": "43aae6e15aaf37277eeba2bea304878fb088ea3f60a1e8a631941801c961f418",
+      "bytes": 4864
+    },
+    "src/adversarial.py": {
+      "sha256": "b28ebc08e6d13cb50fb08c0eaf2115e0cdad50eecb0beb005e3ee1895fb9cce1",
+      "bytes": 3836
+    },
+    "src/base17/grounded.py": {
+      "sha256": "83322930805854b3c1f7d127cdd3a97a1eef0e6ac4338efe47e3532d16f94968",
+      "bytes": 20232
+    },
+    "src/base17/laboratorio.py": {
+      "sha256": "90eaf9d46703f084dc035f3d8be8b411c0d3d2fd278d127a3c2eee0e627aaf21",
+      "bytes": 11295
+    },
+    "src/base17/morfon.py": {
+      "sha256": "842fffcbe268be3b7fc4bd311098c4dbb1b58a52e0291d7359f80434d6c70669",
+      "bytes": 27791
+    },
+    "src/chat.py": {
+      "sha256": "ad32fced07a3a79f944b144b5774d1774aecb44fec7b835fc648bf8d0f41864a",
+      "bytes": 2047
+    },
+    "src/continuous.py": {
+      "sha256": "4eaca3306301c96856246568d69c3480e5d49f929dd5d02e8c77c8b234fe8224",
+      "bytes": 29872
+    },
+    "src/demo_dialogue.py": {
+      "sha256": "15c18a267afc3636663935c3881ceea7168aad3184c99e94239f026ac98a0bb5",
+      "bytes": 2244
+    },
+    "src/evaluate.py": {
+      "sha256": "03a957dba5fb87bfc1c6dd0c9ed327049bc4aae20a9bc2ff355a2750b3862475",
+      "bytes": 5181
+    },
+    "src/evaluate_paraphrases.py": {
+      "sha256": "e23f871d9f1659564bd026c45a36df54bf82911345b39c936bb04301924945f2",
+      "bytes": 2372
+    },
+    "src/nexo20.py": {
+      "sha256": "cb49ebb61ebe7fcb15c65969eb4c97c44f390dfc6806e8de88a86d13aef7be5c",
+      "bytes": 24382
+    },
+    "src/train_experiences.py": {
+      "sha256": "29dfe1d51dbb882b35926502945fd7dc104b66035be390509ece87a5065b9f5e",
+      "bytes": 2170
+    },
+    "tests/test_continuous.py": {
+      "sha256": "e98331e607ce0e0be13a9e36ae3af9b5f8474ef31f96ccc63b6dfcf3752f65b3",
+      "bytes": 6215
+    },
+    "tests/test_regression_extended.py": {
+      "sha256": "e843de5bf6ba8f83cf32afdc0b41d86cdb7625cda638aee62aefb4d920046374",
+      "bytes": 9247
+    },
+    "training/base20_trained.json": {
+      "sha256": "6903c0d7f8a1e94dc8557ab51ede8f5aea4bc0538b7e673a61d29879d4bd0b5d",
+      "bytes": 4505771
+    },
+    "training/teacher_experiences.json": {
+      "sha256": "eeaf4c78b858b393e3bc6604b0187c05c79cc421a4b25ce05d7f7f26578de81d",
+      "bytes": 27794
+    },
+    "training/trained21.json": {
+      "sha256": "1488ae9afcd59f61ccc086d3d4926240c4a73c0182b345e3a544f43aa277f6cd",
+      "bytes": 5025733
+    }
+  },
+  "file_count": 44,
+  "source": "NEXO Exp20 MorphMemory"
+}

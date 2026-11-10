@@ -1,0 +1,29 @@
+{
+  "experiment": "NEXO 24",
+  "date": "2026-11-09",
+  "files": {
+    "README.md": "53bfaca87ad8ba96ef60d3b7b9ffc8cb9bdaf3f1548d1513413baae784de8c34",
+    "REGISTRO_PROJETO.md": "be8e38ee39f63bbc611b9d80ff31f4d4e59d196cdc1c4a2050814d7a66d1645a",
+    "RELATORIO.md": "c6eaab436d043f14539506c4cc2cffce2d42eaba64a9a195d640ae9716000379",
+    "originals/NEXO_EXP22_REORGANIZACAO_ENDOGENA_2026-11-08.zip": "ffb95b6c590115b07b3ec42f1ba344f30ace2f200f98f731e5da9eaa0bbaa90c",
+    "originals/NEXO_EXP23_VERIFICADO.zip": "30cead76df53387709eabc1def88de1b5b7ce22d143abb9ca5a9db33752b8c57",
+    "originals/morfon_exp21_original.py": "842fffcbe268be3b7fc4bd311098c4dbb1b58a52e0291d7359f80434d6c70669",
+    "originals/spectral_faces_exp23_reference.py": "3c86f8af8d3b36627e6f6a81b92b32951453d50e956db9271934b2207e1dfad6",
+    "results/adversarial.json": "5059793ae3df4eef59698ed7a871324ac0d8b8401bb70543d4ef9c336ad85534",
+    "results/adversarial.log": "5cc3ce7ef83bdb8fe970c885f274f612c06b353ba6aaf8930fbc65bd7c9ecff7",
+    "results/evaluation.log": "9bd0fa23875c74930a48eab9cbc7d9c62d78a4062a914ec2d2ef0c47115ec691",
+    "results/figures/comparacao_integrada.png": "7d294b36d6964aac664be428454990311c1bcf18d70d850387f525df26a71816",
+    "results/figures/revisao_ordem3.png": "f37cb5023cf6f0f603a360bb125a1c94ce82170869ab9ddc5f0496a4ff9ad38e",
+    "results/integrated.json": "f0f305e5910e8a440f22b65b7385585293c5bf03a7e88b77c5fa3bbbc8af788c",
+    "results/pre_reuse_4seed_audit.json": "5f7928082378ebead7b8a3a1a1b8d8ecb6127bb456aad3d9ead2daa04199d952",
+    "results/scale.json": "b2fd8b59d23aac5fca080454c114b943ee4893ceeecb25869e9ea1cc319805bf",
+    "results/scale.log": "84f9bc13a4e4159d1c0476231e22df896f351ba4a35bd7b29ae5fe972909c049",
+    "results/unit_tests.log": "de7ac375767420fa99c69c424af321b81c25c19a1ef57a39ea90fb563c04d307",
+    "src/adversarial.py": "8e97f178a51e87dd30d7880c70d5ea9c422eae1411a11ceeda6028daa70381cd",
+    "src/demo.py": "ba7edf3d8dd491c1fc7c85ed6b532dbea6a4f305a21971d27b9c5a6fb6faace5",
+    "src/evaluate.py": "75f4451e745b01d8273c084f9ad55ca3eb25f9ec48d9bcdfa4e0ee95a692504f",
+    "src/integrated.py": "78b9cc7bfbba6407c075563186668aa6b82d41e2defaec6897a8f805605d3c9c",
+    "src/scale.py": "90a90244a236897f80a29473e734eb0de6abec2be61415889ec1df0bce02b730",
+    "tests/test_integrated.py": "e6cd13cd31e35c1a1e2ab0d0d60c024c5ab403bbfd5640992faa417933282e9f"
+  }
+}

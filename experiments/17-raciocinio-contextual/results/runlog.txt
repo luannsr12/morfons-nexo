@@ -1,0 +1,111 @@
+{
+  "correct": 2000,
+  "total": 2000,
+  "by_type": {
+    "agora": {
+      "correct": 160,
+      "total": 160
+    },
+    "antes": {
+      "correct": 160,
+      "total": 160
+    },
+    "composicao_nunca_treinada": {
+      "correct": 160,
+      "total": 160
+    },
+    "contexto_sem_nome_agora": {
+      "correct": 160,
+      "total": 160
+    },
+    "contexto_sem_nome_antes": {
+      "correct": 160,
+      "total": 160
+    },
+    "dois_saltos": {
+      "correct": 160,
+      "total": 160
+    },
+    "inverso_dois_saltos": {
+      "correct": 160,
+      "total": 160
+    },
+    "objeto": {
+      "correct": 160,
+      "total": 160
+    },
+    "objeto_lugar": {
+      "correct": 160,
+      "total": 160
+    },
+    "regiao": {
+      "correct": 400,
+      "total": 400
+    },
+    "tres_saltos_nunca_treinada": {
+      "correct": 160,
+      "total": 160
+    }
+  },
+  "seconds": 0.654,
+  "arithmetic": {
+    "correct": 1000,
+    "total": 1000,
+    "abstained": 0,
+    "maximum_steps": 22
+  },
+  "training": {
+    "sensors": 8160,
+    "questions": 10080,
+    "references": 1920,
+    "unmatched": 0
+  },
+  "model_morphons": 62,
+  "memory_bytes": 28349
+}
+---- CONVERSA ----
+Onde fica Batifo900422? 
+NEXO: Batifo900422 fica em Vinala900427. 
+
+Onde está a coisa guardada por Zevira900423? 
+NEXO: A coisa guardada por Zevira900423 está em Vinala900428. 
+
+Onde está a coisa guardada por Zevira900422? 
+NEXO: A coisa guardada por Zevira900422 está em Vinala900427. 
+
+O que Zevira900423 guarda? 
+NEXO: Zevira900423 guarda Batifo900423. 
+
+Onde mora Zevira900420? 
+NEXO: Zevira900420 mora em Vinala900421. 
+
+Onde fica o objeto que Zevira900420 guarda? 
+NEXO: O objeto que Zevira900420 guarda fica em Vinala900425. 
+
+Em que região fica o lugar onde fica o objeto que Zevira900420 guarda? 
+NEXO: O lugar onde fica o objeto que Zevira900420 guarda fica na região Terrava900420. 
+
+Onde fica o objeto que Zevira900421 guarda? 
+NEXO: O objeto que Zevira900421 guarda fica em Vinala900426. 
+
+E antes? 
+NEXO: Zevira900420 morava em Vinala900420. 
+
+E agora? 
+NEXO: Zevira900420 mora em Vinala900421. 
+
+Hoje Zevira900422 mora em CidadeNova90042. 
+NEXO: [registrei / sem resposta verbal] 
+
+Onde mora Zevira900422? 
+NEXO: Zevira900422 mora em CidadeNova90042. 
+
+Quanto e 17 mais 26? 
+NEXO: O resultado é 43. 
+
+O que aconteceu ontem com a chuva? 
+NEXO: [registrei / sem resposta verbal] 
+
+Qual o sentido da vida? 
+NEXO: [registrei / sem resposta verbal] 
+

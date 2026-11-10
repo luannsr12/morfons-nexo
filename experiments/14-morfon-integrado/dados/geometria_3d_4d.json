@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 41,
+    "dim": 3,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 453,
+    "nested": 191,
+    "snapshot_bytes": 275837,
+    "avg_edges": 421.68461538461537,
+    "avg_rays": 421.68461538461537,
+    "promoted": 1
+  },
+  {
+    "seed": 41,
+    "dim": 4,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 453,
+    "nested": 191,
+    "snapshot_bytes": 285223,
+    "avg_edges": 421.68461538461537,
+    "avg_rays": 421.68461538461537,
+    "promoted": 1
+  },
+  {
+    "seed": 42,
+    "dim": 3,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 423,
+    "nested": 165,
+    "snapshot_bytes": 257837,
+    "avg_edges": 406.0923076923077,
+    "avg_rays": 406.0923076923077,
+    "promoted": 1
+  },
+  {
+    "seed": 42,
+    "dim": 4,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 423,
+    "nested": 165,
+    "snapshot_bytes": 266599,
+    "avg_edges": 406.0923076923077,
+    "avg_rays": 406.0923076923077,
+    "promoted": 1
+  },
+  {
+    "seed": 43,
+    "dim": 3,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 453,
+    "nested": 193,
+    "snapshot_bytes": 275443,
+    "avg_edges": 422.20384615384614,
+    "avg_rays": 422.20384615384614,
+    "promoted": 1
+  },
+  {
+    "seed": 43,
+    "dim": 4,
+    "accuracy": 1.0,
+    "balanced": 1.0,
+    "nodes": 453,
+    "nested": 193,
+    "snapshot_bytes": 284823,
+    "avg_edges": 422.20384615384614,
+    "avg_rays": 422.20384615384614,
+    "promoted": 1
+  }
+]

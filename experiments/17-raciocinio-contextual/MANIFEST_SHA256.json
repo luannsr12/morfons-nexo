@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4487,
+      "sha256": "77eccc17a9de660acaa526056ee83882a825a96df463031db6bcf8634a72f6be"
+    },
+    {
+      "path": "RELATORIO_TECNICO.md",
+      "bytes": 13136,
+      "sha256": "fb13daff28d92aeb7fca52d996b0b1c6cd2c713bd6180bf5ea2d9765d76b286c"
+    },
+    {
+      "path": "corpus/exemplos_supervisao.jsonl",
+      "bytes": 13493,
+      "sha256": "0955549da7f17b35728631bb9eb86a55aebfbb8e3dabe731d3835ed34914cf97"
+    },
+    {
+      "path": "figures/01_morfons_em_cadeia.png",
+      "bytes": 82732,
+      "sha256": "829d176c7fbad9e55667180a22b9ffa0569abf42d7fa6b40783258081be39847"
+    },
+    {
+      "path": "figures/02_ablacoes.png",
+      "bytes": 49961,
+      "sha256": "98a02ea72e39c3cdf64a94d76b33354edd59c26ca72b6254cbe80a0f0ace4918"
+    },
+    {
+      "path": "figures/03_curva_aprendizagem.png",
+      "bytes": 49283,
+      "sha256": "778d07808c3d1710a8c07c42959dfbec75845dba655db47982384df32cd1a7a5"
+    },
+    {
+      "path": "historico_Exp16.zip",
+      "bytes": 345882,
+      "sha256": "0e9060c087ad1af765bd71d33e883b950b73b729cb47a505f68c3998b4ac48e8"
+    },
+    {
+      "path": "results/avaliacao_individual.json",
+      "bytes": 892460,
+      "sha256": "cbd8081cd4733208ae5194c955257a3260d5906aa417ac778980883ca64c1128"
+    },
+    {
+      "path": "results/avaliacao_numerica.json",
+      "bytes": 154751,
+      "sha256": "db6a272f34173cd651dda4fc7b615bfe3cc10f32d9ddd79b9588dfd956d1bbe7"
+    },
+    {
+      "path": "results/chat_interativo_real.txt",
+      "bytes": 1051,
+      "sha256": "1b003192dae4a32531e3b2557338dd007e9e5bfa38e1214b4ea5b3ab6bc234cb"
+    },
+    {
+      "path": "results/controles.json",
+      "bytes": 9451,
+      "sha256": "2aa0d8e679a9906352e476f81ca0b39b48a8656c82ff3e9b1138de3ffa4caa12"
+    },
+    {
+      "path": "results/controles_stdout.txt",
+      "bytes": 9452,
+      "sha256": "ee300e0a614fbd411727948b74d807f9f4b902a33f5c0621c178499fc9925736"
+    },
+    {
+      "path": "results/curva.json",
+      "bytes": 624,
+      "sha256": "03e6a4ecd27034b1245d00848704465ce7481b0bc1017e87caa56fa629e6f646"
+    },
+    {
+      "path": "results/dialogo_executado.json",
+      "bytes": 20491,
+      "sha256": "1401fa52bebd7db7498ae9d3ad66fa835d9af76fcae510f589752c3d898318d1"
+    },
+    {
+      "path": "results/estado_de_uma_conversa.json",
+      "bytes": 31940,
+      "sha256": "82cfc03d5519ef5f2a28421bd6dcfffba66a5f0742c8c90fd24225eb78954ad1"
+    },
+    {
+      "path": "results/memoria_treinada.json",
+      "bytes": 28349,
+      "sha256": "74f3d1b3f2f1262f7b462847e52222beee341c2659f19590f56f129a4a1b9d0e"
+    },
+    {
+      "path": "results/metricas.json",
+      "bytes": 1141,
+      "sha256": "82129272ef2b54d9442e62ffe0c9526678f30f2d7d2fceda888581a7579bec0c"
+    },
+    {
+      "path": "results/operacoes_binarias_observadas.json",
+      "bytes": 5810,
+      "sha256": "29f70779e4d1c7aff383712fe5171adaf0cb8cd8b35b2adf4086bb5b5ca26028"
+    },
+    {
+      "path": "results/runlog.txt",
+      "bytes": 2429,
+      "sha256": "935e119c779b3b9d7369d68fc069433fec0b5b32241a12621dfbedbc9b155037"
+    },
+    {
+      "path": "results/testes_stdout.txt",
+      "bytes": 1935,
+      "sha256": "87a9bd36ccffbd5624eb45154ca9febc1f695910a93a79a8e25878dae82dfdb5"
+    },
+    {
+      "path": "src/chat_cli.py",
+      "bytes": 1914,
+      "sha256": "09556914ce1f0ff7dfb953a46d4bdefdb2ab81c34982e4c3b40b69a0009b240c"
+    },
+    {
+      "path": "src/controles.py",
+      "bytes": 4906,
+      "sha256": "364fa22bf448ed665d5cfff5c16f1ef2358b463bdc9ade718352d4b144e87cb1"
+    },
+    {
+      "path": "src/figuras.py",
+      "bytes": 3300,
+      "sha256": "8b91ea92819df2874f40be09608f7e6562342d493f99ddfe5a8448b4e5854f18"
+    },
+    {
+      "path": "src/grounded.py",
+      "bytes": 20232,
+      "sha256": "83322930805854b3c1f7d127cdd3a97a1eef0e6ac4338efe47e3532d16f94968"
+    },
+    {
+      "path": "src/laboratorio.py",
+      "bytes": 11295,
+      "sha256": "90eaf9d46703f084dc035f3d8be8b411c0d3d2fd278d127a3c2eee0e627aaf21"
+    },
+    {
+      "path": "src/morfon.py",
+      "bytes": 25633,
+      "sha256": "c18de459da579d630fa6b3956e7832df51dcf7d00d4051a065f83f89f2c6b5c7"
+    },
+    {
+      "path": "tests/test_integrado.py",
+      "bytes": 7486,
+      "sha256": "8dfe547ba7539a72770433b4bc7d1bd4c3ef0bc746ef3ce4b00a66a5957ffe56"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Duas baterias maiores foram interrompidas pelo limite de execução do ambiente e **não produziram séries completas**. Seus logs parciais são preservados, mas as conclusões/figuras NÃO os incluem. Os controles concluídos correspondentes estão em `secundarios_a`, `secundarios_noisy` e `principal_*`. Nunca usar linhas parciais como resultados agregados de N sementes.

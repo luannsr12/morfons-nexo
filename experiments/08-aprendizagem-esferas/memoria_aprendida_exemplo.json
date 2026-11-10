@@ -1,0 +1,35 @@
+{
+  "format": "nexo-sphere-memory-v0.1",
+  "semantics": "opaque-binary-literals",
+  "sphere_rule": "one-ray-active, full-coincidence-for-evidence",
+  "spheres": [
+    {
+      "parts": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "hits": 103,
+      "positives": 101
+    },
+    {
+      "parts": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "hits": 116,
+      "positives": 115
+    }
+  ]
+}

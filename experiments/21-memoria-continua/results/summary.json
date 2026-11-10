@@ -1,0 +1,17 @@
+{
+  "training_examples": 216,
+  "learned_schemas_before_interaction": 11,
+  "new_schemas": 5,
+  "holdout_queries": 384,
+  "holdout_correct": 384,
+  "online_novel_queries": 6,
+  "online_novel_correct": 6,
+  "initial_morphons": 10216,
+  "after_morphons": 15082,
+  "restored_name": "Valeria",
+  "last_response": "recalled_from_live_memory",
+  "turns_before_restart": 844,
+  "turns_after_restart": 845,
+  "persisted_self_questions": 33,
+  "elapsed_seconds": 2.574
+}
