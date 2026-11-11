@@ -79,7 +79,7 @@ Para reproduzir **baterias experimentais**, gráficos, avaliações e diálogos 
 
 > Rosa, L. (2026). *NEXO: Arquitetura de memória relacional executável — fundamentos, demonstrações e resultados experimentais com auditoria causal* (Version 1.0). Zenodo. [https://doi.org/10.5281/zenodo.24094723](https://doi.org/10.5281/zenodo.24094723)
 
-Autor: **Luan Rosa Alves da Silva** · assinatura bibliográfica **L. Rosa** · [ORCID 0009-0000-2754-7135](https://orcid.org/0009-0000-2754-7135).
+Autor: **Luan Rosa Alves da Silva** · assinatura bibliográfica **Rosa, Luan** · [ORCID 0009-0000-2754-7135](https://orcid.org/0009-0000-2754-7135).
 
 O artigo apresenta a arquitetura e sistematiza sua trajetória experimental; este repositório reúne código executável, dados, controles e material de reprodução de sete linhas selecionadas. As demonstrações numéricas indicadas aqui são relativas aos **ambientes e contratos de cada ensaio**, explicados em [`docs/RESULTADOS.md`](docs/RESULTADOS.md). Resultados adversariais, erros observados, abstenções e ablações são mantidos — não são apagados para melhorar métricas.
 
