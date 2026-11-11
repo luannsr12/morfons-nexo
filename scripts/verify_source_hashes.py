@@ -3,7 +3,7 @@
 from pathlib import Path
 import hashlib,json,sys
 ROOT=Path(__file__).resolve().parents[1]
-manifest=json.loads((ROOT/'reproducibility/source_hashes.json').read_text())
+manifest=json.loads((ROOT/'reproducibility/source_hashes.json').read_text(encoding='utf-8'))
 fail=[]
 for rel,sha in manifest['sha256'].items():
  p=ROOT/rel
