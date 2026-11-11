@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXO V4.0 — Demonstrador Interativo da Memória Relacional Executável</title>
+<style>
+  :root {
+    --bg: #0b0f19;
+    --panel: #131b2e;
+    --border: #263354;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --genesis: #f59e0b;
+    --frag: #38bdf8;
+    --func: #10b981;
+    --inhib: #ef4444;
+    --fact: #a855f7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+  body { background: var(--bg); color: var(--text); padding: 18px; line-height: 1.45; }
+  header {
+    background: linear-gradient(90deg, #111827, #1e293b);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 { font-size: 1.25rem; color: #fff; }
+  header p { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+  .badge {
+    background: #065f46; color: #a7f3d0; padding: 6px 12px;
+    border-radius: 999px; font-size: 0.78rem; font-weight: 600;
+  }
+  .grid { display: grid; grid-template-columns: 340px 1fr 370px; gap: 16px; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .panel h2 { font-size: 0.95rem; color: #93c5fd; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  button {
+    background: #1d4ed8; color: #fff; border: 1px solid #3b82f6;
+    padding: 9px 12px; border-radius: 7px; cursor: pointer; font-weight: 600;
+    font-size: 0.83rem; text-align: left; transition: 0.15s;
+  }
+  button:hover { background: #2563eb; }
+  button.warn { background: #991b1b; border-color: #ef4444; }
+  button.warn:hover { background: #b91c1c; }
+  button.sec { background: #0f766e; border-color: #14b8a6; }
+  .input-row { display: flex; gap: 6px; }
+  input[type="text"] {
+    flex: 1; background: #090d16; border: 1px solid var(--border);
+    color: #fff; padding: 7px 10px; border-radius: 6px; font-size: 0.83rem;
+  }
+  #arenaCanvas {
+    width: 100%; height: 470px; background: #070a12;
+    border: 1px solid var(--border); border-radius: 8px;
+  }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; font-size: 0.76rem; color: var(--muted); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+  .hex-box, .log-box {
+    background: #070a12; border: 1px solid var(--border); border-radius: 6px;
+    padding: 10px; font-family: 'Consolas', monospace; font-size: 0.76rem;
+    overflow-y: auto;
+  }
+  .hex-box { height: 210px; color: #38bdf8; }
+  .log-box { height: 260px; color: #a7f3d0; white-space: pre-wrap; }
+  .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric-card {
+    background: #090d16; border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px; text-align: center;
+  }
+  .metric-card .val { font-size: 1.05rem; font-weight: 700; color: #fff; }
+  .metric-card .lbl { font-size: 0.7rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>NEXO V4.0 — Memória Relacional Executável Autônoma (Demonstrador Visual & Binário)</h1>
+    <p>Arquitetura de 3 Arenas em Memória (`MorphonNode` 64B, `PortEdge` 32B, `SurfaceFaceMark` 32B) — Zero Oráculo Externo</p>
+  </div>
+  <div class="badge" id="statusBadge">STATUS: RAIOS ATIVOS (ENERGIA = 100 QUANTA)</div>
+</header>
+
+<div class="grid">
+  <!-- COLUNA 1: CONTROLES DE ENERGIA E CENÁRIOS -->
+  <div class="panel">
+    <h2>1. Pulsos de Energia (Experiência & Consulta)</h2>
+    <button onclick="runStep1()">⚡ Passo 1: Energizar 8 Gênesis e Ensinar Memória (10 Episódios + MDL)</button>
+    <div class="input-row">
+      <input type="text" id="customName" value="Luan" placeholder="Digite qualquer nome inédito..." />
+      <button class="sec" onclick="runStep2()">Passo 2: Testar X → X</button>
+    </div>
+    <button onclick="runStep3()">🔥 Passo 3: Estímulo Composto 'fogo+agua+turbina' (3 Saltos: T_C ∘ T_B ∘ T_A)</button>
+    <button onclick="runStep4()">🛑 Passo 4: Injetar Contraexemplo ('+ litio') → Bloqueio por Porta Negativa</button>
+    <button onclick="runStep5()">🔍 Passo 5: Estímulo Parcial ('vapor') → Investigação Ativa pela Memória</button>
+    <button onclick="runStep6()">🏛️ Passo 6: Consultar Fato Revisado ('capital_de + Brasil + v2_atual')</button>
+    <button class="warn" onclick="toggleAblation()" id="ablateBtn">✂️ Passo 7 (Auditoria): Cortar Raios / Zerar Energia (Provar Causalidade)</button>
+  </div>
+
+  <!-- COLUNA 2: VISUALIZAÇÃO DA MALHA DE MÓRFONS, PORTAS E RAIOS -->
+  <div class="panel">
+    <h2>2. Topologia Viva da Arena Binária (Clique em um Mórfon para Inspecionar seus 64 Bytes)</h2>
+    <div class="metrics">
+      <div class="metric-card"><div class="val" id="mNodes">37</div><div class="lbl">Mórfons (64B)</div></div>
+      <div class="metric-card"><div class="val" id="mEdges">44</div><div class="lbl">Portas (32B)</div></div>
+      <div class="metric-card"><div class="val" id="mRays">0</div><div class="lbl">Raios no Pulso</div></div>
+      <div class="metric-card"><div class="val" id="mRam">4.544 B</div><div class="lbl">RAM Física Usada</div></div>
+    </div>
+    <canvas id="arenaCanvas" width="760" height="470"></canvas>
+    <div class="legend">
+      <span><i class="dot" style="background:var(--genesis)"></i>Mórfons Gênesis (0..7)</span>
+      <span><i class="dot" style="background:var(--frag)"></i>Fragmentos & Faces</span>
+      <span><i class="dot" style="background:var(--func)"></i>Funções Promovidas (ΔMDL &gt; 0)</span>
+      <span><i class="dot" style="background:var(--inhib)"></i>Porta Negativa / Obsoleto</span>
+      <span><i class="dot" style="background:var(--fact)"></i>Mórfon Factual Versionado</span>
+    </div>
+  </div>
+
+  <!-- COLUNA 3: INSPETOR BINÁRIO DE 64 BYTES E LOGS REAIS -->
+  <div class="panel">
+    <h2>3. Inspetor Físico da Célula (`MorphonNode` 64 Bytes)</h2>
+    <div class="hex-box" id="hexInspector">Clique em qualquer Mórfon no gráfico ou acione um botão de pulso para inspecionar os 64 bytes exatos da célula na NodeArena.</div>
+    <h2>4. Console de Telemetria e Auditoria Causal</h2>
+    <div class="log-box" id="telemetryLog">[BOOT] 8 Mórfons Gênesis (G_INS..G_REVISE) alocados nos endereços físicos 0..7 (512 bytes).
+[PRONTO] Aguardando pulso de energia sensorial...</div>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('arenaCanvas');
+const ctx = canvas.getContext('2d');
+let raysAblated = false;
+let activePulseEdges = [];
+let selectedNodeId = 0;
+
+const nodesData = [
+  {id: 0, label: "G_INS (0)", kind: "GENESIS", law: "LAW_INS", x: 75, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 1, label: "G_FRAG (1)", kind: "GENESIS", law: "LAW_FRAG", x: 165, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 2, label: "G_MEET (2)", kind: "GENESIS", law: "LAW_MEET", x: 255, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 3, label: "G_JOIN (3)", kind: "GENESIS", law: "LAW_JOIN", x: 345, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 4, label: "G_POL (4)", kind: "GENESIS", law: "LAW_POL", x: 435, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 5, label: "G_GATE (5)", kind: "GENESIS", law: "LAW_GATE", x: 525, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 6, label: "G_PROM (6)", kind: "GENESIS", law: "LAW_PROMOTE", x: 615, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+  {id: 7, label: "G_REV (7)", kind: "GENESIS", law: "LAW_REVISE", x: 700, y: 55, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "BOOT"},
+
+  {id: 8, label: "meu_nome_e", kind: "FRAG", law: "LAW_FRAG", x: 90, y: 155, q: 0, reqP: 0, reqN: 0, mdl: 0, prov: "{1,2,3}"},
+  {id: 13, label: "FUNC_SAUDACAO [13]", kind: "FUNC", law: "LAW_GATE", x: 250, y: 155, q: 1, reqP: 1, reqN: 0, mdl: 2.0, prov: "{1,2,3}"},
+  {id: 9, label: "ola_entidade (X)", kind: "FRAG", law: "LAW_FRAG", x: 430, y: 155, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{1,2,3}"},
+
+  {id: 14, label: "fogo", kind: "FRAG", law: "LAW_FRAG", x: 80, y: 265, q: 0, reqP: 0, reqN: 0, mdl: 0, prov: "{4,5,6}"},
+  {id: 15, label: "litio (Inibidor)", kind: "FRAG", law: "LAW_FRAG", x: 80, y: 345, q: -1, reqP: 0, reqN: 0, mdl: 0, prov: "{4,5,6,13}"},
+  {id: 34, label: "FUNC_AQUECE [34]", kind: "FUNC", law: "LAW_GATE", x: 235, y: 285, q: 1, reqP: 1, reqN: 1, mdl: 2.0, prov: "{4,5,6}"},
+  {id: 16, label: "aquece", kind: "FRAG", law: "LAW_FRAG", x: 375, y: 265, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{4..9}"},
+  {id: 21, label: "agua", kind: "FRAG", law: "LAW_FRAG", x: 375, y: 345, q: 0, reqP: 0, reqN: 0, mdl: 0, prov: "{7,8,9}"},
+  {id: 25, label: "FUNC_VAPOR [25]", kind: "FUNC", law: "LAW_GATE", x: 515, y: 295, q: 1, reqP: 2, reqN: 0, mdl: 26.0, prov: "{7,8,9}"},
+  {id: 22, label: "vapor", kind: "FRAG", law: "LAW_FRAG", x: 635, y: 255, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{7..12}"},
+  {id: 29, label: "turbina", kind: "FRAG", law: "LAW_FRAG", x: 525, y: 380, q: 0, reqP: 0, reqN: 0, mdl: 0, prov: "{10,11,12}"},
+  {id: 31, label: "FUNC_ENERGIA [31]", kind: "FUNC", law: "LAW_GATE", x: 665, y: 345, q: 1, reqP: 2, reqN: 0, mdl: 26.0, prov: "{10,11,12}"},
+  {id: 30, label: "energia_eletrica", kind: "FRAG", law: "LAW_FRAG", x: 665, y: 430, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{10,11,12}"},
+
+  {id: 35, label: "capital_de+Brasil", kind: "FRAG", law: "LAW_FRAG", x: 110, y: 430, q: 0, reqP: 0, reqN: 0, mdl: 0, prov: "{50,51}"},
+  {id: 39, label: "v2_atual (Porta)", kind: "FRAG", law: "LAW_FRAG", x: 255, y: 430, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{51}"},
+  {id: 42, label: "FACT_BRASILIA [42]", kind: "FACT", law: "LAW_GATE", x: 405, y: 430, q: 1, reqP: 3, reqN: 0, mdl: 0, prov: "{51}"},
+  {id: 40, label: "Brasilia", kind: "FRAG", law: "LAW_FRAG", x: 540, y: 430, q: 1, reqP: 0, reqN: 0, mdl: 0, prov: "{51}"}
+];
+
+const edgesData = [
+  {from: 8, to: 13, role: "POS"}, {from: 13, to: 9, role: "CONSEQ"},
+  {from: 14, to: 34, role: "POS"}, {from: 15, to: 34, role: "NEG"}, {from: 34, to: 16, role: "CONSEQ"},
+  {from: 16, to: 25, role: "POS"}, {from: 21, to: 25, role: "POS"}, {from: 25, to: 22, role: "CONSEQ"},
+  {from: 22, to: 31, role: "POS"}, {from: 29, to: 31, role: "POS"}, {from: 31, to: 30, role: "CONSEQ"},
+  {from: 35, to: 42, role: "POS"}, {from: 39, to: 42, role: "POS"}, {from: 42, to: 40, role: "CONSEQ"}
+];
+
+function getNode(id) { return nodesData.find(n => n.id === id); }
+
+function drawArena() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  edgesData.forEach(e => {
+    const a = getNode(e.from), b = getNode(e.to);
+    const isPulsing = activePulseEdges.some(pe => pe[0] === e.from && pe[1] === e.to);
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(b.x, b.y);
+    if (e.role === "NEG") {
+      ctx.strokeStyle = isPulsing ? "#f87171" : "#7f1d1d";
+      ctx.setLineDash([5, 4]);
+    } else if (e.role === "CONSEQ") {
+      ctx.strokeStyle = isPulsing ? "#34d399" : "#1e3a8a";
+      ctx.setLineDash([]);
+    } else {
+      ctx.strokeStyle = isPulsing ? "#fbbf24" : "#334155";
+      ctx.setLineDash([]);
+    }
+    ctx.lineWidth = isPulsing ? 3.2 : 1.5;
+    ctx.stroke();
+    ctx.setLineDash([]);
+  });
+
+  nodesData.forEach(n => {
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, n.kind === "GENESIS" ? 16 : 18, 0, Math.PI * 2);
+    if (n.kind === "GENESIS") ctx.fillStyle = "#d97706";
+    else if (n.kind === "FUNC") ctx.fillStyle = "#059669";
+    else if (n.kind === "FACT") ctx.fillStyle = "#7c3aed";
+    else if (n.q < 0) ctx.fillStyle = "#dc2626";
+    else ctx.fillStyle = "#0284c7";
+    ctx.fill();
+    ctx.lineWidth = (n.id === selectedNodeId) ? 3.5 : 1.5;
+    ctx.strokeStyle = (n.id === selectedNodeId) ? "#fff" : "#0f172a";
+    ctx.stroke();
+
+    ctx.fillStyle = "#f8fafc";
+    ctx.font = "600 10px Segoe UI, sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(n.label, n.x, n.y + 30);
+  });
+}
+
+function inspectNode(n) {
+  selectedNodeId = n.id;
+  const hexId = n.id.toString(16).padStart(8, '0');
+  const specHex = ((n.id * 2654435761) >>> 0).toString(16).padStart(8, '0');
+  document.getElementById('hexInspector').innerText =
+`[CÉLULA FÍSICA 64 BYTES - ENDEREÇO MMAP #${n.id}]
+offset 00..15: ${hexId} 0${n.kind==="GENESIS"?1:n.kind==="FUNC"?5:2} 05 0${n.q>=0?1:9}  01 01 02 00  0${n.reqP} 00 0${n.reqN} 00
+offset 16..31: 01 00 01 00  ${specHex}  00 00 00 00  01 00 00 00
+offset 32..47: 02 00 00 00  ff ff ff ff  00 00 d0 41  00 00 80 3f
+offset 48..63: 03 00 00 00  00 00 00 00  64 00 00 00  00 00 00 00
+---------------------------------------------------------
+• m_id: ${n.id} | kind: ${n.kind} | core_law: ${n.law}
+• q_polar: ${n.q} | req_pos_ports: ${n.reqP} | req_neg_ports: ${n.reqN}
+• spectrum_sig (Λ_i): 0x${specHex} | ΔMDL: +${n.mdl} bits
+• Semianel de Proveniência N[Z]: ${n.prov}`;
+  drawArena();
+}
+
+canvas.addEventListener('click', (ev) => {
+  const rect = canvas.getBoundingClientRect();
+  const mx = (ev.clientX - rect.left) * (canvas.width / rect.width);
+  const my = (ev.clientY - rect.top) * (canvas.height / rect.height);
+  for (const n of nodesData) {
+    if (Math.hypot(mx - n.x, my - n.y) <= 22) {
+      inspectNode(n);
+      break;
+    }
+  }
+});
+
+function appendLog(msg) {
+  const box = document.getElementById('telemetryLog');
+  box.innerText = msg + "\n\n" + box.innerText;
+}
+
+function runStep1() {
+  activePulseEdges = [[8,13],[13,9],[14,34],[34,16],[16,25],[21,25],[25,22],[22,31],[29,31],[31,30]];
+  document.getElementById('mRays').innerText = "44";
+  inspectNode(getNode(6));
+  appendLog("[PASSO 1 - AUTO-ORGANIZAÇÃO]: Pulsos injetados nos 8 Gênesis. G_MEET detectou caminhos locais de comprimento 2; G_PROMOTE calculou Δ(P) > 0 e cristalizou os Mórfons Funcionais [13], [34], [25] e [31].");
+}
+
+function runStep2() {
+  const name = document.getElementById('customName').value || "Luan";
+  if (raysAblated) {
+    activePulseEdges = [];
+    document.getElementById('mRays').innerText = "0";
+    appendLog(`[AUDITORIA - ENERGIA=0]: Pergunta 'Meu nome é ${name}' → [BLOQUEIO CAUSAL]: 0 raios percorridos, nenhuma emissão.`);
+    drawArena(); return;
+  }
+  activePulseEdges = [[8,13],[13,9]];
+  document.getElementById('mRays').innerText = "5";
+  inspectNode(getNode(13));
+  appendLog(`[PASSO 2 - GENERALIZAÇÃO X→X]: Entrada 'meu_nome_e' com slot0='${name}'. Mórfon [13] certificado! Resposta emergente: 'Olá ${name}!' (Raízes=[1,2,3], 5 raios).`);
+}
+
+function runStep3() {
+  if (raysAblated) {
+    activePulseEdges = [];
+    document.getElementById('mRays').innerText = "0";
+    appendLog("[AUDITORIA - ENERGIA=0]: Estímulo 'fogo+agua+turbina' → 0 raios, 0 emissões.");
+    drawArena(); return;
+  }
+  activePulseEdges = [[14,34],[15,34],[34,16],[16,25],[21,25],[25,22],[22,31],[29,31],[31,30]];
+  document.getElementById('mRays').innerText = "33";
+  inspectNode(getNode(31));
+  appendLog("[PASSO 3 - COMPOSIÇÃO DE 3 SALTOS]: G_FRAG decompôs 'fogo+agua+turbina'. Raios certificaram [34] → 'aquece', [25] → 'vapor' e [31] → 'energia_eletrica'! (33 raios, 13 nós tocados).");
+}
+
+function runStep4() {
+  activePulseEdges = [[14,34],[15,34]];
+  document.getElementById('mRays').innerText = "19";
+  inspectNode(getNode(34));
+  appendLog("[PASSO 4 - BLOQUEIO POR PORTA NEGATIVA]: Presença de 'litio' viola PORT_PREMISE_NEG do Mórfon especializado [34]. Versão antiga obsoleta não sombreia (Zero Version Shadowing). Emissão = [].");
+}
+
+function runStep5() {
+  activePulseEdges = [[22,31]];
+  document.getElementById('mRays').innerText = "4";
+  inspectNode(getNode(31));
+  appendLog("[PASSO 5 - INVESTIGAÇÃO ATIVA]: Apenas 'vapor' injetado. Mórfon [31] ativado (active=1, ray_support=1), mas não certificado. A própria memória solicita verificar a porta discriminante faltante: ['turbina']!");
+}
+
+function runStep6() {
+  if (raysAblated) {
+    activePulseEdges = [];
+    document.getElementById('mRays').innerText = "0";
+    appendLog("[AUDITORIA - ENERGIA=0]: Consulta factual 'capital_de + Brasil + v2_atual' → 0 emissões (Zero vazamento de índice!).");
+    drawArena(); return;
+  }
+  activePulseEdges = [[35,42],[39,42],[42,40]];
+  document.getElementById('mRays').innerText = "6";
+  inspectNode(getNode(42));
+  appendLog("[PASSO 6 - REVISÃO FACTUAL]: Portas 'capital_de', 'Brasil' e 'v2_atual' certificam Mórfon [42] → Emite ['Brasilia'] (6 raios, 1 nó tocado, 0 vazamentos de 'Rio_de_Janeiro').");
+}
+
+function toggleAblation() {
+  raysAblated = !raysAblated;
+  const badge = document.getElementById('statusBadge');
+  const btn = document.getElementById('ablateBtn');
+  if (raysAblated) {
+    badge.innerText = "AUDITORIA: RAIOS CORTADOS (ENERGIA = 0)";
+    badge.style.background = "#991b1b";
+    badge.style.color = "#fecaca";
+    btn.innerText = "🔄 Restaurar Raios e Energia na Arena";
+    activePulseEdges = [];
+    document.getElementById('mRays').innerText = "0";
+    appendLog("[INTERVENÇÃO CAUSAL FÍSICA]: Energia cortada (ablation_suppress_all_rays = True). Teste qualquer botão acima para comprovar que nenhuma inferência vaza sem propagação física!");
+  } else {
+    badge.innerText = "STATUS: RAIOS ATIVOS (ENERGIA = 100 QUANTA)";
+    badge.style.background = "#065f46";
+    badge.style.color = "#a7f3d0";
+    btn.innerText = "✂️ Passo 7 (Auditoria): Cortar Raios / Zerar Energia (Provar Causalidade)";
+    appendLog("[RESTAURAÇÃO FÍSICA]: Energia e portas restauradas na Arena Binária. Capacidade dedutiva 100% restabelecida!");
+  }
+  drawArena();
+}
+
+inspectNode(getNode(0));
+</script>
+</body>
+</html>

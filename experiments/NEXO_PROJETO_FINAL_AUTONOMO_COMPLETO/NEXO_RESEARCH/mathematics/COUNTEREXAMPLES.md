@@ -1,0 +1,6 @@
+# Contraexemplos Formais e Empíricos Verificados
+
+1. **Contraexemplo 1 (Produto Polar Puro para Conjunção):** A função $x_1 \wedge x_2$ possui suporte de cardinalidade ímpar (1 entrada verdadeira em $\{0,1\}^2$), enquanto toda função afim não-constante em 2 variáveis possui suporte de cardinalidade par (2 entradas verdadeiras).
+2. **Contraexemplo 2 (*Version Shadowing* sem Subsunção `MFLAG_OBSOLETE`):** Se a versão anterior $M_1: \text{fogo} \to \text{aquece}$ não for marcada obsoleta quando $M_2: \text{fogo} \wedge \neg\text{litio} \to \text{aquece}$ é criada, o estímulo $\text{fogo} + \text{litio}$ continua ativando $M_1$. Corrigido via Teorema 1.4.
+3. **Contraexemplo 3 (Vazamento de Variáveis Acopladas):** Aprender $R(A,A)$ e $R(B,B)$ não autoriza $R(A,B)$. Bloqueado fisicamente por `MFLAG_COUPLED_VARS` (Teorema 1.5).
+4. **Contraexemplo 4 (Colapso de Centroides 3D sob Múltiplos Contextos):** Quando fragmentos participam de múltiplos contextos ortogonais e de um hub de ruído global (`witness_id=9000`), a média geométrica 3D colapsa para o centro ($	ext{AUC} = 0,8001$), enquanto o Excedente Contrastivo Residual $E^+(i,j)$ nas Faces mantém separação perfeita ($	ext{AUC} = 1,0000$).

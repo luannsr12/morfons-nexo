@@ -1,0 +1,5 @@
+{
+  "python": "3.10.16",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "engine": "AutonomousMorphMemory V4.0"
+}

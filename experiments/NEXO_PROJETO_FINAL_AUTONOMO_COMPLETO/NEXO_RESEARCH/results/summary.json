@@ -1,0 +1,238 @@
+{
+  "project": "NEXO V4.0 — Arquitetura de Memória Relacional Executável 100% Autônoma",
+  "zero_external_oracle": true,
+  "autonomous_reasoning_dialogue_6_turns": {
+    "architecture": "AutonomousMorphMemory V4.0 (3 Arenas mmap: 64B Node / 32B Edge / 32B FaceMark)",
+    "allocated_nodes": 44,
+    "allocated_edges": 69,
+    "allocated_marks": 81,
+    "total_ram_bytes": 7616,
+    "genesis_firings": {
+      "G_INS": 188,
+      "G_FRAG": 59,
+      "G_MEET": 13,
+      "G_JOIN": 12,
+      "G_POL": 5,
+      "G_GATE": 5,
+      "G_PROMOTE": 8,
+      "G_REVISE": 2
+    },
+    "dialogue_turns": [
+      {
+        "turn": 1,
+        "capability": "Generalização de Variável (X -> X)",
+        "question": "Meu nome é Luan. Como a memória responde?",
+        "autonomous_response": "Olá Luan! (Transporte binário slot0 certificado pelo Mórfon [13], Raízes=[1, 2, 3])",
+        "emitted_symbols": [
+          "ola_entidade"
+        ],
+        "missing_discriminant_ports": [],
+        "certified_morphons": [
+          13
+        ],
+        "rays_traversed": 5,
+        "nodes_touched": 4,
+        "latency_us": 53.01
+      },
+      {
+        "turn": 2,
+        "capability": "Fragmentação + Raciocínio Composto de 3 Saltos (T_C o T_B o T_A)",
+        "question": "Estímulo bruto composto 'fogo+agua+turbina' (sem lítio). O que emerge?",
+        "autonomous_response": "Cadeia Emergente Certificada: ['aquece', 'vapor', 'energia_eletrica'] (Mórfons=[34, 25, 31], Raios=33, Nós Tocados=13)",
+        "emitted_symbols": [
+          "aquece",
+          "vapor",
+          "energia_eletrica"
+        ],
+        "missing_discriminant_ports": [
+          "aquece",
+          "vapor"
+        ],
+        "certified_morphons": [
+          34,
+          25,
+          31
+        ],
+        "rays_traversed": 33,
+        "nodes_touched": 13,
+        "latency_us": 145.87
+      },
+      {
+        "turn": 3,
+        "capability": "Inibição Causal por Porta Negativa (Contraexemplo)",
+        "question": "Adicionando 'litio' ao sistema ('fogo+agua+turbina' + 'litio'). A reação ocorre?",
+        "autonomous_response": "[INVESTIGAÇÃO ATIVA DISPARADA]: Premissa incompleta. A própria memória solicita verificar a porta discriminante: ['aquece', 'vapor']",
+        "emitted_symbols": [],
+        "missing_discriminant_ports": [
+          "aquece",
+          "vapor"
+        ],
+        "certified_morphons": [],
+        "rays_traversed": 25,
+        "nodes_touched": 13,
+        "latency_us": 97.56
+      },
+      {
+        "turn": 4,
+        "capability": "Investigação Ativa Orientada pela Memória",
+        "question": "Temos apenas 'vapor'. Qual condição falta para gerar 'energia_eletrica'?",
+        "autonomous_response": "[INVESTIGAÇÃO ATIVA DISPARADA]: Premissa incompleta. A própria memória solicita verificar a porta discriminante: ['turbina']",
+        "emitted_symbols": [],
+        "missing_discriminant_ports": [
+          "turbina"
+        ],
+        "certified_morphons": [],
+        "rays_traversed": 4,
+        "nodes_touched": 4,
+        "latency_us": 27.48
+      },
+      {
+        "turn": 5,
+        "capability": "Revisão Factual sem Destruição Histórica",
+        "question": "Qual é a capital do Brasil sob a porta contextual 'v2_atual'?",
+        "autonomous_response": "Cadeia Emergente Certificada: ['Brasilia'] (Mórfons=[42], Raios=6, Nós Tocados=1)",
+        "emitted_symbols": [
+          "Brasilia"
+        ],
+        "missing_discriminant_ports": [],
+        "certified_morphons": [
+          42
+        ],
+        "rays_traversed": 6,
+        "nodes_touched": 1,
+        "latency_us": 29.4
+      },
+      {
+        "turn": 6,
+        "capability": "Auditoria Causal Física (Corte de Energia / Raios)",
+        "question": "Mesma pergunta com Energia = 0 (Raios Cortados). Alguma resposta vaza?",
+        "autonomous_response": "[BLOQUEIO CAUSAL / ABSTENÇÃO]: Zero emissões certificadas (Raios percorridos=0)",
+        "emitted_symbols": [],
+        "missing_discriminant_ports": [],
+        "certified_morphons": [],
+        "rays_traversed": 0,
+        "nodes_touched": 0,
+        "latency_us": 1.32
+      }
+    ]
+  },
+  "full_7_phases_and_article_benchmarks": {
+    "phase_1_fragmentation_and_surface": {
+      "composite_stimulus_input": "fogo+agua+turbina",
+      "autonomously_decomposed_fragment_symbols": [
+        "fogo+agua+turbina",
+        "fogo",
+        "agua",
+        "turbina"
+      ],
+      "auc_surface_depth_E": 1.0,
+      "auc_contrastive_residual_E_plus": 1.0,
+      "auc_3d_centroid_geometry": 0.8001
+    },
+    "phases_2_3_induction_and_generalization": {
+      "novel_identities_tested": 75,
+      "nexo_autonomous_correct": 75,
+      "literal_baseline_correct": 0,
+      "coupled_vars_same_entity_certified": true,
+      "coupled_vars_cross_entity_blocked": true
+    },
+    "phases_4_5_multihop_composition_and_revision": {
+      "revised_morphon_id": 81,
+      "three_hop_emitted_chain": [
+        "aquece",
+        "vapor",
+        "energia_eletrica"
+      ],
+      "three_hop_certified_morphons": [
+        81,
+        73,
+        78
+      ],
+      "three_hop_provenance_roots_count": 9,
+      "inhibited_by_lithium_emitted": [],
+      "baseline_rays_traversed": 36,
+      "baseline_nodes_touched": 13
+    },
+    "phase_6_endogenous_predictive_states_and_investigation": {
+      "predictive_states_discovery": {
+        "minimal_predictive_states_count": 3,
+        "state_morphon_ids": [
+          117,
+          118,
+          119
+        ],
+        "history_partition": {
+          "()": 117,
+          "(0,)": 117,
+          "(1,)": 118,
+          "(0, 0)": 117,
+          "(0, 1)": 118,
+          "(1, 0)": 117,
+          "(1, 1)": 119,
+          "(1, 1, 1)": 117
+        },
+        "oracle_used": false
+      },
+      "partial_stimulus_probe": "vapor",
+      "autonomously_identified_missing_discriminant_ports": [
+        "turbina"
+      ]
+    },
+    "phase_7_scalability_10k_and_causal_audit": {
+      "disconnected_morphons_added": 10000,
+      "total_allocated_nodes_in_arena": 10323,
+      "rays_traversed_before_10k": 36,
+      "rays_traversed_after_10k": 42,
+      "nodes_touched_before_10k": 13,
+      "nodes_touched_after_10k": 13,
+      "strict_o_local_degree_invariance_verified": false,
+      "factual_routing_40_queries": {
+        "normal_with_energy": 40,
+        "obsolete_version_leaks": 0,
+        "ablated_zero_energy": 0
+      },
+      "genesis_firings_telemetry": {
+        "G_INS": 1072,
+        "G_FRAG": 1821,
+        "G_MEET": 17,
+        "G_JOIN": 16,
+        "G_POL": 121,
+        "G_GATE": 121,
+        "G_PROMOTE": 10,
+        "G_REVISE": 41
+      },
+      "binary_arena_snapshot": {
+        "node_count": 10323,
+        "edge_count": 443,
+        "mark_count": 443,
+        "total_ram_bytes": 689024,
+        "genesis_nodes_hex_sample": "0000000001010100000000000000000000000000010001000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000900500000100000001020100000000000000000000000000010001002b6da6da0100000000000000ffffffffffffffff00000000000000000000000000000000e80300000200000001030100000000000000000000000000010001007db7ea6f0200000001000000ffffffffffffffff00000000000000000000000000000000e8030000030000000104010000000000000000000000000001000100d10373050300000002000000ffffffffffffffff00000000000000000000000000000000e8030000040000000105010000000000000000000000000001000100896a40d00400000003000000ffffffffffffffff00000000000000000000000000000000e803000005000000010601000000000000000000000000000100010039b8267a0500000004000000ffffffffffffffff000000000000000000000000000000002c330000060000000107010000000000000000000000000001000100591deb2e0600000005000000ffffffffffffffff00000000000000000000000000000000e803000007000000010801000000000000000000000000000100010099577087ffffffff06000000ffffffffffffffff00000000000000000000000000000000e8030000",
+        "edges_hex_sample": "00000000000000000100000003000001ffffffffffffffff010000000000000001000000010000000200000003000001ffffffffffffffff010000000000000002000000020000000300000003000001ffffffffffffffff010000000000000003000000030000000400000003000001ffffffffffffffff010000000000000004000000040000000500000003000001ffffffffffffffff010000000000000005000000050000000600000003000001ffffffffffffffff010000000000000006000000060000000700000003000001ffffffffffffffff010000000000000007000000300000003100000007000001ffffffffffffffff01000000f4010000",
+        "marks_hex_sample": "0000000008000000282300000f000000000000000000000001000000ffffffff0100000009000000282300000f000000000000000000000002000000ffffffff020000000a000000282300000f000000000000000000000003000000ffffffff030000000b000000282300000f000000000000000000000004000000ffffffff040000000c000000282300000f000000000000000000000005000000ffffffff050000000d000000282300000f000000000000000000000006000000ffffffff060000000e000000282300000f000000000000000000000007000000ffffffff070000000f000000282300000f000000000000000000000008000000ffffffff"
+      }
+    }
+  },
+  "adversarial_torture_and_causal_audit": {
+    "cyclic_provenance_idempotence": {
+      "provenance_roots_after_10_hops": [
+        77
+      ],
+      "zero_spurious_evidence_growth": true
+    },
+    "coupled_variables_anti_leakage": {
+      "valid_pair_1_1_certified": true,
+      "unobserved_cross_pair_1_2_blocked": true
+    },
+    "physical_port_ablation_and_restoration": {
+      "normal_execution_certified": true,
+      "necessary_port_ablated_certified": false,
+      "after_port_restoration_certified": true
+    },
+    "mdl_noise_immunity": {
+      "episodes_streamed": 200,
+      "noise_rate": 0.1,
+      "uncontrolled_persistent_functions": 28,
+      "mdl_controlled_persistent_functions": 4
+    }
+  }
+}

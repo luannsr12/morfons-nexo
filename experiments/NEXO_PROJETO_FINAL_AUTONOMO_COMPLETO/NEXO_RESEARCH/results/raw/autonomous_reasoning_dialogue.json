@@ -1,0 +1,115 @@
+{
+  "architecture": "AutonomousMorphMemory V4.0 (3 Arenas mmap: 64B Node / 32B Edge / 32B FaceMark)",
+  "allocated_nodes": 44,
+  "allocated_edges": 69,
+  "allocated_marks": 81,
+  "total_ram_bytes": 7616,
+  "genesis_firings": {
+    "G_INS": 188,
+    "G_FRAG": 59,
+    "G_MEET": 13,
+    "G_JOIN": 12,
+    "G_POL": 5,
+    "G_GATE": 5,
+    "G_PROMOTE": 8,
+    "G_REVISE": 2
+  },
+  "dialogue_turns": [
+    {
+      "turn": 1,
+      "capability": "Generalização de Variável (X -> X)",
+      "question": "Meu nome é Luan. Como a memória responde?",
+      "autonomous_response": "Olá Luan! (Transporte binário slot0 certificado pelo Mórfon [13], Raízes=[1, 2, 3])",
+      "emitted_symbols": [
+        "ola_entidade"
+      ],
+      "missing_discriminant_ports": [],
+      "certified_morphons": [
+        13
+      ],
+      "rays_traversed": 5,
+      "nodes_touched": 4,
+      "latency_us": 53.01
+    },
+    {
+      "turn": 2,
+      "capability": "Fragmentação + Raciocínio Composto de 3 Saltos (T_C o T_B o T_A)",
+      "question": "Estímulo bruto composto 'fogo+agua+turbina' (sem lítio). O que emerge?",
+      "autonomous_response": "Cadeia Emergente Certificada: ['aquece', 'vapor', 'energia_eletrica'] (Mórfons=[34, 25, 31], Raios=33, Nós Tocados=13)",
+      "emitted_symbols": [
+        "aquece",
+        "vapor",
+        "energia_eletrica"
+      ],
+      "missing_discriminant_ports": [
+        "aquece",
+        "vapor"
+      ],
+      "certified_morphons": [
+        34,
+        25,
+        31
+      ],
+      "rays_traversed": 33,
+      "nodes_touched": 13,
+      "latency_us": 145.87
+    },
+    {
+      "turn": 3,
+      "capability": "Inibição Causal por Porta Negativa (Contraexemplo)",
+      "question": "Adicionando 'litio' ao sistema ('fogo+agua+turbina' + 'litio'). A reação ocorre?",
+      "autonomous_response": "[INVESTIGAÇÃO ATIVA DISPARADA]: Premissa incompleta. A própria memória solicita verificar a porta discriminante: ['aquece', 'vapor']",
+      "emitted_symbols": [],
+      "missing_discriminant_ports": [
+        "aquece",
+        "vapor"
+      ],
+      "certified_morphons": [],
+      "rays_traversed": 25,
+      "nodes_touched": 13,
+      "latency_us": 97.56
+    },
+    {
+      "turn": 4,
+      "capability": "Investigação Ativa Orientada pela Memória",
+      "question": "Temos apenas 'vapor'. Qual condição falta para gerar 'energia_eletrica'?",
+      "autonomous_response": "[INVESTIGAÇÃO ATIVA DISPARADA]: Premissa incompleta. A própria memória solicita verificar a porta discriminante: ['turbina']",
+      "emitted_symbols": [],
+      "missing_discriminant_ports": [
+        "turbina"
+      ],
+      "certified_morphons": [],
+      "rays_traversed": 4,
+      "nodes_touched": 4,
+      "latency_us": 27.48
+    },
+    {
+      "turn": 5,
+      "capability": "Revisão Factual sem Destruição Histórica",
+      "question": "Qual é a capital do Brasil sob a porta contextual 'v2_atual'?",
+      "autonomous_response": "Cadeia Emergente Certificada: ['Brasilia'] (Mórfons=[42], Raios=6, Nós Tocados=1)",
+      "emitted_symbols": [
+        "Brasilia"
+      ],
+      "missing_discriminant_ports": [],
+      "certified_morphons": [
+        42
+      ],
+      "rays_traversed": 6,
+      "nodes_touched": 1,
+      "latency_us": 29.4
+    },
+    {
+      "turn": 6,
+      "capability": "Auditoria Causal Física (Corte de Energia / Raios)",
+      "question": "Mesma pergunta com Energia = 0 (Raios Cortados). Alguma resposta vaza?",
+      "autonomous_response": "[BLOQUEIO CAUSAL / ABSTENÇÃO]: Zero emissões certificadas (Raios percorridos=0)",
+      "emitted_symbols": [],
+      "missing_discriminant_ports": [],
+      "certified_morphons": [],
+      "rays_traversed": 0,
+      "nodes_touched": 0,
+      "latency_us": 1.32
+    }
+  ]
+}

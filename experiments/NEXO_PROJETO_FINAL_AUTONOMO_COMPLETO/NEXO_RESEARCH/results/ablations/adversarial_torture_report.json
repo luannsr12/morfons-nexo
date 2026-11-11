@@ -1,0 +1,23 @@
+{
+  "cyclic_provenance_idempotence": {
+    "provenance_roots_after_10_hops": [
+      77
+    ],
+    "zero_spurious_evidence_growth": true
+  },
+  "coupled_variables_anti_leakage": {
+    "valid_pair_1_1_certified": true,
+    "unobserved_cross_pair_1_2_blocked": true
+  },
+  "physical_port_ablation_and_restoration": {
+    "normal_execution_certified": true,
+    "necessary_port_ablated_certified": false,
+    "after_port_restoration_certified": true
+  },
+  "mdl_noise_immunity": {
+    "episodes_streamed": 200,
+    "noise_rate": 0.1,
+    "uncontrolled_persistent_functions": 28,
+    "mdl_controlled_persistent_functions": 4
+  }
+}
