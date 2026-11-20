@@ -1,22 +1,26 @@
-name: Regressões e integridade
+name: Research regression & integrity
 on:
   push:
   pull_request:
   workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
   reproduce:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Preparar Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Instalar dependências científicas opcionais usadas nas suítes
+      - name: Install optional scientific test dependencies
         run: python -m pip install -r requirements-optional.txt
-      - name: Validar integridade das fontes originais
+      - name: Verify historical source integrity
         run: python scripts/verify_source_hashes.py
-      - name: Conferir resultados primários
+      - name: Verify archived experiment metrics
         run: python scripts/verify_results.py
-      - name: Rodar todas as suítes
+      - name: Run the seven original regression suites
         run: python scripts/test_all.py --no-save

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Se utilizar os conceitos ou resultados do NEXO, cite preferencialmente o artigo no Zenodo."
-title: "NEXO: memória relacional executável — repositório experimental"
+message: "If you use NEXO concepts or experimental findings, please cite the primary Zenodo paper and identify the relevant experiment."
+title: "NEXO: Executable Relational Memory — Experimental Research Repository"
 version: "1.0"
 type: software
 authors:
@@ -9,11 +9,12 @@ authors:
     orcid: "https://orcid.org/0009-0000-2754-7135"
 license: MIT
 keywords:
-  - memória relacional
-  - Morfons
-  - aprendizagem estrutural
-  - computação experimental
-  - causalidade
+  - executable relational memory
+  - Morphons
+  - structural learning
+  - experimental computation
+  - causal auditing
+  - relational meshes
 preferred-citation:
   type: generic
   authors:
