@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="NEXO, memória relacional executável; rede de Mórfons conectados">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="NEXO, executable relational memory; connected Morphon network">
  <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a162e"/><stop offset="1" stop-color="#152b3d"/></linearGradient>
   <linearGradient id="light" x1="0" x2="1"><stop stop-color="#36d3c2"/><stop offset="1" stop-color="#70a7ff"/></linearGradient>
@@ -23,9 +23,9 @@
   <circle cx="811" cy="303" r="18" fill="#13263a" stroke="#70a7ff" stroke-width="3"/><circle cx="811" cy="303" r="6" fill="#70a7ff"/>
   <circle cx="927" cy="64" r="13" fill="#13263a" stroke="#70a7ff" stroke-width="2.4"/>
  </g>
- <text x="72" y="107" fill="#5addc9" font-size="17" letter-spacing="6" font-family="Arial, sans-serif" font-weight="700">PESQUISA · ARQUITETURA COMPUTACIONAL</text>
+ <text x="72" y="107" fill="#5addc9" font-size="16" letter-spacing="4" font-family="Arial, sans-serif" font-weight="700">RESEARCH  /  COMPUTATIONAL ARCHITECTURE</text>
  <text x="70" y="233" fill="#f2f8ff" font-size="118" font-family="Arial, sans-serif" font-weight="750" letter-spacing="-5">NEXO</text>
  <rect x="73" y="257" width="82" height="4" rx="2" fill="url(#light)"/>
- <text x="72" y="302" fill="#bdd1e3" font-size="23" font-family="Arial, sans-serif">Memória relacional executável</text>
- <text x="72" y="335" fill="#8ca6b9" font-size="15" font-family="Arial, sans-serif" letter-spacing="1.7">MÓRFONS    •    EXPERIÊNCIA    •    FUNÇÕES    •    INFERÊNCIA</text>
+ <text x="72" y="302" fill="#bdd1e3" font-size="24" font-family="Arial, sans-serif">Executable relational memory</text>
+ <text x="72" y="335" fill="#8ca6b9" font-size="15" font-family="Arial, sans-serif" letter-spacing="1.7">MORPHONS    •    EXPERIENCE    •    FUNCTIONS    •    INFERENCE</text>
 </svg>

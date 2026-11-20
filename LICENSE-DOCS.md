@@ -1,15 +1,17 @@
 # Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-**Aplicação:** conteúdos textuais, figuras, diagramas, documentação de pesquisa, relatórios e conjuntos de dados originais deste repositório. O código e os scripts estão sob a licença MIT (`LICENSE`).
+**Scope:** Original research texts, figures, diagrams, documentation, reports and datasets in this repository. Experimental code and scripts are licensed separately under [MIT](LICENSE).
 
-A licença permite **compartilhar e adaptar para qualquer finalidade, inclusive comercialmente**, desde que se forneça crédito apropriado, indicação de mudanças e link para a licença, sem sugerir endosso do autor.
+The **CC BY 4.0** license allows sharing and adaptation for any purpose, including commercial use, with appropriate attribution, a link to the license, and an indication of changes. Attribution must not imply endorsement by the author.
 
-- Resumo oficial: https://creativecommons.org/licenses/by/4.0/deed.pt-br
-- Texto jurídico completo: https://creativecommons.org/licenses/by/4.0/legalcode
-- Identificador: **CC BY 4.0** · https://spdx.org/licenses/CC-BY-4.0.html
+- [Official license summary (English)](https://creativecommons.org/licenses/by/4.0/)
+- [Official full legal text](https://creativecommons.org/licenses/by/4.0/legalcode)
+- [SPDX identifier: CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0.html)
 
-**Atribuição sugerida:**
+**Suggested attribution:**
 
-> Luan Rosa Alves da Silva (L. Rosa), *NEXO — memória relacional executável*, 2026. Artigo: https://doi.org/10.5281/zenodo.24094723. Material licenciado sob CC BY 4.0. [Descrever modificações, se houver.]
+> Luan Rosa Alves da Silva (L. Rosa), *NEXO — Executable Relational Memory*, 2026. Primary paper: https://doi.org/10.5281/zenodo.24094723. Research material licensed under CC BY 4.0. [Describe modifications, if any.]
 
-A licença não altera direitos de terceiros sobre componentes que eventualmente sejam identificados como obras de terceiros. As figuras mantidas dos pacotes originais fazem parte do material de pesquisa do próprio autor.
+This license does not override third-party rights in works that may be identified as belonging to others. Original experiment figures retained in the archive are part of the author's research material.
+
+[Português (Brasil)](LICENSE-DOCS.pt-BR.md)
