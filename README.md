@@ -96,7 +96,7 @@ This distinction is part of the science: **learning the parameters or relations 
 | [Research guide](docs/RESEARCH_GUIDE.md) | A readable introduction, a conceptual example, a glossary, and the boundary between hypotheses and results |
 | [Architecture](docs/ARCHITECTURE.md) | Morphon core, surfaces, ports, rays, Genesis organization and mesh identity |
 | [Results & controls](docs/RESULTS.md) | Protocol-by-protocol metrics, comparisons, interventions and archived evidence |
-| [Experiment directory](experiments/README.md) | A guided map to the seven archived suites and the separate V4.0 investigation |
+| [Experiment directory](docs/EXPERIMENTS.md) | A guided map to the seven archived suites and the separate V4.0 investigation |
 | [Reproducibility](docs/REPRODUCIBILITY.md) | Commands, environment, integrity verification and safe re-execution |
 | [Provenance & integrity](docs/PROVENANCE.md) | Original source archives, SHA-256 inventory and preservation policy |
 | [Portuguese documentation](docs/README.pt-BR.md) | Navegação pelos documentos e relatórios em português |

@@ -28,7 +28,7 @@
 
 O [**Morphons AI**](https://morphons-ai.vercel.app/) é uma aplicação interativa associada à mesma linha de investigação, **mantida separadamente** deste acervo científico. A aplicação pode evoluir por seu próprio ciclo de implementação e treinamento; os resultados apresentados aqui pertencem aos protocolos e às versões experimentais arquivados neste repositório.
 
-**Navegação:** [Guia introdutório](docs/GUIA_DA_PESQUISA.md) · [Índice dos experimentos](experiments/README.pt-BR.md) · [Documentação em português](docs/README.pt-BR.md) · [Documentação principal em inglês](docs/README.md).
+**Navegação:** [Guia introdutório](docs/GUIA_DA_PESQUISA.md) · [Índice dos experimentos](docs/EXPERIMENTS.pt-BR.md) · [Documentação em português](docs/README.pt-BR.md) · [Documentação principal em inglês](docs/README.md).
 
 ## Visão geral
 

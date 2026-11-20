@@ -10,14 +10,14 @@ Este diretório preserva **linhas experimentais independentes**, e não uma apli
 
 | Estudo | Pergunta investigada | Material |
 | :-- | :-- | :-- |
-| **08 · Aprendizagem estrutural** | Como observações binárias podem gerar e manter novas organizações? | [Experimento 08](08-aprendizagem-esferas/) |
-| **14 · Mórfon integrado** | Como raios, contexto, ordem, persistência e poda atuam no mesmo substrato? | [Experimento 14](14-morfon-integrado/) |
-| **17 · Raciocínio contextual** | Como compor referências e transições aprendidas em mundos inéditos? | [Experimento 17](17-raciocinio-contextual/) |
-| **21 · Memória contínua** | Como preservar fatos, ensinar paráfrases e revisar relações durante diálogos? | [Experimento 21](21-memoria-continua/) |
-| **23 · Faces funcionais** | As marcas nas faces realmente causam mudanças nas previsões? | [Experimento 23](23-faces-funcionais/) |
-| **24 · Ciclo integrado** | Como unir experiência, previsão, ação, feedback e revisão numa memória experimental? | [Experimento 24](24-ciclo-integrado/) |
-| **Malhas relacionais** | Como compartilhar identidades, compor relações e fatorar a proveniência? | [Estudo de malhas](malhas-compartilhadas/) |
-| **Arquivo V4.0 separado** | Investigação de arenas binárias e motores autônomos experimentais | [Pesquisa V4.0](NEXO_PROJETO_FINAL_AUTONOMO_COMPLETO/NEXO_RESEARCH/) |
+| **08 · Aprendizagem estrutural** | Como observações binárias podem gerar e manter novas organizações? | [Experimento 08](../experiments/08-aprendizagem-esferas/) |
+| **14 · Mórfon integrado** | Como raios, contexto, ordem, persistência e poda atuam no mesmo substrato? | [Experimento 14](../experiments/14-morfon-integrado/) |
+| **17 · Raciocínio contextual** | Como compor referências e transições aprendidas em mundos inéditos? | [Experimento 17](../experiments/17-raciocinio-contextual/) |
+| **21 · Memória contínua** | Como preservar fatos, ensinar paráfrases e revisar relações durante diálogos? | [Experimento 21](../experiments/21-memoria-continua/) |
+| **23 · Faces funcionais** | As marcas nas faces realmente causam mudanças nas previsões? | [Experimento 23](../experiments/23-faces-funcionais/) |
+| **24 · Ciclo integrado** | Como unir experiência, previsão, ação, feedback e revisão numa memória experimental? | [Experimento 24](../experiments/24-ciclo-integrado/) |
+| **Malhas relacionais** | Como compartilhar identidades, compor relações e fatorar a proveniência? | [Estudo de malhas](../experiments/malhas-compartilhadas/) |
+| **Arquivo V4.0 separado** | Investigação de arenas binárias e motores autônomos experimentais | [Pesquisa V4.0](../experiments/NEXO_PROJETO_FINAL_AUTONOMO_COMPLETO/NEXO_RESEARCH/) |
 
 A numeração corresponde ao histórico da pesquisa. A existência de lacunas na sequência **não representa resultados não documentados**. O arquivo V4.0 não integra a contagem das sete suítes de regressão principais.
 

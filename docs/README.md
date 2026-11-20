@@ -11,7 +11,7 @@ This is the English-language entry point for the **scientific presentation and r
 | [Results & controls](RESULTS.md) | Experiment-specific measurements, baselines, interventions and failures | [Resultados](RESULTADOS.md) |
 | [Reproducibility](REPRODUCIBILITY.md) | Environment, regression suite, command matrix and safe evaluation | [Reprodução](REPRODUCAO.md) |
 | [Provenance](PROVENANCE.md) | SHA-256 inventories and conservation of the original research record | [Proveniência](PROVENIENCIA.md) |
-| [Experiments index](../experiments/README.md) | Find each research branch and its historical source | [Experimentos](../experiments/README.pt-BR.md) |
+| [Experiments index](EXPERIMENTS.md) | Find each research branch and its historical source | [Experimentos](EXPERIMENTS.pt-BR.md) |
 
 The **original experiment folders remain historically preserved**, including their source-language reports, files and results. English is the language of the repository-level presentation, not a mandate to rewrite archival evidence.
 

@@ -54,7 +54,7 @@ The distinction matters because experiments 17 and 21 use taught linguistic patt
 Start with the [interactive Morphons AI demonstration](https://morphons-ai.vercel.app/) for a related evolving application. Then follow the source of specific findings:
 
 1. Read the [main README](../README.md) for the high-level evidence map.
-2. Open the [experiment directory](../experiments/README.md) to pick a research question.
+2. Open the [experiment directory](EXPERIMENTS.md) to pick a research question.
 3. Examine [results and controls](RESULTS.md), not just the headline number.
 4. Use the [reproducibility guide](REPRODUCIBILITY.md) to run tests and check archived data.
 5. Study the [technical architecture](ARCHITECTURE.md) and the [primary Zenodo publication](https://doi.org/10.5281/zenodo.24094723) when you want equations and formal definitions.

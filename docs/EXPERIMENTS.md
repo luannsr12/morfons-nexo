@@ -10,14 +10,14 @@ This is an archive of **independently developed laboratory mechanisms**, rather 
 
 | Study | Research question | Where to inspect |
 | :-- | :-- | :-- |
-| **08 · Structural learning** | Can binary observations induce and maintain new organizations? | [Source and experiment README](08-aprendizagem-esferas/) · `resultados.json` |
-| **14 · Integrated Morphon** | How do rays, context, ordering, persistence and pruning behave together? | [Source, technical report, tests and data](14-morfon-integrado/) |
-| **17 · Contextual reasoning** | Can learned references compose across unseen worlds and support binary transitions? | [Source, report and evaluations](17-raciocinio-contextual/) |
-| **21 · Continuous memory** | Can dialogue observations survive persistence, incremental teaching and revision? | [Source, sessions and tests](21-memoria-continua/) |
-| **23 · Functional surfaces** | Do surface marks causally affect predicted consequences? | [Source, intervention tests and results](23-faces-funcionais/) |
-| **24 · Integrated cycle** | Can one experimental memory connect observation, prediction, action, feedback and revision? | [Source, controls and demos](24-ciclo-integrado/) |
-| **Shared relational meshes** | When is cross-mesh composition conservative, and can provenance be factorized? | [Code, results and report](malhas-compartilhadas/) |
-| **Separate V4.0 archive** | What can binary memory-mapped arenas and experimental autonomous engines demonstrate? | [Historical V4.0 research archive](NEXO_PROJETO_FINAL_AUTONOMO_COMPLETO/NEXO_RESEARCH/) |
+| **08 · Structural learning** | Can binary observations induce and maintain new organizations? | [Source and experiment README](../experiments/08-aprendizagem-esferas/) · `resultados.json` |
+| **14 · Integrated Morphon** | How do rays, context, ordering, persistence and pruning behave together? | [Source, technical report, tests and data](../experiments/14-morfon-integrado/) |
+| **17 · Contextual reasoning** | Can learned references compose across unseen worlds and support binary transitions? | [Source, report and evaluations](../experiments/17-raciocinio-contextual/) |
+| **21 · Continuous memory** | Can dialogue observations survive persistence, incremental teaching and revision? | [Source, sessions and tests](../experiments/21-memoria-continua/) |
+| **23 · Functional surfaces** | Do surface marks causally affect predicted consequences? | [Source, intervention tests and results](../experiments/23-faces-funcionais/) |
+| **24 · Integrated cycle** | Can one experimental memory connect observation, prediction, action, feedback and revision? | [Source, controls and demos](../experiments/24-ciclo-integrado/) |
+| **Shared relational meshes** | When is cross-mesh composition conservative, and can provenance be factorized? | [Code, results and report](../experiments/malhas-compartilhadas/) |
+| **Separate V4.0 archive** | What can binary memory-mapped arenas and experimental autonomous engines demonstrate? | [Historical V4.0 research archive](../experiments/NEXO_PROJETO_FINAL_AUTONOMO_COMPLETO/NEXO_RESEARCH/) |
 
 The numbering records experimental history; **there are no implied results for missing experiment numbers**. The V4.0 research archive is separate from the seven regressions counted by the repository's primary test runner.
 

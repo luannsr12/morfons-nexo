@@ -57,4 +57,4 @@ The [source archive inventory](../reproducibility/source_archives.json) identifi
 
 The source and data under `experiments/` are **historical research artifacts**, deliberately not normalized or translated in place. New bilingual overview documents belong outside the frozen source inventory.
 
-See [Provenance](PROVENANCE.md) and the [experiment directory](../experiments/README.md).
+See [Provenance](PROVENANCE.md) and the [experiment directory](EXPERIMENTS.md).

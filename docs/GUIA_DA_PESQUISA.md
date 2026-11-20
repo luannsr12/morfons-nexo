@@ -52,7 +52,7 @@ Alguns experimentos utilizam formas linguísticas supervisionadas; outros implem
 ## Explore
 
 1. Acesse a aplicação relacionada [Morphons AI](https://morphons-ai.vercel.app/).
-2. Consulte o [índice dos experimentos](../experiments/README.pt-BR.md).
+2. Consulte o [índice dos experimentos](EXPERIMENTS.pt-BR.md).
 3. Leia os [resultados com controles](RESULTADOS.md).
 4. Siga os comandos de [reprodução](REPRODUCAO.md).
 5. Aprofunde-se na [arquitetura](ARQUITETURA.md) e no [artigo de referência](https://doi.org/10.5281/zenodo.24094723).

@@ -98,4 +98,4 @@ Some experiments select a **GF(2)** function family to isolate learned coefficie
 
 These are **distinct research branches**. They should not be collapsed into one claimed integrated implementation simply because they share terminology.
 
-**Reference paper:** [Rosa (2026), NEXO](https://doi.org/10.5281/zenodo.24094723). · [Experiment directory](../experiments/README.md) · [Live related demo](https://morphons-ai.vercel.app/)
+**Reference paper:** [Rosa (2026), NEXO](https://doi.org/10.5281/zenodo.24094723). · [Experiment directory](EXPERIMENTS.md) · [Live related demo](https://morphons-ai.vercel.app/)
